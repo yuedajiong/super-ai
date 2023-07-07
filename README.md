@@ -17,5 +17,21 @@
   
   3）可计算且可智能化： 就是约束constraint的表示representation、学习learning和验证validation，对齐aligin既是一种监督supervise手段，也是一种实现realize手段。
 
+# 2023-07-07
+  OpenAI 's ambition and awkwardness:
+  
+  Just try in ChatGPT:
+  
+      There are 10 fish in a bucket, with 5 of them are flatfish. How many eyes are there in total?
+      
+      There are 10 fish in a bucket, with 50% of them are flatfish. How many eyes are there in total?
+      
+      There are 11 fish in a bucket, with 50% of them are flatfish. How many eyes are there in total?
+
+  How to develop a as reliable as possible AI is the most impportent thing, just from my personal viewpoint, at least in later 10-100 years!
+  
+  Fuck AGI, Just Reliable-AI.
+
+
 # to be continued ...
 
