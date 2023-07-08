@@ -1,7 +1,11 @@
 # Me, Super-AI
-  Independent-Researcher, Forever-Ever-No work for: any country, any orgnization, any company, any person;
+  Independent-Researcher
+  
+  Never work for any country, any orgnization, any company, any person.
+  Never be used for Beijing, China.
   
   just for my dream: close to the demiurge, by super-intelligence.
+
   
 # 2023-07-01
 
@@ -11,5 +15,5 @@
 
 
 
-# to be continued ...
+# to be continued, in diary ...
 
