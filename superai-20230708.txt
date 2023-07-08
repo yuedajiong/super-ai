@@ -14,8 +14,9 @@ L3:  Pure Language Competence
 
 L2:  Symbol Representation Cometence
 
-L1:  Objective and Subjective World and Motion
-     
+L1:  Objective and Subjective World and Motion including Object,Attribute,Relationship,Motion
+
+     World -> World Model -> Generalized Computation / Thinking / Preditciton / AI-shortcut   [for task-completion:  situation modeling  ->  for language-communication: ->  social cognition/communicative intention]
 
 
 
