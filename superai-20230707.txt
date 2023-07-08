@@ -1,0 +1,12 @@
+OpenAI 's ambition and awkwardness:
+
+Just try in ChatGPT:
+
+  There are 10 fish in a bucket, with 5 of them are flatfish. How many eyes are there in total?
+  
+  There are 10 fish in a bucket, with 50% of them are flatfish. How many eyes are there in total?
+  
+  There are 11 fish in a bucket, with 50% of them are flatfish. How many eyes are there in total?
+How to develop a as reliable as possible AI is the most impportent thing, just from my personal viewpoint, at least in later 10-100 years!
+
+Fucking pseudo-AGI, Just Reliable-AI.
