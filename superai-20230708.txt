@@ -8,7 +8,7 @@ and functional competence includes formal reasoning, world knowledge, situation 
 作者提出，语言能力要分为“形式能力”和“功能能力”。形式能力是语言本身的能力，功能能力包含形式化推理，世界知识，情景建模，交流意图等。
 
 
-Just from my personal viewpoint, from bottom to top, from objecvtive-world to symbole representation, should be:
+Just from my personal viewpoint, from bottom to top, from objecvtive-world to symbol representation, should be:
 
 L3:  Pure Language Competence   
 
