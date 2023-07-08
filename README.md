@@ -2,6 +2,7 @@
   Independent-Researcher
   
   Never work for any country, any orgnization, any company, any person.
+  
   Never be used for Beijing, China.
   
   just for my dream: close to the demiurge, by super-intelligence.
