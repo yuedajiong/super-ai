@@ -1,24 +1,41 @@
 paper: Dissociating language and thought in large language models  a cognitive perspective
 
-oday’s large language models (LLMs) routinely generate coherent,
-grammatical and seemingly meaningful paragraphs of text. This achievement has led to speculation
-that these networks are—or will soon become—“thinking machines”, capable of performing tasks that
-require abstract knowledge and reasoning. Here, we review the capabilities of LLMs by considering
-their performance on two different aspects of language use: ‘formal linguistic competence’, which
-includes knowledge of rules and patterns of a given language, and ’functional linguistic competence’,
-a host of cognitive abilities required for language understanding and use in the real world. Drawing
-on evidence from cognitive neuroscience, we show that formal competence in humans relies on
-specialized language processing mechanisms, whereas functional competence recruits multiple
-extralinguistic capacities that comprise human thought, such as formal reasoning, world knowledge,
-situation modeling, and social cognition. In line with this distinction, LLMs show impressive
-(although imperfect) performance on tasks requiring formal linguistic competence, but fail on many
-tests requiring functional competence. Based on this evidence, we argue that (1) contemporary
-LLMs should be taken seriously as models of formal linguistic skills; (2) models that master real-life
-language use would need to incorporate or develop not only a core language module, but also multiple
-non-language-specific cognitive capacities required for modeling thought. Overall, a distinction
-between formal and functional linguistic competence helps clarify the discourse surrounding LLMs’
-potential and provides a path toward building models that understand and use language in human-like
-ways.
+
+The author considers that language ability can be divided into "formal competence" and "functional competence". 
+Formal competence is the ability of handing pure language itself, 
+and functional competence includes formal reasoning, world knowledge, situation modeling, social cognition/communicative intention, etc.
+
+作者提出，语言能力要分为“形式能力”和“功能能力”。形式能力是语言本身的能力，功能能力包含形式化推理，世界知识，情景建模，交流意图等。
+
+
+Just from my personal viewpoint, from bottom to top, from objecvtive-world to symbole representation, should be:
+
+L3:  Pure Language Competence   
+
+L2:  Symbol Representation Cometence
+
+L1:  Objective and Subjective World and Motion
+     
+
+
+
+Abstraction:
+
+Today's Large Language Models (LLMs) typically produce coherent, grammatical, and seemingly meaningful paragraphs of text.
+This achievement has sparked speculation that these networks are — or will soon be — "thinking machines" capable of performing tasks that require abstract knowledge and reasoning.
+Here, we review LLM's capabilities by considering how they perform in two different aspects of language use:
+"formal language competence", which includes knowledge of the rules and patterns of a given language,
+and "functional language skills," a range of cognitive abilities necessary for real-world language understanding and use.
+Using evidence from cognitive neuroscience,
+We show that human formal abilities rely on specialized language processing mechanisms,
+Functional competencies, on the other hand, recruit the extralingual, linguistic abilities that make up the human mind, such as formal reasoning, world knowledge, situational modeling, and social cognition.
+In line with this distinction, LLM exhibits impressive (albeit imperfect) performance on tasks that require formal language proficiency,
+But it failed in many tests that required functional competence.
+Based on this evidence, we believe that:
+(1) contemporary LLM should be taken seriously as a model of formal language skills; 
+(2) Mastering models used in real-life languages requires not only the incorporation or development of core language modules, but also the ability to merge or develop multiple non-language-specific cognitive abilities required for modeling thinking.
+Overall, the distinction between formal language competence and functional language competence helps clarify the discourse surrounding the potential of LLM and provides a pathway for building models for understanding and using language in human-like ways.
+
 
 当今的大型语言模型 (LLM) 通常会生成连贯、符合语法且看似有意义的文本段落。
 这一成就引发了人们的猜测：这些网络是——或即将成为——“思考机器”，能够执行需要抽象知识和推理的任务。
@@ -35,8 +52,6 @@ ways.
 （2）掌握现实生活语言使用的模型不仅需要合并或开发核心语言模块，还需要合并或开发建模思维所需的多种非特定语言的认知能力。
 总体而言，形式语言能力和功能语言能力之间的区别有助于澄清围绕LLM潜力的论述，并为构建以类人方式理解和使用语言的模型提供了一条途径。
 
-
-作者提出，语言能力要分为“形式能力”和“功能能力”。形式能力是语言本身的能力，功能能力包含形式化推理，世界知识，情景建模，交流意图等。
 
 
 
