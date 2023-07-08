@@ -1,0 +1,37 @@
+paper: Dissociating language and thought in large language models  a cognitive perspective
+
+oday’s large language models (LLMs) routinely generate coherent,
+grammatical and seemingly meaningful paragraphs of text. This achievement has led to speculation
+that these networks are—or will soon become—“thinking machines”, capable of performing tasks that
+require abstract knowledge and reasoning. Here, we review the capabilities of LLMs by considering
+their performance on two different aspects of language use: ‘formal linguistic competence’, which
+includes knowledge of rules and patterns of a given language, and ’functional linguistic competence’,
+a host of cognitive abilities required for language understanding and use in the real world. Drawing
+on evidence from cognitive neuroscience, we show that formal competence in humans relies on
+specialized language processing mechanisms, whereas functional competence recruits multiple
+extralinguistic capacities that comprise human thought, such as formal reasoning, world knowledge,
+situation modeling, and social cognition. In line with this distinction, LLMs show impressive
+(although imperfect) performance on tasks requiring formal linguistic competence, but fail on many
+tests requiring functional competence. Based on this evidence, we argue that (1) contemporary
+LLMs should be taken seriously as models of formal linguistic skills; (2) models that master real-life
+language use would need to incorporate or develop not only a core language module, but also multiple
+non-language-specific cognitive capacities required for modeling thought. Overall, a distinction
+between formal and functional linguistic competence helps clarify the discourse surrounding LLMs’
+potential and provides a path toward building models that understand and use language in human-like
+ways.
+
+当今的大型语言模型 (LLM) 通常会生成连贯、符合语法且看似有意义的文本段落。
+这一成就引发了人们的猜测：这些网络是——或即将成为——“思考机器”，能够执行需要抽象知识和推理的任务。
+在这里，我们通过考虑LLM在语言使用的两个不同方面的表现来回顾他们的能力：
+“形式语言能力”，其中包括给定语言的规则和模式的知识，
+以及“功能语言能力”，一系列认知能力现实世界中语言理解和使用所必需的。
+利用认知神经科学的证据，
+我们表明人类的形式能力依赖于专门的语言处理机制，
+而功能能力则招募构成人类思维的多种语言外能力，例如形式推理、世界知识、情境建模和社会认知。
+与这一区别相一致，LLM在需要正式语言能力的任务上表现出令人印象深刻（尽管不完美）的表现，
+但在许多需要功能能力的测试中却失败了。
+基于这一证据，我们认为：
+（1）当代LLM应该被认真对待，作为正式语言技能的典范； 
+（2）掌握现实生活语言使用的模型不仅需要合并或开发核心语言模块，还需要合并或开发建模思维所需的多种非特定语言的认知能力。
+总体而言，形式语言能力和功能语言能力之间的区别有助于澄清围绕LLM潜力的论述，并为构建以类人方式理解和使用语言的模型提供了一条途径。
+
