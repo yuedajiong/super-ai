@@ -1,0 +1,11 @@
+It seems that OpenAI is engaged in ambitious and responsible research on advanced artificial intelligence, such as the concept of "Superalignment" mentioned in https://openai.com/blog/introducing-superalignment. It appears to be a well-thought-out cognitive approach.
+
+In fact, based on my understanding, the notion of "Superalignment" or "Superintelligence," regardless of however it is defined, at the highest level of human cognition and technological advancement, even surpassing what is currently conceivable within our capabilities. 
+should be:
+
+Computability: firstly focusing on computable to solvable problems that currently lack solutions, especially within the existing computational architecture (including hardware and algorithms).
+
+Intelligentization: Prioritizing research on problems that can be AI-enabled 'shortcuts', rather than relying on 'search and trial' methods.
+
+Combining Computability and Intelligentization: Emphasizing the 'representation, learning, and validation' of constraints. Alignment serves as both a supervisory mechanism and a means of realization.
+
