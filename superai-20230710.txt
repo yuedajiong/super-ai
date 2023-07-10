@@ -1,0 +1,22 @@
+paper:  Brain-optimized deep neural network models of human visual areas learn non-hierarchical representations
+人类视觉区域的大脑优化深度神经网络模型学习非分层表征
+
+Deep neural networks (DNNs) optimized for visual tasks learn representations that align layer depth with the hierarchy of visual areas in the primate brain.
+One interpretation of this finding is that hierarchical representations are necessary to accurately predict brain activity in the primate visual system. 
+To test this interpretation, we optimized DNNs to directly predict brain activity measured with fMRI in human visual areas V1-V4. 
+We trained a single-branch DNN to predict activity in all four visual areas jointly, and a multi-branch DNN to predict each visual area independently. 
+Although it was possible for the multi-branch DNN to learn hierarchical representations, only the single-branch DNN did so. 
+This result shows that hierarchical representations are not necessary to accurately predict human brain activity in V1-V4, 
+and that DNNs that encode brain-like visual representations may differ widely in their architecture, ranging from strict serial hierarchies to multiple independent branches.
+
+为视觉任务优化的深度神经网络(dnn)学习表征，使层深度与灵长类大脑中视觉区域的层次结构保持一致。
+对这一发现的一种解释是，在灵长类动物的视觉系统中，等级表征对于准确预测大脑活动是必要的。
+为了验证这一解释，我们优化了dnn来直接预测人类视觉区V1-V4的fMRI测量的大脑活动。
+我们训练了一个单分支深度神经网络来联合预测所有四个视觉区域的活动，以及一个多分支深度神经网络来独立预测每个视觉区域的活动。
+虽然多分支DNN可以学习分层表示，但只有单分支DNN可以这样做。
+这一结果表明，分层表征对于准确预测V1-V4期的人脑活动是不必要的，
+编码类脑视觉表征的dnn在结构上可能存在很大差异，从严格的串行层次结构到多个独立分支。
+
+
+一句话：至少大脑V1-V4并没有那种严格的分层特征。
+
