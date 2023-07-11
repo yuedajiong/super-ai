@@ -1,7 +1,7 @@
 paper:  How does the brain learn simple arithmetic? The impact of teaching methods
     https://solportal.ibe-unesco.org/articles/how-does-the-brain-learn-simple-arithmetic-the-impact-of-teaching-methods/
 
-where are the arithmetic abilities come from?
+where does the arithmetic ability come from?
     1. rote learning            #mnemonic learning
     2. repeated calculation     #procedural learning
 
