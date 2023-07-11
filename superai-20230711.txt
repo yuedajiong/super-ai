@@ -5,3 +5,20 @@ where does the arithmetic ability come from?
     1. rote learning            #mnemonic learning
     2. repeated calculation     #procedural learning
 
+
+paper: Understanding how the brain processes maths learning
+    https://oecdedutoday.com/understanding-how-the-brain-processes-maths-learning/
+    more: 
+        The Neuroscience of Mathematical Cognition and Learning
+        Understanding the Brain: The Birth of a Learning Science
+        Equations and Inequalities: Making Mathematics Accessible to All
+
+    numerical cognition
+        numeracy / innate skill
+        formal education / language  -> attention & working memory involved later
+
+   
+
+
+
+
