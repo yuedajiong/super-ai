@@ -1,0 +1,71 @@
+paper:  Hierarchical Reinforcement Learning A Survey and Open Research Challenges
+
+Abstract: Reinforcement learning (RL) allows an agent to solve sequential decision-making problems
+by interacting with an environment in a trial-and-error fashion. When these environments are very
+complex, pure random exploration of possible solutions often fails, or is very sample inefficient,
+requiring an unreasonable amount of interaction with the environment. Hierarchical reinforcement
+learning (HRL) utilizes forms of temporal- and state-abstractions in order to tackle these challenges,
+while simultaneously paving the road for behavior reuse and increased interpretability of RL systems.
+In this survey paper we first introduce a selection of problem-specific approaches, which provided
+insight in how to utilize often handcrafted abstractions in specific task settings. We then introduce
+the Options framework, which provides a more generic approach, allowing abstractions to be
+discovered and learned semi-automatically. Afterwards we introduce the goal-conditional approach,
+which allows sub-behaviors to be embedded in a continuous space. In order to further advance
+the development of HRL agents, capable of simultaneously learning abstractions and how to use
+them, solely from interaction with complex high dimensional environments, we also identify a set of
+promising research direction
+
+摘要：强化学习（RL）允许代理通过以试错方式与环境交互来解决顺序决策问题。
+当这些环境非常复杂时，对可能解决方案的纯随机探索通常会失败，或者样本效率非常低，需要与环境进行不合理的交互。
+分层强化学习 (HRL) 利用时间和状态抽象的形式来应对这些挑战，同时为行为重用和增强 RL 系统的可解释性铺平道路。
+在这篇调查论文中，我们首先介绍了一系列针对特定问题的方法，这些方法提供了如何在特定任务设置中利用通常手工制作的抽象的见解。
+然后我们介绍选项框架，它提供了一种更通用的方法，允许半自动地发现和学习抽象。
+然后我们引入目标条件方法，它允许子行为嵌入到连续的空间中。
+为了进一步推进 HRL 代理的开发，使其能够仅通过与复杂的高维环境的交互来同时学习抽象和如何使用它们，我们还确定了一组有前途的研究方向。
+
+
+一、简介
+
+强化学习（RL）[1,2]是解决顺序决策问题的强大方法。强化学习代理能够学习如何通过与环境的交互来解决问题。为了解决问题，智能体不需要提前了解环境的动态。成功的强化学习系统将有效地利用在试错学习过程中收集的经验，以最大化外部训练信号（称为奖励信号）。
+
+将强化学习与深度学习领域的最新进展相结合[3,4]对强化学习产生了巨大影响，催生了一个名为深度强化学习的新子领域[5-8]。深度强化学习应用强化学习技术，使用高维状态空间，例如图像 [9] 和自然语言 [10]。这之所以成为可能，是因为深度学习算法能够在原始输入数据上引入不同的可学习抽象层。例如，DQN 算法 [8]、最近的 PPO [11] Rainbow [12] 和 Atari57 [13] 都是能够实现高于人类水平性能的 RL 算法
+
+一套经典的 Atari 2600 视频游戏。这些方法能够通过直接使用屏幕像素来提取高性能行为。深度强化学习最近取得的其他成功包括在复杂的围棋棋盘游戏 Go [14] 中击败顶级职业人类棋手，以及在合作 3D 多人视频游戏中实现人类水平的表现，例如
+
+DOTA 2 [15,16]、星际争霸 II [17] 和 Quake III Arena [18] 的修改版本。
+
+在机器人技术[19-24]、对话管理系统[25]、教育[26]等现实世界应用中应用深度强化学习也取得了重大进展。
+
+自动驾驶汽车[27,28]智能电网[29]、车队管理[30]、资源管理[31,32]和推荐系统[33]。然而，构建现实世界的强化学习应用程序仍然具有挑战性[34]，因为强化学习算法很难实现样本效率[35-38]，即能够从与环境的有限交互中学习令人满意的行为。此外，现实世界的强化学习系统需要严格的约束，以免损坏设备并允许安全探索[39,40]。现实世界的强化学习系统还需要能够处理实时系统，允许状态和动作同时演化[41-43]，这与常用的逐轮环境交互不同。
+
+分层强化学习 (HRL) 通过提出分而治之的方法扩展了 RL 的功能。在这种方法中，复杂的、难以解决的问题被抽象为多个较小的问题。这些抽象的问题通常更容易解决，并且它们的解决方案可以重用来解决不同的问题。这种方法之前已被成功利用[44-46]来加速许多离线规划算法，其中环境的动态是预先知道的。
+
+这种组合性已被确定为人工智能的关键构建模块之一[1,47]。人类直观地利用组合性来解决复杂的问题。例如，如果从整体上考虑，计划假期可能是一项复杂的工作。然而，当分解为多个较小的任务（例如，选择酒店、预订航班、安排前往机场的交通）时，任务变得更易于管理。事实证明，有效地使用此类抽象可以为解决各种重要的开放式强化学习问题做出重大贡献，例如奖励函数规范、探索、样本效率、迁移学习、终身学习和可解释性。
+
+强化学习算法的一个重要部分是它们使用反馈来了解什么是好的行为，什么是坏的行为。当奖励信号形式的反馈充足时，代理可以快速学习。不幸的是，指定如此密集的奖励信号是一项复杂的挑战[48]，并且常常会导致不必要的副作用。此外，大多数控制问题自然会伴随着稀疏的奖励信号（例如，抓住物体、到达目的地）。稀疏的奖励公式使学习变得极具挑战性，因为大多数情况下只有关于什么不起作用的信息。分层强化学习（HRL）通常利用各种形式的内在动机[49]，以便为个体抽象提供额外的更密集的奖励信号。
+
+强化学习的第二个公开挑战是如何有效地探索环境[50-53]。最近的实证研究 [54] 表明，即使是简单形式的时间关联动作，也能提高探索效率。在这项研究中，时间扩展探索被视为 HRL 最重要的贡献之一。
+
+强化学习（RL）系统也因其样本效率低下而臭名昭著。虽然有效使用抽象似乎是解决这一长期挑战的有希望的解决方案，但通过 HRL 提高样本效率通常只有在对非常相似的问题的多次迭代进行分摊计算时才能实现。离策略学习 [37,55,56] 是一种提高强化学习样本效率的流行方法。不幸的是，HRL 算法通常仍然需要更稳定的同策略方法。
+
+当前的强化学习算法主要专注于解决单个问题。然而，在解决不同任务时可以重复使用的抽象为强化学习中的迁移学习问题提供了可能的答案[57]。从深度学习中关于如何将视觉表征从一项任务转移到另一项任务的研究中汲取灵感[58,59]，HRL 方法已证明能够在同一问题设置中学习可转移的抽象[60]。然而，如何在截然不同的问题之间转移抽象仍然是一个悬而未决的问题。
+
+分层强化学习（HRL）算法也被认为是构建终身学习代理的重要一步[47,61,62]。这些代理能够扩展和管理他们的知识，以便更有效地解决更复杂的问题。
+
+
+
+
+
+
+#
+《我用你什么把你留住》
+...
+所以生命啊它苦涩如歌
+...
+
+
+
+
+
+
+
