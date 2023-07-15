@@ -1,4 +1,27 @@
-paper:  Hierarchical Reinforcement Learning A Survey and Open Research Challenges
+# paper: Building Machines That Learn and Think Like People
+
+Abstract
+Recent progress in artificial intelligence (AI) has renewed interest in building systems that
+learn and think like people. Many advances have come from using deep neural networks trained
+end-to-end in tasks such as object recognition, video games, and board games, achieving perfor-
+mance that equals or even beats humans in some respects. Despite their biological inspiration
+and performance achievements, these systems differ from human intelligence in crucial ways.
+We review progress in cognitive science suggesting that truly human-like learning and thinking
+machines will have to reach beyond current engineering trends in both what they learn, and how
+they learn it. Specifically, we argue that these machines should (a) build causal models of the
+world that support explanation and understanding, rather than merely solving pattern recog-
+nition problems; (b) ground learning in intuitive theories of physics and psychology, to support
+and enrich the knowledge that is learned; and (c) harness compositionality and learning-to-learn
+to rapidly acquire and generalize knowledge to new tasks and situations. We suggest concrete
+challenges and promising routes towards these goals that can combine the strengths of recent
+neural network advances with more structured cognitive models.
+
+人工智能 (AI) 的最新进展重新激发了人们对构建像人类一样学习和思考的系统的兴趣。许多进步来自于在物体识别、视频游戏和棋盘游戏等任务中使用端到端训练的深度神经网络，在某些方面实现了与人类相当甚至超越人类的性能。尽管它们具有生物学灵感和性能成就，但这些系统在关键方面与人类智能不同。我们回顾了认知科学的进展，表明真正的类人学习和思考机器必须在学习内容和学习方式方面超越当前的工程趋势。具体来说，我们认为这些机器应该（a）建立支持解释和理解的世界因果模型，而不仅仅是解决模式识别问题； (b) 基础物理和心理学直观理论的学习，以支持和丰富所学知识； (c) 利用组合性和学习来快速获取知识并将其推广到新的任务和情况。我们提出了实现这些目标的具体挑战和有希望的路线，这些目标可以将最新神经网络进展的优势与更结构化的认知模型结合起来。
+
+
+
+
+# paper:  Hierarchical Reinforcement Learning A Survey and Open Research Challenges
 
 Abstract: Reinforcement learning (RL) allows an agent to solve sequential decision-making problems
 by interacting with an environment in a trial-and-error fashion. When these environments are very
