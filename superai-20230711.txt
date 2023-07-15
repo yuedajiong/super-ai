@@ -1,4 +1,4 @@
-paper:  How does the brain learn simple arithmetic? The impact of teaching methods
+# paper:  How does the brain learn simple arithmetic? The impact of teaching methods
     https://solportal.ibe-unesco.org/articles/how-does-the-brain-learn-simple-arithmetic-the-impact-of-teaching-methods/
 
 where does the arithmetic ability come from?
@@ -6,7 +6,7 @@ where does the arithmetic ability come from?
     2. repeated calculation     #procedural learning
 
 
-paper: Understanding how the brain processes maths learning
+# paper: Understanding how the brain processes maths learning
     https://oecdedutoday.com/understanding-how-the-brain-processes-maths-learning/
     more: 
         The Neuroscience of Mathematical Cognition and Learning
