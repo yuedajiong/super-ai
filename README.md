@@ -1,5 +1,5 @@
 # Me, Super-AI
-  Independent-Researcher
+  Independent-Researcher, Financial Independence
   
   Never work for any country, any orgnization, any company, any person.
   
