@@ -1,3 +1,23 @@
+$survey
+00data
+01representation
+02render
+1camera
+1fewshot&priori
+2fast
+3dynamic
+4large
+4memory
+4quality
+5interactive
+5malipulate
+6mutiobject&scene
+6unbound
+7pipeline
+8surface
+
+
+
 +---$survey
 |       $$  2111.05849  Advances in Neural Rendering.pdf
 |       $$  2210.00379  NeRF  Neural Radiance Field in 3D Vision, Introduction and Review.pdf
