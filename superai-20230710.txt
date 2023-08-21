@@ -20,3 +20,4 @@ and that DNNs that encode brain-like visual representations may differ widely in
 
 一句话：至少大脑V1-V4并没有那种严格的分层特征。
 
+
