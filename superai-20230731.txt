@@ -1,0 +1,308 @@
+
++---12vision
+|   +---$game
+|   |       2212.07422  ECON  Explicit Clothed humans Optimized via Normal integration.pdf
+|   |       
+|   +---$garm
+|   |       1908.06903  Multi-Garment Net  Learning to Dress 3D People from Images.pdf
+|   |       2003.12753  Deep Fashion3D A Dataset and Benchmark for 3D Garment Reconstruction from Single Images.pdf
+|   |       2104.03313  SCANimate  Weakly Supervised Learning of Skinned Clothed Avatar Networks.pdf
+|   |       2104.03978  Dynamic Surface Function Networks for Clothed Human Bodies.pdf
+|   |       2104.07660  SCALE  Modeling Clothed Humans with a Surface Codec of Articulated Local Elements.pdf
+|   |       2203.01923  Recovering 3D Human Mesh from.pdf
+|   |       2206.15470  Dressing Avatars  Deep Photorealistic Appearance for Physically Simulated Clothing.pdf
+|   |       2304.03167  CloSET  Modeling Clothed Humans on Continuous Surface with Explicit Template Decomposition.pdf
+|   |       2305.14236  REC-MV  REconstructing 3D Dynamic Cloth from Monocular Videos.pdf
+|   |       
+|   +---11representation
+|   |   |   2200.00000  Understanding contrastive versus reconstructive self-supervised learning of Vision Transformers.pdf
+|   |   |   2201.06857  RePre  Improving Self-Supervised Vision Transformer with Reconstructive Pre-training.pdf
+|   |   |   2300.00000  What Do Self-Supervised Vision Transformers Learn .pdf
+|   |   |   
+|   |   \---retinal neural code
+|   |           neural_code_data.zip
+|   |           retinal neural code.pdf
+|   |           torch-deep-retina-v1.0.zip
+|   |           
+|   +---12im-ex
+|   |       2112.12390  DD-NeRF Double-Diffusion Neural Radiance Field as a Generalizable Implicit Body Representation.pdf
+|   |       2112.12390  Learning Implicit Body Representations from Double Diffusion Based.pdf
+|   |       2212.00792  SparseFusion  Distilling View-conditioned Diffusion for 3D Reconstruction.pdf
+|   |       2212.00792  SparseFusion Distilling View-conditioned Diffusion for 3D Reconstruction.pdf
+|   |       2302.10109  NerfDiff  Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion.pdf
+|   |       2302.12231  DiffusioNeRF  Regularizing Neural Radiance Fields with Denoising Diffusion Models.pdf
+|   |       2303.12789  Instruct-NeRF2NeRF  Editing 3D Scenes with Instructions.pdf
+|   |       2303.13450  Set-the-Scene Global-Local Training for Generating Controllable NeRF Scenes.pdf
+|   |       2303.14184  Make-It-3D High-Fidelity 3D Creation from A Single Image with Diffusion Prior.pdf
+|   |       2303.17015  HyperDiffusion Generating Implicit Neural Fields with Weight-Space Diffusion.pdf
+|   |       2304.06714  Single-Stage Diffusion NeRF  A Unified Approach to 3D Generation and Reconstruction.pdf
+|   |       2304.10261  Anything-3D  Towards Single-view Anything Reconstruction in the Wild.pdf
+|   |       2304.10261  Anything-3D Towards Single-view Anything Reconstruction in the Wild.pdf
+|   |       2305.02463  Shap·E  Generating Conditional 3D Implicit Functions.pdf
+|   |       
+|   +---21vit
+|   |       2204.03645  DaViT Dual Attention Vision Transformers.pdf
+|   |       2301.08243  Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture.pdf
+|   |       2304.07193  DINOv2  Learning Robust Visual Features without Supervision.pdf
+|   |       2305.09880  A survey of the Vision Transformers and its CNN-Transformer based Variants.pdf
+|   |       A Comprehensive Survey of Transformers for Computer Vision.pdf
+|   |       Vision-Transformer_zh-CN.png
+|   |       
+|   +---31jepa
+|   |       2301.08243  Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture.pdf
+|   |       
+|   +---32e2e
+|   |       2212.10156  Planning-oriented Autonomous Driving.pdf
+|   |       
+|   \---41reason
+|           2211.11559  Visual Programming  Compositional visual reasoning without training.pdf
+|           
++---21math
+|   |   1910.00000  How does the brain learn simple arithmetic  The impact of teaching methods.pdf
+|   |   1912.01412  Deep Learning for Symbolic Mathematics.pdf
+|   |   2110.14168  Training Verifiers to Solve Math Word Problems.pdf
+|   |   2203.14680  Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space.pdf
+|   |   2204.10532  End-to-end symbolic regression with transformers.pdf
+|   |   2206.14858  Solving Quantitative Reasoning Problems with Language Models.pdf
+|   |   2211.00170  What is my math transformer doing -- Three results on interpretability and generalization.pdf
+|   |   2300.00000  Towards a Mathematics Formalisation Assistant using Large Language Models.pdf
+|   |   2301.06627  ($$)  Dissociating language and thought in large language models  a cognitive perspective.pdf
+|   |   2301.09723  Mathematics, word problems, common sense, and artificial intelligence.pdf
+|   |   2301.13867  Mathematical Capabilities of ChatGPT.pdf
+|   |   2303.05398  MathPrompter  Mathematical Reasoning using Large Language Models.pdf
+|   |   2305.00586  How does GPT-2 compute greater-than  Interpreting mathematical abilities in a pre-trained language model.pdf
+|   |   2306.15400  Length Generalization in Arithmetic Transformers.pdf
+|   |   2307.03381  Teaching Arithmetic to Small Transformers.pdf
+|   |   Cognitive Neuroscience Research Status Quo of Number Processing.pdf
+|   |   Maths with transformers.mp4
+|   |   Stanford Seminar - Deep Learning for Symbolic Mathematics - Guillaume Lample & Francois Charton.mp4
+|   |   The Neuroscience of Mathematical Cognition and Learning.pdf
+|   |   
+|   \---code
+|           teaching_arithmetic-main.zip
+|           
++---22symbol
+|   |   2103.10360  GLM.pdf
+|   |   2203.02155  Training language models to follow instructions with human feedback.pdf
+|   |   2206.10498  Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change).pdf
+|   |   2210.03493  Automatic Chain of Thought Prompting in Large Language Models.pdf
+|   |   2301.06627  Dissociating language and thought in large language models  a cognitive perspective.pdf
+|   |   2301.13196  Looped Transformer.pdf
+|   |   2302.04761  Toolformer  Language Models Can Teach Themselves to Use Tools.pdf
+|   |   2302.12813  Check Your Facts and Try Again  Improving Large Language Models with External Knowledge and Automated Feedback.pdf
+|   |   2302.13971  LLaMA  Open and Efficient Foundation Language Models.pdf
+|   |   2303.04671  Visual ChatGPT  Talking, Drawing and Editing with Visual Foundation Models.pdf
+|   |   2303.17580  HuggingGPT  Solving AI Tasks with ChatGPT and its Friends in HuggingFace.pdf
+|   |   2304.03442  Generative Agents  Interactive Simulacra of Human Behavior.pdf
+|   |   2304.05128  Self-Debug  Teaching Large Language Models to Self-Debug.pdf
+|   |   2304.12244  WizardLM.pdf
+|   |   2305.03495  Automatic Prompt Optimization with “Gradient Descent” and Beam Search.pdf
+|   |   2305.08746  Seeing is Believing  Brain-Inspired Modular Training for Mechanistic Interpretability.pdf
+|   |   2305.09137  Pre-Training to Learn in Context.pdf
+|   |   2305.09645  StructGPT  A General Framework for Large Language Model to Reason over Structured Data.pdf
+|   |   2305.09993  Reprompting  Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling.pdf
+|   |   2305.10276  Chain-of-Symbol Prompting Elicits Planning in Large Langauge Models.pdf
+|   |   2305.10601  Tree of Thoughts  Deliberate Problem Solving with Large Language Models.pdf
+|   |   2305.10783  Transforming Human-Centered AI Collaboration  Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions.pdf
+|   |   2305.11206  LIMA  Less Is More for Alignment.pdf
+|   |   2305.11391  A Survey of Safety and Trustworthiness of Large Language Models through the Lens of Verification and Validation.pdf
+|   |   2305.11430  TELeR  A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks.pdf
+|   |   2305.11598  Introspective Tips  Large Language Model for In-Context Decision Making.pdf
+|   |   2305.11738  CRITIC  Large Language Models Can Self-Correct with Tool-Interactive Critiquing.pdf
+|   |   2305.11846  Any-to-Any Generation via Composable Diffusion.pdf
+|   |   2305.11854  Multimodal Web Navigation with Instruction-Finetuned Foundation Models.pdf
+|   |   2305.11860  Let's Sample Step by Step  Adaptive-Consistency for Efficient Reasoning with LLMs.pdf
+|   |   2305.12295  Logic-LM  Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning.pdf
+|   |   2305.12524  TheoremQA  A Theorem-driven Question Answering dataset.pdf
+|   |   2305.13083  InheritSumm  A General, Versatile and Compact Summarizer by Distilling from GPT.pdf
+|   |   2305.13091  Are Large Language Models Good Evaluators for Abstractive Summarization.pdf
+|   |   2305.13160  Can ChatGPT Defend the Truth  Automatic Dialectical Evaluation Elicits LLMs' Deficiencies in Reasoning.pdf
+|   |   2305.13304  RecurrentGPT  Interactive Generation of (Arbitrarily) Long Text.pdf
+|   |   2305.15334  Gorilla  Large Language Model Connected with Massive APIs.pdf
+|   |   2305.16291  Voyager  An Open-Ended Embodied Agent with Large Language Models.pdf
+|   |   2306.12672  From Word Models to World Models  Translating from Natural Language to the Probabilistic Language of Thought.pdf
+|   |   
+|   \---2306.12672  From Word Models to World Models  Translating from Natural Language to the Probabilistic Language of Thought
+|       |   README.md
+|       |   
+|       +---assets
+|       |       cogs_icon.png
+|       |       nn_icon.png
+|       |       
+|       \---domains
+|           +---d1-probabilistic-reasoning
+|           |       prompt.scm
+|           |       world-model.scm
+|           |       
+|           +---d2-relational-reasoning
+|           |       prompt.scm
+|           |       visualizations.ipynb
+|           |       world-model.scm
+|           |       
+|           +---d3-grounded-visual-reasoning
+|           |   +---dynamic-scenes
+|           |   |       prompt-examples.scm
+|           |   |       world-model.scm
+|           |   |       
+|           |   \---static-scenes
+|           |           prompt-examples.scm
+|           |           world-model.scm
+|           |           
+|           \---d4-goal-directed-reasoning
+|                   prompt-examples.scm
+|                   world-model.scm
+|                   
++---31agent
+|   |   2303.17760  CAMEL  Communicative Agents for  Mind  Exploration of Large Scale Language Model Society.pdf
+|   |   2304.03442  ($$)  Westworld Simulation  Generative Agents Interactive Simulacra of Human Behavior.pdf
+|   |   2305.16291  Voyager  An Open-Ended Embodied Agent with Large Language Models.pdf
+|   |   2305.17144  Ghost in the Minecraft  Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory.pdf
+|   |   
+|   +---1plan
+|   |   |   2303.11366  Reflexion  Language Agents with Verbal Reinforcement Learning.pdf
+|   |   |   2305.15334  Gorilla  Large Language Model Connected with Massive APIs.pdf
+|   |   |   
+|   |   \---decompose
+|   |       |   ($$)  Learning to Decompose and Organize Complex Tasks  MSComplexTasks.zip
+|   |       |   ($$)  Learning to Decompose and Organize Complex Tasks.pdf
+|   |       |   ($$)  Neural Task Programming Learning to Generalize Across Hierarchical Tasks.pdf
+|   |       |   (OK)  Learning Task Decomposition With Ordered Memory Policy Network.pdf
+|   |       |   
+|   |       +---$$ architect
+|   |       |       2112.13208  (OK)  Neural Network Module Decomposition and Recomposition.pdf
+|   |       |       
+|   |       +---0000
+|   |       |       2003.00400  Learn Task First or Learn Human Partner First A Hierarchical Task Decomposition Method for Human-Robot Cooperation.pdf
+|   |       |       2108.11346  Auxiliary Task Update Decomposition  The Good, The Bad and The Neutral.pdf
+|   |       |       A Decomposition Machine-learning Strategy for Automated Fruit Grading.pdf
+|   |       |       A Neuroevolutionary Approach to Emergent Task Decomposition.pdf
+|   |       |       Acting and Learning with Goal and Task Decomposition.pdf
+|   |       |       Deep Co-Training with Task Decomposition for Semi-Supervised Domain Adaptation.pdf
+|   |       |       Evolving Soccer Keepaway Players Through Task Decomposition.pdf
+|   |       |       Learning Hierarchical Task Networks with Preferences from Unannotated Demonstrations.pdf
+|   |       |       PACE Learning Effective Task Decomposition for Human-in-the-loop Healthcare Delivery.pdf
+|   |       |       Task Decomposition and Role Sharing for Real-time Human-AI Swarm Collaboration.pdf
+|   |       |       Task Decomposition, Dynamic Role Assignment, and Low-Bandwidth Communication for Real-Time Strategic Teamwork.pdf
+|   |       |       
+|   |       +---brain
+|   |       |       2005.00000  Task-driven hierarchical deep neural network models of the proprioceptive pathway.pdf
+|   |       |       Task decomposition a framework for comparing diverse training models in human brain plasticity studies.pdf
+|   |       |       
+|   |       +---htn
+|   |       |       (OK)  Task decomposition on abstract states, for planning under nondeterminism.pdf
+|   |       |       
+|   |       +---reinforce
+|   |       |       (OK)  Automatic Task Decomposition and State Abstraction from Demonstration.pdf
+|   |       |       2102.04022  Towards Hierarchical Task Decomposition using Deep Reinforcement Learning for Pick and Place Subtasks.pdf
+|   |       |       Divide and conquer Hierarchical reinforcement learning and task decomposition in humans.pdf
+|   |       |       Interactive Reinforcement Learning from Human Language and Evaluative Feedback Through Task Decomposition.pdf
+|   |       |       Skills Regularized Task Decomposition for Multi-task Offline Reinforcement Learning.pdf
+|   |       |       Structure Learning-Based Task Decomposition for Reinforcement Learning in Non-stationary Environments.pdf
+|   |       |       TACO Learning Task Decomposition via Temporal Alignment for Control.pdf
+|   |       |       The Task Decomposition and Dedicated Reward-System-Based Reinforcement Learning Algorithm for Pick-and-Place.pdf
+|   |       |       Towards Hierarchical Task Decomposition using Deep Reinforcement Learning for Pick and Place Subtasks.pdf
+|   |       |       Using Reinforcement Learning and Task Decomposition for Learning to Play Doom.pdf
+|   |       |       
+|   |       \---reward
+|   |               Explainable Reinforcement Learning via Reward Decomposition.pdf
+|   |               
+|   +---2memo
+|   |       2301.00303  Rethinking with Retrieval  Faithful Large Language Model Inference.pdf
+|   |       
+|   \---3tool
+|           2205.00445  MRKL Systems  A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning.pdf
+|           2205.12255  TALM  Tool Augmented Language Models.pdf
+|           2302.04761  Toolformer  Language Models Can Teach Themselves to Use Tools.pdf
+|           
++---32robot
+|       2205.06175   A Generalist Agent.pdf
+|       2306.11706   RoboCat A Self-Improving Foundation Agent for Robotic Manipulation.pdf
+|       
++---41think
+|       ($$)  1604.00289  Building Machines That Learn and Think Like People.pdf
+|       2106.01345  Decision Transformer  Reinforcement Learning via Sequence Modeling.pdf
+|       2112.04035  Relating transformers to models and neural representations of the hippocampal formation.pdf
+|       2112.04426  Improving language models by retrieving from trillions of tokens.pdf
+|       2201.11903  Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.pdf
+|       2202.06991  Transformer Memory as a Differentiable Search Index.pdf
+|       2204.07258  Causal Transformer for Estimating Counterfactual Outcomes.pdf
+|       2210.03350  Measuring and Narrowing the Compositionality Gap in Language Models.pdf
+|       2210.03629  ReAct  Synergizing Reasoning and Acting in Language Models.pdf
+|       2210.14215  In-context Reinforcement Learning with Algorithm Distillation.pdf
+|       2212.02264  Bagging is an Optimal PAC Learner.pdf
+|       2212.09597  Reasoning with Language Model Prompting  A Survey.pdf
+|       2301.12652  REPLUG  Retrieval-Augmented Black-Box Language Models.pdf
+|       2302.04761  Toolformer  Language Models Can Teach Themselves to Use Tools.pdf
+|       2302.07842  Augmented Language Models  a Survey.pdf
+|       2302.09051  Complex QA and language models hybrid architectures, Survey.pdf
+|       2303.11366  Reflexion  Language Agents with Verbal Reinforcement Learning.pdf
+|       2303.16434  TaskMatrix.AI Completing Tasks by Connecting Foundation Models with Millions of APIs.pdf
+|       2303.18223  A Survey of Large Language Models.pdf
+|       2304.01665  Mastering Symbolic Operations  Augmenting Language Models with Compiled Neural Networks.pdf
+|       2304.09842  Chameleon  Plug-and-Play Compositional Reasoning with Large Language Models.pdf
+|       2305.04091  Plan-and-Solve Prompting  Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.pdf
+|       2305.10601  Tree of Thoughts  Deliberate Problem Solving with Large Language Models.pdf
+|       2305.11554  ToolkenGPT  Augmenting Frozen Language Models with Massive Tools via Tool Embeddings.pdf
+|       2305.11738  CRITIC  Large Language Models Can Self-Correct with Tool-Interactive Critiquing.pdf
+|       2305.15334  Gorilla  Large Language Model Connected with Massive APIs.pdf
+|       2305.17126  Large Language Models as Tool Makers.pdf
+|       2306.00323  Thought Cloning  Learning to Think while Acting by Imitating Human Thinking.pdf
+|       2306.00924  Minding Language Models' (Lack of) Theory of Mind  A Plug-and-Play Multi-Character Belief Tracker.pdf
+|       2306.08640  AssistGPT  A General Multi-modal Assistant that can Plan, Execute, Inspect, and Learn.pdf
+|       2307.03567  SpawnNet  Learning Generalizable Visuomotor Skills from Pre-trained Networks.pdf
+|       
++---42brain
+|       1200.00000  Deep Hierarchies in the Primate Visual Cortex  What Can We Learn For Computer Vision.pdf
+|       1907.12071  Spatiotemporal Information Processing with a Reservoir Decision-making Network.pdf
+|       2007.00000  Brain hierarchy score Which deep neural networks are hierarchically brain-like.pdf
+|       2022.00000  Brain-optimized neural networks learn non-hierarchical models of representation in human visual cortex.pdf
+|       2023.00009  Brain-optimized deep neural network models of human visual areas learn non-hierarchical representations.pdf
+|       A brian-inspired computational model for spatio-temporal information processing.pdf
+|       Baars Gage 2010 Cognition, Brain and Consciousness (2nd edition).pdf
+|       DNNBrain A Unifying Toolbox for Mapping Deep Neural Networks and Brains.pdf
+|       Spatio-Temporal Pattern Representation from AI Inspired Brain Model in Spiking Neural Network.pdf
+|       Understanding the Brain The Birth of a Learning Science.pdf
+|       Why Don’t Students Like School.pdf
+|       
++---51network
+|       2302.01107  A Survey on Efficient Training of Transformers.pdf
+|       2302.07730  Transformer models  an introduction and catalog.pdf
+|       2303.18223  A Survey of Large Language Models  (Chinese).pdf
+|       2303.18223  A Survey of Large Language Models.pdf
+|       2306.04251  Stochastic Collapse.pdf
+|       2307.11000  GPT-4  Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE.pdf
+|       
++---52route
+|       1703.06217  Deciding How to Decide Dynamic Routing in Artificial Neural Networks.pdf
+|       1905.04849  Dynamic Routing Networks.pdf
+|       2101.03961  Switch Transformers  Scaling to Trillion Parameter Models with Simple and Efficient Sparsity.pdf
+|       2101.03961  Switch Transformers Scaling to Trillion Parameter Models with Simple and E?cient Sparsity.pdf
+|       2102.01732  Truly Sparse Neural Networks at Scale.pdf
+|       2102.01732  Truly Sparse Neural Networks at Scale.zip
+|       2107.11817  Go Wider Instead of Deeper.pdf
+|       2112.06905  GLaM  Efficient Scaling of Language Models with Mixture-of-Experts.pdf
+|       Dynamic Layer Aggregation for Neural Machine Translation with Routing-by-Agreement.pdf
+|       Efficient Content-Based Sparse Attention with Routing Transformers.pdf
+|       Exploring Dynamic Routing As A Pooling Layer.pdf
+|       Modified Dynamic Routing Convolutional Neural Network for Pan-Sharpening.pdf
+|       
++---53reason
+|       2307.10635  SciBench.pdf
+|       
+\---61drl
+        $$  Hierarchical Reinforcement Learning A Survey and Open Research Challenges.pdf
+        1604.07255  A Deep Hierarchical Approach to Lifelong Learning in Minecraft.pdf
+        1609.05140  The Option-Critic Architecture.pdf
+        1703.01161  FeUdal Networks for Hierarchical Reinforcement Learning.pdf
+        1712.00948  Learning Multi-Level Hierarchies with Hindsight.pdf
+        2302.14451  Hierarchical Reinforcement Learning in Complex 3D Environments.pdf
+        Detect, Understand, Act A Neuro?symbolic Hierarchical Reinforcement Learning Framework.pdf
+        Dynamics-Aware Unsupervised Discovery of Skills.pdf
+        End-to-End Entity Linking with Hierarchical Reinforcement Learning.pdf
+        Hierarchical Reinforcement Learning A Comprehensive Survey.pdf
+        Hierarchical Reinforcement Learning With Attention Reward.pdf
+        HierarchicalReinforcementLearningAComprehensiveSurvey-ACMComputingSurvey2021.pdf
+        HIRO  O? policy Hierarchical Reinforcement Learning to control the AWAKE e? beam.pdf
+        Option Discovery using Deep Skill Chaining.pdf
+        Skill Discovery in Continuous Reinforcement Learning Domains using Skill Chaining.pdf
+        
