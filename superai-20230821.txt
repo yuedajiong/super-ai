@@ -1,0 +1,167 @@
++---$survey
+|       $$  2111.05849  Advances in Neural Rendering.pdf
+|       $$  2210.00379  NeRF  Neural Radiance Field in 3D Vision, Introduction and Review.pdf
+|       $$  2304.10050  Neural Radiance Fields  Past, Present, and Future.pdf
+|       
++---00data
+|       3D dataset.png
+|       
++---01representation
+|       2302.01226  Dictionary Fields Learning a Neural Basis Decomposition.pdf
+|       2302.01226  Factor Fields A Unified Framework for Neural Fields and Beyond.pdf
+|       
++---02render
+|       3D render.png
+|       
++---1camera
+|   +---$dataset
+|   |       camera.txt
+|   |       
+|   +---0survey
+|   |       2201.05816  A Critical Analysis of Image-based Camera Pose Estimation Techniques.pdf
+|   |       
+|   +---1estimate
+|   |       2203.11174  DiffPoseNet Direct Differentiable Camera Pose Estimation.pdf
+|   |       2206.01916  (TO)  Nerfels  Renderable Neural Codes for Improved Camera Pose Estimation.pdf
+|   |       2306.05410  (TO)  LU-NeRF Scene and Pose Estimation by Synchronizing Local Unposed NeRFs.pdf
+|   |       
+|   +---1locate
+|   |   |   1800.00000  Benchmarking 6DOF Outdoor Visual Localization in Changing Conditions.pdf
+|   |   |   2103.09213  (OK)  Back to the Feature  Learning Robust Camera Localization from Pixels to Pose.pdf
+|   |   |   2200.00000  LaMAR Benchmarking Localization and Mapping for Augmented Reality.pdf
+|   |   |   2201.02861  (OK)  Decoupling Makes Weakly Supervised Local Feature Better.pdf
+|   |   |   2204.00559  DFNet Enhance Absolute Pose Regression with Direct Feature Matching.pdf
+|   |   |   2212.07047  (OK)  Shared Coupling-bridge for Weakly Supervised Local Feature Learning.pdf
+|   |   |   2304.07691  Long-term Visual Localization with Mobile Sensors.pdf
+|   |   |   
+|   |   \---code
+|   |           pixloc-master.zip
+|   |           PoSFeat-main.zip
+|   |           SCFeat-main.zip
+|   |           visuallocalizationbenchmark-master.zip
+|   |           
+|   +---1priori
+|   |       2103.15606  (GAN+Estimate+NeRF)  GNeRF GAN-based Neural Radiance Field without Posed Camera.pdf
+|   |       
+|   +---1viewpoint
+|   |   |   2204.03593  ($$$$)  AutoRF  Learning 3D Object Radiance Fields from Single View Observations.pdf
+|   |   |   2212.00436  ($$$$)  ViewNeRF  Unsupervised Viewpoint Estimation Using Category-Level Neural Radiance Fields.pdf
+|   |   |   2306.17843  ($$$$)  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Prior.pdf
+|   |   |   
+|   |   +---AutoRF
+|   |   +---Magic123
+|   |   |       2112.10752  High-Resolution Image Synthesis with Latent Diffusion Models.pdf
+|   |   |       2209.14988  DreamFusion  Text-to-3D using 2D Diffusion.pdf
+|   |   |       2211.16431  NeuralLift-360  Lifting An In-the-wild 2D Photo to A 3D Object with 360° Views.pdf
+|   |   |       2303.11328  Zero-1-to-3  Zero-shot One Image to 3D Object.pdf
+|   |   |       
+|   |   \---ViewNeRF
+|   |       |   (DO-0)  EfficientNet-PyTorch-2eb7a7d264344ddf15d0a06ee99b0dca524c6a07.zip
+|   |       |   (OK-0)  davit-main.zip
+|   |       |   (OK-1)  code-nerf-main.zip
+|   |       |   (OK-2)  differentiable-point-clouds-master.zip
+|   |       |   (OK-3)  giraffe-main.zip
+|   |       |   (OK-3)  StyleNeRF-main.zip
+|   |       |   1801.03910  (OK)  Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction.pdf
+|   |       |   1810.09381  (OK)  Unsupervised Learning of Shape and Pose with Differentiable Point Clouds.pdf
+|   |       |   1905.11946  (TO)  EfficientNet  Rethinking Model Scaling for Convolutional Neural Networks.pdf
+|   |       |   2004.01793  (OK)  Self-Supervised Viewpoint Learning From Image Collections.pdf
+|   |       |   2011.12100  ($$)  GIRAFFE  Representing Scenes as Compositional Generative Neural Feature Fields.pdf
+|   |       |   2107.12549  (TO)  DISP6D Disentangled Implicit Shape and Pose Learning for Scalable 6D Pose Estimation.pdf
+|   |       |   2109.01750  (OK)  CodeNeRF  Disentangled Neural Radiance Fields for Object Categories.pdf
+|   |       |   2110.08985  ($$)  StyleNeRF  A Style-based 3D-Aware Generator for High-resolution Image Synthesis.pdf
+|   |       |   2200.00000  (OK)  Style2Nerf.pdf
+|   |       |   2203.04802  (OK)  NeRF-Pose A First-Reconstruct-Then-Regress Approach for Weakly-supervised 6D Object Pose Estimation.pdf
+|   |       |   2204.03645  (OK)  DaViT Dual Attention Vision Transformers.pdf
+|   |       |   2211.11674  (SO mesh)  Shape, Pose, and Appearance from a Single Image via Bootstrapped Radiance Field Inversion.pdf
+|   |       |   2212.00435  ($$)  ViewNet  Unsupervised Viewpoint Estimation from Conditional Generation.pdf
+|   |       |   2303.14158  (XX rgbd)  BundleSDF Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects.pdf
+|   |       |   
+|   |       \---$ViewNeRF
+|   |               0740.pdf
+|   |               0740_poster.pdf
+|   |               0740_supp.pdf
+|   |               ViewNeRF_MARIOTTI_DOA30092022_AFV.pdf
+|   |               
+|   +---2joint
+|   |       2102.07064  (XX  Direct Fit Learn)NeRF?? Neural Radiance Fields Without Known Camera Parameters.pdf
+|   |       2108.13826  (TO  Joint Learn)  Self-Calibrating Neural Radiance Fields.pdf
+|   |       2210.00183  (TO  Epipolar Constraint  Learn)  Structure-Aware NeRF without Posed Camera via Epipolar Constraint.pdf
+|   |       2212.07388  (XX  Sequence Learn)  NoPe-NeRF Optimising Neural Radiance Field with No Pose Prior.pdf
+|   |       2303.09412  (TO  Gaussian Fourier Learn)  NeRFtrinsic Four An End-To-End Trainable NeRF Jointly Optimizing Diverse Intrinsic and Extrinsic Camera Parameters.pdf
+|   |       
+|   \---3sfm
+|           $$  0000.00000  colmap.jpg
+|           
++---1fewshot&priori
+|       2111.04276  DMT.pdf
+|       2111.09996  LOLNeRF  Learn from One Look.pdf
+|       2111.13539  GeoNeRF  Generalizing NeRF with Geometry Priors.pdf
+|       2207.11368  Neural-Sim  Learning to Generate Training Data with NeRF.pdf
+|       2211.11738  SPARF  Neural Radiance Fields from Sparse and Noisy Poses.pdf
+|       2212.00774  Score Jacobian Chaining Lifting Pretrained 2D Diffusion Models for 3D Generation.pdf
+|       2212.00792  SparseFusion  Distilling View-conditioned Diffusion for 3D Reconstruction.pdf
+|       2302.10109  NerfDiff.pdf
+|       2303.07418  FreeNeRF  Improving Few-shot Neural Rendering with Free Frequency Regularization.pdf
+|       2303.11328  Zero-1-to-3.pdf
+|       2303.14184  Make-It-3D.pdf
+|       2304.06714  Single-Stage Diffusion NeRF  A Unified Approach to 3D Generation and Reconstruction.pdf
+|       2305.02310  Real-Time Radiance Fields for Single-Image Portrait View Synthesis.pdf
+|       2305.09662  Make-An-Animation.pdf
+|       2305.10853  LDM3D  Latent Diffusion Model for 3D.pdf
+|       2305.11588  Text2NeRF.pdf
+|       2305.11870  Chupa  Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models.pdf
+|       2305.16213  ProlificDreamer.pdf
+|       2306.06093  HyP-NeRF  Learning Improved NeRF Priors using a HyperNetwork.pdf
+|       2306.16928  One-2-3-45.pdf
+|       2306.17843  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors.pdf
+|       2307.05663  Objaverse-XL.pdf
+|       
++---2fast
+|       2103.10380  FastNeRF  High-Fidelity Neural Rendering at 200FPS.pdf
+|       2103.15595  MVSNeRF  Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo.pdf
+|       2111.13112  VaxNeRF  Revisiting the Classic for Voxel-Accelerated Neural Radiance Field.pdf
+|       2201.05989  Instant Neural Graphics Primitives with a Multiresolution Hash Encoding.pdf
+|       2206.00878  EfficientNeRF  Efficient Neural Radiance Fields.pdf
+|       2208.00277  MobileNeRF  Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures.pdf
+|       
++---3dynamic
+|       2205.15285  Fast Dynamic Radiance Fields with Time-Aware Neural Voxels.pdf
+|       2210.15947  NeRFPlayer  A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields.pdf
+|       2301.10241  K-Planes  Explicit Radiance Fields in Space, Time, and Appearance.pdf
+|       
++---4large
+|       2202.05263  Block-NeRF  Scalable Large Scene Neural View Synthesis.pdf
+|       2211.13762  ScanNeRF a Scalable Benchmark for Neural Radiance Fields.pdf
+|       
++---4memory
+|       2204.02585  SqueezeNeRF  Further factorized FastNeRF for memory-efficient inference.pdf
+|       
++---4quality
+|       2111.12077  Mip-NeRF 360  Unbounded Anti-Aliased Neural Radiance Fields.pdf
+|       2304.06706  Zip-NeRF  Anti-Aliased Grid-Based Neural Radiance Fields.pdf
+|       2305.17134  NeuManifold Neural Watertight Manifold Reconstruction with Efficient and High-Quality Rendering Support.pdf
+|       
++---5interactive
+|       2212.07626  NeuralDome  A Neural Modeling Pipeline on Multi-View Human-Object Interactions.pdf
+|       
++---5malipulate
+|       2212.11966  Removing Objects From Neural Radiance Fields.pdf
+|       2303.13843  CompoNeRF  Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout.pdf
+|       
++---6mutiobject&scene
+|       2202.11855  Learning Multi-Object Dynamics with Compositional Neural Radiance Fields.pdf
+|       2302.11566  Vid2Avatar  3D Avatar Reconstruction from Videos in the Wild via Self-supervised Scene Decomposition.pdf
+|       2304.05735  RO-MAP  Real-Time Multi-Object Mapping with Neural Radiance Fields.pdf
+|       2305.12529  DreamWaltz  Make a Scene with Complex 3D Animatable Avatars.pdf
+|       
++---6unbound
+|       2303.12012  NeAT  Learning Neural Implicit Surfaces with Arbitrary Topologies from Multi-view Images.pdf
+|       2303.15951  F2-NeRF Fast Neural Radiance Field Training with Free Camera Trajectories.pdf
+|       
++---7pipeline
+|       2305.08810  AutoRecon  Automated 3D Object Discovery and Reconstruction.pdf
+|       
+\---8surface
+        2206.00665  MonoSDF  Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction.pdf
+        2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf
