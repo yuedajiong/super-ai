@@ -1,186 +1,433 @@
-$survey
-00data
-01representation
-02render
-1camera
-1fewshot&priori
-2fast
-3dynamic
-4large
-4memory
-4quality
-5interactive
-5malipulate
-6mutiobject&scene
-6unbound
-7pipeline
-8surface
-
-
-+---$survey
-|       $$  2111.05849  Advances in Neural Rendering.pdf
-|       $$  2210.00379  NeRF  Neural Radiance Field in 3D Vision, Introduction and Review.pdf
-|       $$  2304.10050  Neural Radiance Fields  Past, Present, and Future.pdf
-|       
-+---00data
-|       3D dataset.png
-|       
-+---01representation
-|       2302.01226  Dictionary Fields Learning a Neural Basis Decomposition.pdf
-|       2302.01226  Factor Fields A Unified Framework for Neural Fields and Beyond.pdf
-|       
-+---02render
-|       3D render.png
-|       
-+---1camera
-|   +---$dataset
-|   |       camera.txt
-|   |       
-|   +---0survey
-|   |       2201.05816  A Critical Analysis of Image-based Camera Pose Estimation Techniques.pdf
-|   |       
-|   +---1estimate
-|   |       2203.11174  DiffPoseNet Direct Differentiable Camera Pose Estimation.pdf
-|   |       2206.01916  (TO)  Nerfels  Renderable Neural Codes for Improved Camera Pose Estimation.pdf
-|   |       2306.05410  (TO)  LU-NeRF Scene and Pose Estimation by Synchronizing Local Unposed NeRFs.pdf
-|   |       
-|   +---1locate
-|   |   |   1800.00000  Benchmarking 6DOF Outdoor Visual Localization in Changing Conditions.pdf
-|   |   |   2103.09213  (OK)  Back to the Feature  Learning Robust Camera Localization from Pixels to Pose.pdf
-|   |   |   2200.00000  LaMAR Benchmarking Localization and Mapping for Augmented Reality.pdf
-|   |   |   2201.02861  (OK)  Decoupling Makes Weakly Supervised Local Feature Better.pdf
-|   |   |   2204.00559  DFNet Enhance Absolute Pose Regression with Direct Feature Matching.pdf
-|   |   |   2212.07047  (OK)  Shared Coupling-bridge for Weakly Supervised Local Feature Learning.pdf
-|   |   |   2304.07691  Long-term Visual Localization with Mobile Sensors.pdf
-|   |   |   
-|   |   \---code
-|   |           pixloc-master.zip
-|   |           PoSFeat-main.zip
-|   |           SCFeat-main.zip
-|   |           visuallocalizationbenchmark-master.zip
-|   |           
-|   +---1priori
-|   |       2103.15606  (GAN+Estimate+NeRF)  GNeRF GAN-based Neural Radiance Field without Posed Camera.pdf
-|   |       
-|   +---1viewpoint
-|   |   |   2204.03593  ($$$$)  AutoRF  Learning 3D Object Radiance Fields from Single View Observations.pdf
-|   |   |   2212.00436  ($$$$)  ViewNeRF  Unsupervised Viewpoint Estimation Using Category-Level Neural Radiance Fields.pdf
-|   |   |   2306.17843  ($$$$)  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Prior.pdf
-|   |   |   
-|   |   +---AutoRF
-|   |   +---Magic123
-|   |   |       2112.10752  High-Resolution Image Synthesis with Latent Diffusion Models.pdf
-|   |   |       2209.14988  DreamFusion  Text-to-3D using 2D Diffusion.pdf
-|   |   |       2211.16431  NeuralLift-360  Lifting An In-the-wild 2D Photo to A 3D Object with 360° Views.pdf
-|   |   |       2303.11328  Zero-1-to-3  Zero-shot One Image to 3D Object.pdf
-|   |   |       
-|   |   \---ViewNeRF
-|   |       |   (DO-0)  EfficientNet-PyTorch-2eb7a7d264344ddf15d0a06ee99b0dca524c6a07.zip
-|   |       |   (OK-0)  davit-main.zip
-|   |       |   (OK-1)  code-nerf-main.zip
-|   |       |   (OK-2)  differentiable-point-clouds-master.zip
-|   |       |   (OK-3)  giraffe-main.zip
-|   |       |   (OK-3)  StyleNeRF-main.zip
-|   |       |   1801.03910  (OK)  Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction.pdf
-|   |       |   1810.09381  (OK)  Unsupervised Learning of Shape and Pose with Differentiable Point Clouds.pdf
-|   |       |   1905.11946  (TO)  EfficientNet  Rethinking Model Scaling for Convolutional Neural Networks.pdf
-|   |       |   2004.01793  (OK)  Self-Supervised Viewpoint Learning From Image Collections.pdf
-|   |       |   2011.12100  ($$)  GIRAFFE  Representing Scenes as Compositional Generative Neural Feature Fields.pdf
-|   |       |   2107.12549  (TO)  DISP6D Disentangled Implicit Shape and Pose Learning for Scalable 6D Pose Estimation.pdf
-|   |       |   2109.01750  (OK)  CodeNeRF  Disentangled Neural Radiance Fields for Object Categories.pdf
-|   |       |   2110.08985  ($$)  StyleNeRF  A Style-based 3D-Aware Generator for High-resolution Image Synthesis.pdf
-|   |       |   2200.00000  (OK)  Style2Nerf.pdf
-|   |       |   2203.04802  (OK)  NeRF-Pose A First-Reconstruct-Then-Regress Approach for Weakly-supervised 6D Object Pose Estimation.pdf
-|   |       |   2204.03645  (OK)  DaViT Dual Attention Vision Transformers.pdf
-|   |       |   2211.11674  (SO mesh)  Shape, Pose, and Appearance from a Single Image via Bootstrapped Radiance Field Inversion.pdf
-|   |       |   2212.00435  ($$)  ViewNet  Unsupervised Viewpoint Estimation from Conditional Generation.pdf
-|   |       |   2303.14158  (XX rgbd)  BundleSDF Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects.pdf
-|   |       |   
-|   |       \---$ViewNeRF
-|   |               0740.pdf
-|   |               0740_poster.pdf
-|   |               0740_supp.pdf
-|   |               ViewNeRF_MARIOTTI_DOA30092022_AFV.pdf
-|   |               
-|   +---2joint
-|   |       2102.07064  (XX  Direct Fit Learn)NeRF?? Neural Radiance Fields Without Known Camera Parameters.pdf
-|   |       2108.13826  (TO  Joint Learn)  Self-Calibrating Neural Radiance Fields.pdf
-|   |       2210.00183  (TO  Epipolar Constraint  Learn)  Structure-Aware NeRF without Posed Camera via Epipolar Constraint.pdf
-|   |       2212.07388  (XX  Sequence Learn)  NoPe-NeRF Optimising Neural Radiance Field with No Pose Prior.pdf
-|   |       2303.09412  (TO  Gaussian Fourier Learn)  NeRFtrinsic Four An End-To-End Trainable NeRF Jointly Optimizing Diverse Intrinsic and Extrinsic Camera Parameters.pdf
-|   |       
-|   \---3sfm
-|           $$  0000.00000  colmap.jpg
-|           
-+---1fewshot&priori
-|       2111.04276  DMT.pdf
-|       2111.09996  LOLNeRF  Learn from One Look.pdf
-|       2111.13539  GeoNeRF  Generalizing NeRF with Geometry Priors.pdf
-|       2207.11368  Neural-Sim  Learning to Generate Training Data with NeRF.pdf
-|       2211.11738  SPARF  Neural Radiance Fields from Sparse and Noisy Poses.pdf
-|       2212.00774  Score Jacobian Chaining Lifting Pretrained 2D Diffusion Models for 3D Generation.pdf
-|       2212.00792  SparseFusion  Distilling View-conditioned Diffusion for 3D Reconstruction.pdf
-|       2302.10109  NerfDiff.pdf
-|       2303.07418  FreeNeRF  Improving Few-shot Neural Rendering with Free Frequency Regularization.pdf
-|       2303.11328  Zero-1-to-3.pdf
-|       2303.14184  Make-It-3D.pdf
-|       2304.06714  Single-Stage Diffusion NeRF  A Unified Approach to 3D Generation and Reconstruction.pdf
-|       2305.02310  Real-Time Radiance Fields for Single-Image Portrait View Synthesis.pdf
-|       2305.09662  Make-An-Animation.pdf
-|       2305.10853  LDM3D  Latent Diffusion Model for 3D.pdf
-|       2305.11588  Text2NeRF.pdf
-|       2305.11870  Chupa  Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models.pdf
-|       2305.16213  ProlificDreamer.pdf
-|       2306.06093  HyP-NeRF  Learning Improved NeRF Priors using a HyperNetwork.pdf
-|       2306.16928  One-2-3-45.pdf
-|       2306.17843  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors.pdf
-|       2307.05663  Objaverse-XL.pdf
-|       
-+---2fast
-|       2103.10380  FastNeRF  High-Fidelity Neural Rendering at 200FPS.pdf
-|       2103.15595  MVSNeRF  Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo.pdf
-|       2111.13112  VaxNeRF  Revisiting the Classic for Voxel-Accelerated Neural Radiance Field.pdf
-|       2201.05989  Instant Neural Graphics Primitives with a Multiresolution Hash Encoding.pdf
-|       2206.00878  EfficientNeRF  Efficient Neural Radiance Fields.pdf
-|       2208.00277  MobileNeRF  Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures.pdf
-|       
-+---3dynamic
-|       2205.15285  Fast Dynamic Radiance Fields with Time-Aware Neural Voxels.pdf
-|       2210.15947  NeRFPlayer  A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields.pdf
-|       2301.10241  K-Planes  Explicit Radiance Fields in Space, Time, and Appearance.pdf
-|       
-+---4large
-|       2202.05263  Block-NeRF  Scalable Large Scene Neural View Synthesis.pdf
-|       2211.13762  ScanNeRF a Scalable Benchmark for Neural Radiance Fields.pdf
-|       
-+---4memory
-|       2204.02585  SqueezeNeRF  Further factorized FastNeRF for memory-efficient inference.pdf
-|       
-+---4quality
-|       2111.12077  Mip-NeRF 360  Unbounded Anti-Aliased Neural Radiance Fields.pdf
-|       2304.06706  Zip-NeRF  Anti-Aliased Grid-Based Neural Radiance Fields.pdf
-|       2305.17134  NeuManifold Neural Watertight Manifold Reconstruction with Efficient and High-Quality Rendering Support.pdf
-|       
-+---5interactive
-|       2212.07626  NeuralDome  A Neural Modeling Pipeline on Multi-View Human-Object Interactions.pdf
-|       
-+---5malipulate
-|       2212.11966  Removing Objects From Neural Radiance Fields.pdf
-|       2303.13843  CompoNeRF  Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout.pdf
-|       
-+---6mutiobject&scene
-|       2202.11855  Learning Multi-Object Dynamics with Compositional Neural Radiance Fields.pdf
-|       2302.11566  Vid2Avatar  3D Avatar Reconstruction from Videos in the Wild via Self-supervised Scene Decomposition.pdf
-|       2304.05735  RO-MAP  Real-Time Multi-Object Mapping with Neural Radiance Fields.pdf
-|       2305.12529  DreamWaltz  Make a Scene with Complex 3D Animatable Avatars.pdf
-|       
-+---6unbound
-|       2303.12012  NeAT  Learning Neural Implicit Surfaces with Arbitrary Topologies from Multi-view Images.pdf
-|       2303.15951  F2-NeRF Fast Neural Radiance Field Training with Free Camera Trajectories.pdf
-|       
-+---7pipeline
-|       2305.08810  AutoRecon  Automated 3D Object Discovery and Reconstruction.pdf
-|       
-\---8surface
-        2206.00665  MonoSDF  Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction.pdf
-        2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf
+├─# Pipe
+│  │  note.txt
+│  │  
+│  ├─$ code
+│  │  │  data-mesh.py
+│  │  │  data-nerf.py
+│  │  │  data-tidy.py
+│  │  │  fit_textured_mesh.py
+│  │  │  image-laten-to-mesh.py
+│  │  │  nerf-pose.py
+│  │  │  pose_camera.py
+│  │  │  pytorch-render.py
+│  │  │  pytorch3d-fit.py
+│  │  │  regularizer.py
+│  │  │  surface_mcubes.py
+│  │  │  view-coords.py
+│  │  │  
+│  │  ├─0000
+│  │  │      ACC-UNet  $$.zip
+│  │  │      cUNet-Pytorch.zip
+│  │  │      diffusers $$.zip
+│  │  │      Diffusion-Models-pytorch.zip
+│  │  │      MedSegDiff $$.zip
+│  │  │      Swin-Unet $$.zip
+│  │  │      TransUNet.zip
+│  │  │      vdvae.zip
+│  │  │      VUNet-pytorch  $$.zip
+│  │  │      vunet-tensorflow.zip
+│  │  │      
+│  │  ├─attention
+│  │  │      gpt.py
+│  │  │      rqtra.py
+│  │  │      rqvae.py
+│  │  │      vit-gpt-vae.py
+│  │  │      vit-swin-unet.py
+│  │  │      vit.py
+│  │  │      vit_davit.py
+│  │  │      
+│  │  ├─diffusion
+│  │  │      diffusion.py
+│  │  │      RectifiedFlow.py
+│  │  │      
+│  │  ├─jepa
+│  │  │      cifar10_full__jepa_mini.zip
+│  │  │      jepa.py
+│  │  │      
+│  │  └─LSH
+│  │          lsh-attent.zip
+│  │          lsh.py
+│  │          reformer.zip
+│  │          
+│  ├─1 Pose-Do  RobustLoc
+│  │  │  2211.11238  RobustLoc.pdf
+│  │  │  
+│  │  └─RobustLoc
+│  │      │  data.zip
+│  │      │  eval.py
+│  │      │  README.md
+│  │      │  train.py
+│  │      │  
+│  │      └─0000
+│  │          ├─7-Scenes
+│  │          │      chess.zip
+│  │          │      fire.zip
+│  │          │      heads.zip
+│  │          │      office.zip
+│  │          │      pumpkin.zip
+│  │          │      redkitchen.zip
+│  │          │      stairs.zip
+│  │          │      
+│  │          └─RobotCar
+│  │                  RobotCar.zip
+│  │                  
+│  ├─1 Pose-No  LEAP
+│  │      LEAP.zip
+│  │      
+│  ├─2 Fast-Hash  HashNeRF PureTorchNGP  InstantNGP
+│  │      HashNeRF.zip
+│  │      nerf-ingp--fast.zip
+│  │      pure-torch-ngp.zip
+│  │      
+│  ├─2 Fast-Point  GaussianSplatting Dream 4D
+│  │      00  gaussian-splatting.zip
+│  │      01  dream-gaussian.zip
+│  │      02  4d-gaussian.zip
+│  │      
+│  ├─3 Priori  Hash Memory Network
+│  │      2105.06138  CIBHash  Unsupervised Hashing with Contrastive Information Bottleneck.zip
+│  │      
+│  ├─4 Surface  NeuS2pp Neuralangelo
+│  │      2212.05231  NeuS2.pdf
+│  │      2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf
+│  │      2306.03092  Neuralangelo.pdf
+│  │      DFR.zip
+│  │      Mesh Editing with Poisson-Based Gradient Field Manipulation.pdf
+│  │      nerf2mesh.zip
+│  │      neuralangelo.zip
+│  │      NeuS2pp.zip
+│  │      
+│  └─5 Render
+│          1506.05254  Gradient Estimation Using Stochastic Computation Graphs.pdf
+│          1906.04173  Differentiable Surface Splatting for Point-based Geometry Processing.pdf
+│          2205.14330  Differentiable Point-Based Radiance Fields for Efficient View Synthesis.pdf
+│          2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf
+│          2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf
+│          2312.00846  NeuSG Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance.pdf
+│          2312.07504  COLMAP-Free 3D Gaussian Splatting.pdf
+│          2312.09147  Triplane Meets Gaussian Splatting Fast and Generalizable Single-View 3D Reconstruction with Transformers.pdf
+│          DSS-master.zip
+│          gaussian-splatting-cuda-master.zip
+│          gaussina-splatting-main.zip
+│          kornia-master.zip
+│          neural_renderer-master.zip
+│          point-radiance-main.zip
+│          pytorch3d-main.zip
+│          RTR4-CN.pdf
+│          
+├─0 Survey
+│      2111.05849  Advances in Neural Rendering.pdf
+│      2300.00000  Neural Mesh Reconstruction.pdf
+│      2303.02879  $$  A Review of Deep Learning-Powered Mesh Reconstruction Methods.pdf
+│      2312.14132  DUSt3R Geometric 3D Vision Made Easy.pdf
+│      
+├─1 Pose  RobustLoc LEAP Colmap
+├─2 Fast  GaussianSplatting
+│      2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf
+│      2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.zip
+│      
+├─2 Fast  HashNeRF PureTorchNGP InstantNGP
+│      HashNeRF.zip
+│      pure-torch-ngp.zip
+│      
+├─3 Priori  Zero123 MemoryNetwork Diffusion Flow VAE GAN
+│  ├─$$  Few-shot Single-View 3D Object Reconstruction with Compositional Priors
+│  │      2004.06302  Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors.pdf
+│  │      code.zip
+│  │      
+│  ├─$$  Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network
+│  │      2208.00183  Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network.pdf
+│  │      
+│  ├─0000  Survey
+│  │      0000  Generation.jpg
+│  │      2103.04922  $$  Deep Generative Modelling A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models.pdf
+│  │      2209.02646  $$  A Survey on Generative Diffusion Models.pdf
+│  │      
+│  ├─1100  Foundation Models
+│  │  ├─ACC-UNet
+│  │  │      2308.13680  ACC-UNet A Completely Convolutional UNet model for the 2020s.pdf
+│  │  │      2308.13680  ACC-UNet.zip
+│  │  │      
+│  │  ├─MultiResUNet
+│  │  │      1902.04049  MultiResUNet  Rethinking the U-Net architecture for multimodal biomedical image segmentation.pdf
+│  │  │      1902.04049  MultiResUNet.zip
+│  │  │      
+│  │  ├─Swin-Unet
+│  │  │      2105.05537  Swin-Unet  Unet-like Pure Transformer for Medical Image Segmentation.pdf
+│  │  │      2105.05537  Swin-Unet.zip
+│  │  │      
+│  │  ├─TransUNet
+│  │  │      project_TransUNet.zip
+│  │  │      
+│  │  └─UCTransNet
+│  │      │  2109.04335  UCTransNet Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer.pdf
+│  │      │  2109.04335  UCTransNet.zip
+│  │      │  
+│  │      └─more
+│  │              imagen-pytorch-main.zip
+│  │              
+│  ├─1101  DirectGenerate3D
+│  │  │  2212.01206  DiffRF.pdf
+│  │  │  2212.06135  Rodin.pdf
+│  │  │  2305.02463  Shap·E.pdf
+│  │  │  
+│  │  └─more
+│  │          2212.08751  Point·E.pdf
+│  │          
+│  ├─1111  Consistency Models
+│  │      2303.01469  Consistency Models.pdf
+│  │      Consistency Models.zip
+│  │      consistency-models-2.zip
+│  │      consistency-models-main.zip
+│  │      ConsistencyModels  $$.zip
+│  │      consistency_models $$.zip
+│  │      consistency_models-main.zip
+│  │      
+│  ├─1111  EDM  Elucidating Diffusion Models
+│  │      2206.00364  Elucidating the Design Space of Diffusion-Based Generative Models.pdf
+│  │      edm-main.zip
+│  │      
+│  ├─1111  RIN  Recurrent Interface Network
+│  │      recurrent-interface-network-pytorch-main.zip
+│  │      
+│  ├─1112  RectifiedFlow
+│  │  │  2209.03003  RectifiedFlow.pdf
+│  │  │  RectifiedFlow  $$.zip
+│  │  │  RectifiedFlow-main.zip
+│  │  │  
+│  │  └─john
+│  │          RectifiedFlow.py
+│  │          
+│  ├─1112  Reversible FFJORD
+│  │      1810.01367  FFJORD Free-form Continuous Dynamics for Scalable Reversible Generative Models.pdf
+│  │      
+│  ├─2201  Conditional ViT
+│  │      1809.10486  nnU-Net.pdf
+│  │      Conditional-UNet-main.zip
+│  │      cUNet-Pytorch-master.zip
+│  │      Diffusion-Models-pytorch-main.zip
+│  │      ONE-PEACE-main.zip
+│  │      TransUNet-main.zip
+│  │      TransUNet.pdf
+│  │      VAN-Segmentation-main.zip
+│  │      ViT-Adapter-main.zip
+│  │      vit-swin-unet.py
+│  │      
+│  ├─2202  Conditional VAE
+│  │      2011.10650  vdvae Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images.pdf
+│  │      
+│  ├─2203  Conditional UNet
+│  │      1804.04694  vunet.pdf
+│  │      2004.09376  Conditional-UNet.pdf
+│  │      2109.08937  UNetFormer A UNet-like Transformer for Efficient Semantic Segmentation of Remote Sensing Urban Scene Imagery.pdf
+│  │      
+│  ├─2211  Conditional Diffusion
+│  │      2301.11798  MedSegDiff-V2  Diffusion based Medical Image Segmentation with Transformer.pdf
+│  │      ControlNet-main.zip
+│  │      
+│  ├─2212  Conditional Normalizing Flow
+│  │      0000  NormalizingFlow.webp
+│  │      1902.00275  Flow++.pdf
+│  │      1911.02052  A Method to Model Conditional Distributions with Normalizing Flows.pdf
+│  │      1912.00042  Learning Likelihoods with Conditional Normalizing Flows.pdf
+│  │      2304.14963  Flow Away your Differences  Conditional Normalizing Flows as an Improvement to Reweighting.pdf
+│  │      A Conditional Normalizing Flow for Accelerated Multi-Coil MR Imaging.pdf
+│  │      Abdelhamed_Noise_Flow_Noise_Modeling_With_Conditional_Normalizing_Flows_ICCV_2019_paper.pdf
+│  │      Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory.pdf
+│  │      Conditional-Normalizing-Flow.zip
+│  │      
+│  ├─8888  PrioriNeRF
+│  │      2212.00436  ViewNeRF.pdf
+│  │      2303.11328  Zero123.pdf
+│  │      2309.03453  SyncDreamer.pdf
+│  │      
+│  ├─9999  Misc
+│  │  │  2102.07064  NeRF??.pdf
+│  │  │  2206.11474  Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation.pdf
+│  │  │  2207.10183  2D GANs Meet  #Single View.pdf
+│  │  │  2211.17091  Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models.pdf
+│  │  │  2212.00436  ($$$$)  ViewNeRF  Unsupervised Viewpoint Estimation Using Category-Level Neural Radiance Fields.pdf
+│  │  │  2212.08051  Objaverse  A Universe of Annotated 3D Objects.pdf
+│  │  │  2300.00000  Real-Time Radiance Fields for Single-Image Portrait View Synthesis.pdf
+│  │  │  2301.10241  K-Planes  Explicit Radiance Fields in Space, Time, and Appearance.pdf
+│  │  │  2301.11093  simple diffusion End-to-end diffusion for high resolution images.pdf
+│  │  │  2303.11328  ($$$$)  Zero-1-to-3  Zero-shot One Image to 3D Object.pdf
+│  │  │  2306.17843  ($$$$)  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Prior.pdf
+│  │  │  2307.00000  Automatic Single-Image 3d Reconstructions of Indoor Manhattan World Scenes.pdf
+│  │  │  2307.05663  Objaverse-XL A Universe of 10M+ 3D Objects.pdf
+│  │  │  2309.16653  DreamGaussian.pdf
+│  │  │  denoising-diffusion-pytorch-main.zip
+│  │  │  DiscriminatorGuidance-main.zip
+│  │  │  DiscriminatorGuidance.zip
+│  │  │  ED-DPM-master.zip
+│  │  │  instantNGP.jpg
+│  │  │  NeRF-00.png
+│  │  │  NeRF-01.png
+│  │  │  NeRF.jpg
+│  │  │  NeRF年度报告.pdf
+│  │  │  SyncDreamer $$.zip
+│  │  │  
+│  │  └─zero123 $$
+│  │          0.txt
+│  │          zero123-xl.ckpt
+│  │          zero123.zip
+│  │          
+│  ├─HashNN
+│  │  │  2003.03369  A Survey on Deep Hashing Methods.pdf
+│  │  │  2105.06138  CIBHash  Unsupervised Hashing with Contrastive Information Bottleneck.pdf
+│  │  │  2105.06138  CIBHash  Unsupervised Hashing with Contrastive Information Bottleneck.zip
+│  │  │  DATE  A Statistical Approach to Mining Semantic Similarity for Deep.pdf
+│  │  │  DATE.mp4
+│  │  │  
+│  │  └─LSH
+│  │      │  2310.09806  Can LSH (Locality-Sensitive Hashing) Be Replaced by Neural Network.pdf
+│  │      │  Deep Constrained Siamese Hash Coding Network and Load-Balanced Locality-Sensitive Hashing for Near Duplicate Image Detection.pdf
+│  │      │  Image Retrieval Algorithm Based on Locality-Sensitive Hash Using Convolutional Neural Network and Attention Mechanism.pdf
+│  │      │  LSH-SMILE  Locality Sensitive Hashing Accelerated Simulation and Learning.pdf
+│  │      │  lshash-master.zip
+│  │      │  transformers-main.zip
+│  │      │  
+│  │      ├─2001.04451  Reformer The Efficient Transformer
+│  │      │      2001.04451  Reformer The Efficient Transformer.pdf
+│  │      │      2001.04451  Reformer The Efficient Transformer.py
+│  │      │      
+│  │      ├─MONGOOSE A Learnable LSH Framework for Efficient Neural Network
+│  │      │      MONGOOSE A Learnable LSH Framework for Efficient Neural Network - Supplementary Material.zip
+│  │      │      MONGOOSE A Learnable LSH Framework for Efficient Neural Network.pdf
+│  │      │      
+│  │      └─Reformer
+│  │              CoLT5-attention-main.zip
+│  │              local-attention-master.zip
+│  │              product-key-memory-master.zip
+│  │              reformer-pytorch-master.zip
+│  │              
+│  └─Memory
+│      │  1606.03126  Key-Value Memory Networks for Directly Reading Documents.pdf
+│      │  Dynamic Key-Value Memory Networks for Knowledge Tracing.pdf
+│      │  
+│      └─Survey
+│              A survey on long short-term memory networks for time series prediction.pdf
+│              A Survey on Memory Subsystems for Deep Neural Network Accelerators.pdf
+│              A Survey on Neural Networks Using Memory Component.pdf
+│              End-to-End Memory Networks A Survey.pdf
+│              
+├─4 Surface  NeuS2pp Neuralangelo NeAT NeuralUDF DefTet NeuralMarchingCubes
+│  │  2004.06302  Few-shot Single-View 3D Object Reconstruction with Compositional Priors  #Single View.pdf
+│  │  2011.01437  DefTet.pdf
+│  │  2011.01437  DefTet.zip
+│  │  2106.10689  NeuS.pdf
+│  │  2111.12503  Extracting Triangular 3D Models, Materials, and Lighting From Images.pdf
+│  │  2204.10310  UNICORN  Share With Thy Neighbors  Single-View Reconstruction by Cross-Instance Consistency  #Single View.pdf
+│  │  2208.00183  Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network  #Single View.pdf
+│  │  2208.12697  Voxurf.pdf
+│  │  2208.12697  Voxurf.zip
+│  │  2211.14173  NeuralUDF.pdf
+│  │  2211.14173  NeuralUDF.zip
+│  │  2212.05231  NeuS2.pdf
+│  │  2212.05231  NeuS2.zip
+│  │  2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf
+│  │  2303.02879  A Review of Deep Learning-Powered Mesh Reconstruction Methods.pdf
+│  │  2303.12012  NeAT.pdf
+│  │  2303.12012  NeAT.zip
+│  │  2308.05371  Flexible Isosurface Extraction for Gradient-Based Mesh Optimization.pdf
+│  │  Extracting Triangular 3D Models, Materials, and Lighting From Images.pdf
+│  │  MeshDiffusion.pdf
+│  │  nerf2mesh@NeAT.zip
+│  │  neuralangelo.zip
+│  │  NeuS2.zip
+│  │  Recovering_Fine_Details_for_Neural_Implicit_Surface_Reconstruction.pdf
+│  │  Ref-NeuS.pdf
+│  │  Towards_Unbiased_Volume_Rendering_of_Neural_Implicit_Surfaces_With_Geometry.pdf
+│  │  Voxurf.zip
+│  │  
+│  ├─DifferentableSurface
+│  │      2106.11272  NeuralMarchingCubes.pdf
+│  │      2106.11272  NeuralMarchingCubes.zip
+│  │      
+│  ├─Former3D
+│  │      former3d-main.zip
+│  │      tsdf_vortx.zip
+│  │      
+│  ├─mesh-render-fit-pytorch3d
+│  │      render-ok-pytorch3d-fit.py
+│  │      
+│  └─neus
+│          2106.10689  NeuS.zip
+│          data_DTU.zip
+│          pretrained_DTU.zip
+│          
+├─5 Dynamic  SMPLX
+├─6 Cloth
+│  └─SMPL-Clothed
+│          1908.06903  Multi-Garment Net.pdf
+│          2103.06871  SMPLicit.pdf
+│          
+├─6 Quality  HfNeuS Neuralagelo
+│      2206.07850  HF-NeuS.pdf
+│      2302.06793  HR-NeuS (So).pdf
+│      2303.02375  NeuDA (SoSo).pdf
+│      2306.03092  Neuralangelo.pdf
+│      2306.03092  Neuralangelo.zip
+│      
+├─7 Render  Differentiable
+│      0200.00000  EWA Splatting.pdf
+│      1506.05254  Gradient Estimation Using Stochastic Computation Graphs.pdf
+│      1906.04173  Differentiable Surface Splatting for Point-based Geometry Processing.pdf
+│      2006.12057  Differentiable Rendering A Survey.pdf
+│      2109.02369  Point-Based Neural Rendering with Per-View Optimization.pdf
+│      2204.01287  Software Rasterization of 2 Billion Points in Real Time.pdf
+│      2205.14330  Differentiable Point-Based Radiance Fields for Efficient View Synthesis.pdf
+│      2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf
+│      2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf
+│      Chang_Pointersect_Neural_Rendering_With_Cloud-Ray_Intersection_CVPR_2023_paper.pdf
+│      DIB-R  Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer.pdf
+│      Feature Preserving Point Set Surfaces based on Non-Linear Kernel Regression.pdf
+│      InverseRenderNet Learning single image inverse rendering.pdf
+│      Towards 3D Scene Understanding Using Differentiable Rendering.pdf
+│      
+├─7 Render  Representation
+│      2308.02751  NeRFs The Search for the Best 3D Representation.pdf
+│      2312.02980  GPT4Point A Unified Framework for Point-Language Understanding and Generation.pdf
+│      3D Object Representations.pdf
+│      mesh-gpt-main.zip
+│      
+├─8 E2E  Unicorn NerfFromImage  DreamStoneISS
+│  │  $$  2204.10310  Share With Thy Neighbors  Single-View Reconstruction by Cross-Instance Consistency.pdf
+│  │  $$  2204.10310  Unicorn  Share With Thy Neighbors  Single-View Reconstruction by Cross-Instance Consistency.zip
+│  │  $$  2211.11674  Shape, Pose, and Appearance from a Single Image via Bootstrapped Radiance Field Inversion.pdf
+│  │  $$  2211.11674  Shape, Pose, and Appearance from a Single Image via Bootstrapped Radiance Field Inversion.zip
+│  │  $$  2303.15181  DreamStone-ISS.pdf
+│  │  $$  2303.15181  DreamStone-ISS.zip
+│  │  2209.04145  ISS.pdf
+│  │  2211.11674  Bootstrapped Radiance Field Inversion.pdf
+│  │  2301.13510  3D-Former.pdf
+│  │  3D Shape Reconstruction from 2D Images with Disentangled Attribute Flow.pdf
+│  │  3D-R2N2 A Unified Approach for Single and Multi-view 3D Object Reconstructio.pdf
+│  │  Accurate 3D Shape Reconstruction from Single Structured-Light Image via Fringe-to-Fringe Network.pdf
+│  │  Differentiable Volumetric Rendering.pdf
+│  │  DVE@DreamStone-ISS.zip
+│  │  Learning Single-Image 3D Reconstruction by Generative Modelling of Shape, Pose and Shading.pdf
+│  │  Ray-ONet.pdf
+│  │  SDF-SRN.pdf
+│  │  Shape-Pose Ambiguity in Learning 3D Reconstruction from Images.pdf
+│  │  
+│  └─misc
+│          Survey of methods and principles in three-dimensional reconstruction from two-dimensional medical images.pdf
+│          Three-Dimensional Shape Reconstruction from a Single Image by Deep Learning.pdf
+│          
+└─9 DE  NeuralDifferentalEquation
+    │  2202.02435  On Neural Differential Equations.pdf
+    │  2211.11238  RobustLoc.pdf
+    │  
+    └─misc
+            1806.07366  Neural Ordinary Differential Equations.pdf
+            1810.01367  FFJORD.pdf
+            1904.01681  Augmented Neural ODEs.pdf
+            2102.11802  Three ways to solve partial differential equations with neural networks — A review.pdf
+            2201.03269  Neural Networks to Solve Partial Differential Equations  A Comparison With Finite Elements.pdf
+            A neural network?based PDE solving algorithm with high precision.pdf
+            augmented-neural-odes-master.zip
+            ffjord-master.zip
+            PDEsByNNs-main.zip
+            torchdiffeq-master.zip
+            
