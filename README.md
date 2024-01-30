@@ -19,24 +19,4 @@
 
 # to be continued, in diary ...
 
-* Long-Term: 
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/0a5fd110-0b52-483e-9ba9-66eaa2d26980)
-
-* Short-Term: 
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/b2dc8fde-4b60-4443-a291-fef2ed3eb0ef)
-
-2024 implement:
-
-  > on the way ...
   
-2023 research: 
-
-  > programmable-UnrealEngine  (1 month)
-  
-  > mesh-all (5 months)
-  
-  > nerf-all (3 months)
-  
-  > gauss-splat-all (4 months)
-  
-      
