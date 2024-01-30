@@ -1,0 +1,56 @@
+GaussianSplatting:
+    2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf
+    2309.13101  Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction.pdf
+    2309.16585  Text-to-3D using Gaussian Splatting.pdf
+    2310.08528  4D Gaussian Splatting for Real-Time Dynamic Scene Rendering.pdf
+    2310.08529  GaussianDreamer Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors.pdf
+    2310.10642  Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting.pdf
+    2311.08581  Drivable 3D Gaussian Avatars.pdf
+    2311.10812  SplatArmor Articulated Gaussian splatting for animatable humans from monocular RGB videos.pdf
+    2311.11221  GaussianDiffusion 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise.pdf
+    2311.11284  LucidDreamer Towards High-Fidelity Text-to-3D Generation via Interval Score Matching.pdf
+    2311.11700  GS-SLAM Dense Visual SLAM with 3D Gaussian Splatting.pdf
+    2311.12198  PhysGaussian Physics-Integrated 3D Gaussians for Generative Dynamics.pdf
+    2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf
+    2311.12897  An Efficient 3D Gaussian Representation for MonocularMulti-view Dynamic Scenes.pdf
+    2311.13384  LucidDreamer Domain-free Generation of 3D Gaussian Splatting Scenes.pdf
+    2311.13398  Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images.pdf
+    2311.13404  Animatable 3D Gaussians for High-fidelity Synthesis of Human Motions.pdf
+    2311.13681  Compact 3D Gaussian Representation for Radiance Field.pdf
+    2311.14521  GaussianEditor Swift and Controllable 3D Editing with Gaussian Splatting.pdf
+    2311.16043  Relightable 3D Gaussian Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing.pdf
+    2311.16096  Animatable Gaussians Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling.pdf
+    2311.16099  GART Gaussian Articulated Template Models.pdf
+    2311.16473  GS-IR 3D Gaussian Splatting for Inverse Rendering.pdf
+    2311.16482  Animatable 3D Gaussian Fast and High-Quality Reconstruction of Multiple Human Avatars.pdf
+    2311.16493  Mip-Splatting Alias-free 3D Gaussian Splatting.pdf
+    2311.16737  Point¡¯n Move Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields.pdf
+    2311.17089  Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering.pdf
+    2311.17113  Human Gaussian Splatting Real-time Rendering of Animatable Avatars.pdf
+    2311.17245  GPS-Gaussian Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis.pdf
+    2311.17857  Gaussian Shell Maps for Efficient 3D Human Generation.pdf
+    2311.17874  FisherRF Active View Selection and Uncertainty Quantification for Radiance Fields using Fisher Information.pdf
+    2311.17907  CG3D Compositional Generation for Text-to-3D via Gaussian Splatting.pdf
+    2311.17910  HUGS Human Gaussian Splats.pdf
+    2311.17977  GaussianShader 3D Gaussian Splatting with Shading Functions for Reflective Surfaces.pdf
+    2311.18159  Compact3D Compressing Gaussian Splat Radiance Field Models with Vector Quantization.pdf
+    2311.18561  Periodic Vibration Gaussian Dynamic Urban Scene Reconstruction and Real-time Rendering.pdf
+    2312.00000  Dynamic 3D Gaussians Tracking by Persistent Dynamic View Synthesis.pdf
+    2312.00000  HumanGaussian Text-Driven 3D Human Generation with Gaussian Splatting.pdf
+    2312.00000  SC-GS Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes.pdf
+    2312.00000  SplaTAM Splat, Track & Map 3D Gaussians.pdf
+    2312.00093  GraphDreamer Compositional 3D Scene Synthesis from Scene Graphs.pdf
+    2312.00109  Scaffold-GS Structured 3D Gaussians for View-Adaptive Rendering.pdf
+    2312.00112  DynMF Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting.pdf
+    2312.00206  SparseGS Real-Time 360¡ã Sparse View Synthesis using Gaussian Splatting.pdf
+    2312.00451  FSGS Real-Time Few-shot View Synthesis using Gaussian Splatting.pdf
+    2312.00583  MD-Splatting Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes.pdf
+    2312.00732  Gaussian Grouping Segment and Edit Anything in 3D Scenes.pdf
+    2312.00846  NeuSG Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidence.pdf
+    2312.00846  NeuSG Neural Implicit Surface Reconstruction with 3D Gaussian Splatting.pdf
+    2312.02126  SplaTAM Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM.pdf
+    2312.02981  ReconFusion 3D Reconstruction with Diffusion Priors.pdf
+    2312.07504  COLMAP-Free 3D Gaussian Splatting.pdf
+    2312.09147  Triplane Meets Gaussian Splatting Fast and Generalizable Single-View 3D Reconstruction with Transformers.pdf
+    2312.13763  Align Your Gaussians Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models.pdf
+    2401.03890  A Survey on 3D Gaussian Splatting.pdf
