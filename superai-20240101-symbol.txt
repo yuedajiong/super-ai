@@ -1,0 +1,116 @@
+卷 数据 的文件夹 PATH 列表
+卷序列号为 8CE9-4716
+D:.
+│  SuperT.txt
+│  
+├─! Mathink
+│      2307.03381  Teaching Arithmetic to Small Transformers.pdf
+│      2311.11045  Orca 2 Teaching Small Language Models How to Reason.pdf
+│      2312.08935  Math-Shepherd Verify and Reinforce LLMs Step-by-step without Human Annotations.pdf
+│      2312.15166  SOLAR 10.7B Scaling Large Language Models with Simple yet Effective Depth Up-Scaling.pdf
+│      2312.17120  Generative AI for Math Part I MATHPILE A Billion-Token-Scale Pretraining Corpus for Math.pdf
+│      Nature  Solving olympiad geometry without human demonstrations.pdf
+│      
+├─# LLM
+│  ├─0000 SOTA
+│  │      2401.04088  Mixtral of Experts.pdf
+│  │      2401.13660  MambaByte Token-free Selective State Space Model.pdf
+│  │      2401.14196  DeepSeek-Coder When the Large Language Model Meets Programming -- The Rise of Code Intelligence.pdf
+│  │      
+│  ├─Hallucination
+│  │      2312.00000  WikiChat.pdf
+│  │      2312.00000  WikiChat.zip
+│  │      
+│  ├─RAG Retrieval-Augmented-Generation
+│  │      2005.11401  Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf
+│  │      2312.10997  Retrieval-Augmented Generation for Large Language Models A Survey.pdf
+│  │      2401.09350  Foundations of Vector Retrieval.pdf
+│  │      mlx-rag-main.zip
+│  │      
+│  ├─Reasoning
+│  ├─Speech
+│  │      bark-main.zip
+│  │      whisper-main.zip
+│  │      
+│  └─Tool
+│          2307.16789  ToolLLM.pdf
+│          
+├─$ CL
+│      2312.16731  Disentangled Continual Learning Separating Memory Edits from Model Updates.pdf
+│      
+├─$ DecisionTransformer
+│      2106.01345  Decision Transformer Reinforcement Learning via Sequence Modeling.pdf
+│      2202.05607  Online Decision Transformer.pdf
+│      
+├─$ Iteration
+│      2311.12424  Looped Transformers are Better at Learning Learning Algorithms.pdf
+│      
+├─$ Memory
+│      2310.08560  MemGPT.pdf
+│      
+├─$ RL
+├─$ Route
+│      0094.00000  Neural Routing Circuits for Forming Invariant Representations of Visual Objects.pdf
+│      1600.00000  Deep Neural Decision Forests.pdf
+│      1701.00299  Dynamic deep neural networks Optimizing accuracy-efficiency trade-offs by selective execution.pdf
+│      1702.07780  Changing Model Behavior at Test-Time Using Reinforcement Learning.pdf
+│      1703.06217  Deciding How to Decide Dynamic Routing in Artificial Neural Networks.pdf
+│      1708.04607  Segmentation-aware convolutional networks using local attention masks.pdf
+│      1711.09784  Distilling a Neural Network Into a Soft Decision Tree.pdf
+│      1811.10201  Instanas Instance-aware neural architecture search.pdf
+│      1811.10201  Instanas Instance-aware neural architecture search.zip
+│      1905.04849  Dynamic Routing Networks.pdf
+│      1907.00000  SNR Sub-Network Routing.pdf
+│      1911.05443  Dynamic Connected Neural Decision Classifier and Regressor with Dynamic Softing Pruning.pdf
+│      2003.10401  Learning Dynamic Routing for Semantic Segmentation.pdf
+│      2100.00000  Neural Routing by Memory.pdf
+│      2102.04906  Dynamic Neural Networks A Survey.pdf
+│      InstaNAS-master.zip
+│      
+├─$ Structure
+│      1900.00000  Novel positional encodings to enable tree-based transformers.pdf
+│      2004.08483  ETC Encoding Long and Structured Inputs in Transformers.pdf
+│      2106.05667  GraphiT Encoding Graph Structure in Transformers.pdf
+│      2210.05062  Generalizing Transformers for Graph-Structured Tasks.pdf
+│      2300.00000  Transformers for Tabular Data Representation.pdf
+│      2303.00716  Aligning benchmark datasets for table structure recognition.pdf
+│      
+└─@ Idea
+    │  1709.04057  Parallelizing Linear Recurrent Neural Nets Over Sequence Length.pdf
+    │  2002.09402  Addressing Some Limitations of Transformers with Feedback Memory.pdf
+    │  2200.00000  The Xzistor Concept a functional brain model to solve Artificial General Intelligence.pdf
+    │  2206.10498  PlanBench An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change.pdf
+    │  2207.02098  Neural Networks and the Chomsky Hierarchy.pdf
+    │  2211.09085  Galactica A Large Language Model for Science.pdf
+    │  2305.00000  Exploiting the Approximate Omniscience of LLMs in Planning without Deluding yourself in the Process.pdf
+    │  2305.13546  Neural Functional Transformers.pdf
+    │  2305.14909  Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning.pdf
+    │  2305.15771  On the Planning Abilities of Large Language Models  A Critical Investigation.pdf
+    │  2306.05685  Judging LLM-as-a-judge with MT-Bench and Chatbot Arena.pdf
+    │  2310.16028  What Algorithms can Transformers Learn A Study in Length Generalization.pdf
+    │  2310.19089  Pushdown Layers Encoding Recursive Structure in Transformer Language Models.pdf
+    │  2311.00000  Can LLMs Really Reason & Plan.pdf
+    │  2311.05762  ON A CONJECTURE OF MARTON.pdf
+    │  2311.11829  System 2 Attention.pdf
+    │  2311.12983  GAIA  A Benchmark for General AI Assistants.pdf
+    │  2311.14648  Calibrated Language Models Must Hallucinate.pdf
+    │  2311.14737  Positional Description Matters for Transformers Arithmetic.pdf
+    │  2311.16989  ChatGPT's One-year Anniversary Are Open-Source Large Language Models Catching up.pdf
+    │  2312.00752  Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf
+    │  2312.02149  Generative Powers of Ten.pdf
+    │  2312.10997  Retrieval-Augmented Generation for Large Language Models A Survey.pdf
+    │  2312.11562  A Survey of Reasoning with Foundation Models.pdf
+    │  2312.16143  On the Trajectories of SGD Without Replacement.pdf
+    │  2312.16337  Task Contamination Language Models May Not Be Few-Shot Anymore.pdf
+    │  2312.16549  How Robust are LLMs to In-Context Majority Label Bias.pdf
+    │  2312.17241  Compact Neural Graphics Primitives with Learned Hash Probing.pdf
+    │  
+    └─# People
+        ├─Jürgen Schmidhuber
+        │      1003.0358x  Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition.pdf
+        │      1511.09249  On Learning to Think Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models.pdf
+        │      1802.08864  One Big Net For Everything.pdf
+        │      
+        └─Richard S. Sutton
+                122344.122377  Dyna, an Integrated Architecture for Learning, Planning, and Reacting.pdf
+                
