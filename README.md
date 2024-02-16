@@ -19,6 +19,8 @@
 
 # to be continued, in diary ...
 
-
+long-term:
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/4b03027c-8030-4f74-9126-da5d5b074f45)
 
+current:
+![image](https://github.com/yuedajiong/super-ai/assets/52232153/ffed6305-3bf9-46f5-a0a3-371b1185f5d9)
