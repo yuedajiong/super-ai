@@ -37,3 +37,35 @@ DRL/gen-4dworld + UE5(even Robot).../run
 2.  “强”推理/符号 
      强形式：数学级别，AI超级数学家  （类似Lean4级别完全自动/只要有算力：猜想提出方案推荐/搜索，推理验证，... ），(FunSearch, AlphaGeometry, LeanDojo等不够）   这个方向折腾的人少得多，Lean4就很难，语言难度是小事，把现有的数学定理正确形式化就难倒绝大多数人了，更别说能够去更高层次抽象统一Lean+Math里面的各种对象然后给出unified的SuperAI+Lean4
      弱形式：日常推断，GPT这种继续增强可以勉强糊弄人，逼近而不是解决
+
+
+twitter上看到nerf+gs的大神作者会合了，希望能出来一个: 最最最少： material+lighting and interactive supported 4D representation
+
+我也不需要发论文，只是自己非公开做算法/系统，所以我把我当前的整个算法/系统贴在这里：
+https://github.com/yuedajiong/super-ai
+我按照我个人理解的想要的理想的效果看：立体，交互，逼真，影级，世界。
+Sora能够这么轰动，其实和chatgpt路线走了类似的可以出效果但难最终解决“强约束”问题，不考虑最终约束是不是能够走到100分，先走大模型到80分的路。
+立体： 10% （一定程度支持相机视角转换，隐含了比较弱的立体和一致性）
+交互： 0% （特别观赏时候的实时的交互）
+逼真： 40% (合理性将是很大挑战：个体shape逼真，运动逼真，光照/sora多个太阳的影子方向等问题太多)
+影级： 60% (生成式大模型，走到80%后，其实就很难提高了和按需控制了)
+世界： 10% （一定程度复杂的场景）
+
+Done with code:
+我将对象类型的无限扩展，采用DiffHash的方式来做。（不需要重新训练整个网络，新增类别的时候只是infer出当前类别的hash内容）
+
+Doing:
+我将lighting部分分离出来了。在合成数据上测试，构造不同位置和不同的光源类型。
+我实现了100%自动下载(one-key-to-download-all )mixamo并构造任意camera-pose和lighting，并用blender程序render。
+（公开了90%代码，如果有需要的朋友，我可以分享10%代码的密码）https://github.com/yuedajiong/super-ai-vision-stereo-object-mixamo
+
+ToDo:
+我对理想的4D-5D表示，虽然学习了很多各种做法，包括Nerual和传统给CG的（在GS issues中有share GS-4D)，但什么是真的理想的，还是希望看GS+NeRF的大神们怎么表示。
+
+
+老老实实的往这个方向做：生成4D模型，复杂场景合成，在线的时候，输入观察者相机路线，实时交互的数据表示，然后实时render出需要的双目2D图片。
+
+这一年多来全球轰轰烈烈的卷生成模型，80%的AI人肉身投入，99%的注意力吸引；在所有的大佬的争吵声中，其实就是，在基于训练数据统计出的规律上，生成的时候相对自由，逼近现实的约束，增加的有多强；但是，天下没有免费的午餐，要最终真的非娱乐级别的考虑： 一是要有验证引擎(3D engine，Lean4, physical world, ... ), 二还是需要更强的体现约束的算法，比如vision中有3d model data structure和interaction。
+
+坚信：更强的符合物理和符号世界现实的强约束的模型，才是好模型。
+
