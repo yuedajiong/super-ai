@@ -4,7 +4,7 @@
   Never work for any country, any orgnization, any company, any person.
   
   Never be used for Beijing, China. (喜欢就是喜欢，不喜欢就是不喜欢)
-  c
+
   Just for my dream: close to the demiurge, by super-intelligence. 
 
   
