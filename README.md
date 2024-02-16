@@ -19,7 +19,7 @@
 
 # to be continued, in diary ...
 
-# long-term: (not Open-AI direction)
+# long-term: (super ai including symbol/mathink) (not Generative direction)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/4b03027c-8030-4f74-9126-da5d5b074f45)
 
 
