@@ -26,6 +26,5 @@
 # current: (physical/vision)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/ffed6305-3bf9-46f5-a0a3-371b1185f5d9)
 
-# current: (symbol/math)
-https://github.com/yuedajiong/super-ai-objective-world/tree/main/math_lean4_rl_env
+
 
