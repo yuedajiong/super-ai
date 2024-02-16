@@ -11,3 +11,28 @@ Similar to Mathink, combining DL+RL for predictive planning and Lean4 for rigoro
 SO:
 DRL/gen-planning+reasoning + Lean4.../run
 DRL/gen-4dworld + UE5(even Robot).../run
+
+
+
+全球那么多聪明人/牛逼的公司，任何人做的任何研究，只要跨度小了，都很可能很快被超越。
+在通往一个“理想”的效果下，任何阶段性的“领先”，都很快被扫进垃圾堆。
+
+“真”立体视觉 (Sora just version-0.1)
+NeRF, GS，Mesh, ...等方向，下一步，(个人估计）能够维持2+年的领先，必须得“同时”考虑下面几点（按照优先级）：
+P0: 动态/4D
+P0: 互作/Interactive (非常复杂，有形无形不同，OpenAI类似的GPT/Diffusion的路，永远只能逼近90分，而达不到99)
+P1: 单图少图/FewShot Gen
+P1: 相机姿态自动或自由/CameraPoseFree
+P1: 可控性/Controllable (图+视频:写实图+火柴图，文，UI, )
+P2: 强约束/Physical Constraints （比如精密机械的运动） （PK OpenAI, PK DeepMind, PK MetaAI）
+P2: 材质光照/Material Lighting
+P3: 视觉质量/Realistic+Cinimatic
+--- Must Have Simultaneously (否则，任何研究者/公司在任何一个维度上去增强，都可能把上一代技术给打下去了）
+--- GS-4D在Temporal上还没有好的表示；还没有人研究互作，没有确定性表面（有人研究概率性互作）；大部分跟随者还是当成一个重构问题但最终一定是生成问题（一个高质量细节人可能需要数万张图片重构，不实用）；现在不仅需要Camera甚至鲁棒都还没有解决；材质光照没有考虑；现在整体质量还是toy++级别；...
+P4: 训练和在线使用/速度/Speed
+P4: 表示(含动作)紧凑(不仅压缩)/representation compact
+....
+
+“强”推理/符号
+强形式：数学级别，AI超级数学家 （类似Lean4级别完全自动/只要有算力：猜想提出方案推荐/搜索，推理验证，... ），(FunSearch, AlphaGeometry, LeanDojo等不够） 这个方向折腾的人少得多，Lean4就很难，语言难度是小事，把现有的数学定理正确形式化就难倒绝大多数人了，更别说能够去更高层次抽象统一Lean+Math里面的各种对象然后给出unified的SuperAI+Lean4
+弱形式：日常推断，GPT这种继续增强可以勉强糊弄人，逼近而不是解决
