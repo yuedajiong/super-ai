@@ -1,0 +1,6 @@
+bottom-up：
+
+chip: memristor
+platform: pipeline stream   # Groq: https://twitter.com/JayScambler/status/1759372542530261154
+algorihtm: local learning
+...
