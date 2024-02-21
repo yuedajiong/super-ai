@@ -1,0 +1,18 @@
+2024-02-21:
+Maybe, highly-probable, the ‘stereo dynamic interactive unified-vision' game has already been game-over.
+
+Sora-now:
+text/image -> sora-pipeline(above) -> video (2d+time)
+
+Sora-next-1: (stereo)
+text/image -> sora-pipeline++(simply elevate-dimension on grid to grid+ and constraint 3d consistency likes in 2D) -> dynamic stereo (3d+time)
+
+sora-next-2: (interactive-controllable)
+enhance controllable input: text, image, args(time, resolution, ...) -> parameters from UI
+text/image++(UI) -> sora-pipeline++(simply elevate-dimension on grid to grid+ and constraint 3d consistency likes in 2D) -> dynamic stereo (3d+time)
+
+sora-next-3: (strong-constaints)
+text/image++(UI) -> sora-pipeline++(simply elevate-dimension on grid to grid+ and constraint 3d consistency likes in 2D； and a batch to explict respesentation such as 4D-mesh for physically consistent strong constraints) -> dynamic stereo (3d+time) -> render back to 2D binocular
+
+so, game over!
+
