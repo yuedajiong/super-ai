@@ -1,0 +1,12 @@
+1) Hi Prof. LeCun, I am a staunch supporter of your insights.  https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
+2) In terms of algorithmic research and engineering implementation understanding, personally, I believe that providing a stronger reference model based on your most fundamental world model definition is beneficial for researchers to progress towards a more powerful true AGI.
+3) a. The world model in AI and the brain is an abstract representation of the objective physical and symbolic world, which is not entirely consistent. For example, wavelengths and the human perception of red differ, and this is useful for creating the world model from scratch.
+4) b. It is essential to consider the world model as a dynamic system, especial physical/vision model.
+5) c1. Given the widespread debates around GPT-like models, the ultimate representation of the world model can be categorized into: pure implicit/neural (such as ChatGPT, LLaMA, Sora - weak world model), 
+6) c2. pure explicit/symbolic (3D-Vision/Mesh-like Objects&Scenes/Structure-Data/Can-Run-In-UE, Lean4-RL-Env-Engine constructing the majority of mathematical activities as computation in the world model's, - strong world model), 
+7) c3. and a hybrid approach (symbol aligning with neural, complex and challenging; where: a)fixeds-shape in mesh but complex-motion in nural; b)mathematical abilities like 'abstraction' may be difficult to represent as code in Lean4 and may need neural-implementation).
+8) Lacking academic rigor, merely aligning with theoretical perspectives through engineering practices. 
+https://github.com/yuedajiong/super-ai
+9) In constructing a unified interactive dynamic stereo world, we found that achieving strong constraints using pure neural networks is challenging. 
+10) We impose a requirement for a (symbolic 4D mesh structured data + neural deform matrix/funciton) representation between the 'generation' and 'rendering' stages, aligning with human understanding. 
+11) Essentially, this approach provides stronger constraints (include physical collesion). This is what we understand as the world-model in vision, which can fully align with your definition.
