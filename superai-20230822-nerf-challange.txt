@@ -1,0 +1,28 @@
+原文：
+效率速度  先验利用  表征增强  光照材质分解  动态建模  大场景建模  生成与编辑
+
+我的理解：
+先从原始NeRF和后来的各种方向优化变种，来看几个大的方向，还有：
+
+A. 完美视觉任务定义下，与任务需求”无关“，仅仅资源，效果，或者应用问题：
+    A.1.  Resource相关：效率速度其实说的一回事fast/computing resource(train&infer)，而少了memory/storage resource这个重要的优化研究方向。
+    A.2.  Quality相关：shape, texture, resolution, ....
+    A.3.  Mesh相关：比如还是希望在游戏,VR等场景走原始的pipeline，比如栅格化渲染实时的用在GameEngine中，也是一个继续在折腾的方向。
+
+B. 完美视觉任务定义下，与任务需求”相关“，现在算法的定义还不满足：
+    B.1.1. Camera/Pose相关： locaiton&pose esitamtion, learning from priori, joint, ...
+    B.1.2. Fewshot-Priori相关：本质上Priori不是刻意要引入，是因为很多场景下只有one-shot, few-shot，甚至想做text-guided偏生成的。
+               所以Fewshot-Priori--Generation本质是一回事。Fewshot是需求，Priori是唯一的解决的信息来源，Genration(AE,Diffusion,...)是解决的手段之一。  
+
+    B.2.1. Object相关：对象的视觉特性：刚体与非刚体，普通的玩偶与头发甚至烟雾水波，透明与半透明，侧重体还是侧重表面，...
+    B.2.2. Scene相关：文中关键字主要强调了“large"，比如自动驾驶搞一个街区一个城市，
+                                       我觉得还有几个：large不完全等于complex，unbound，multiobject.
+                                       当然包含文中所说光照材质等复杂环境的因素。
+    B.2.3. Motion-TimeDependent相关：文中提到的动态，k-plane等在解决的问题。这里我觉得需要结合对象本身是否在非刚体变动。
+    B.2.3. Motion-Interactive相关:  比如手抓皮球，一是基本的互作，二是引起的皮球非刚体形变；如果是手拨动头发，甚至流水，就更麻烦。
+                                                             其中文章把”生成与编辑“放到一起，个人感觉缺乏深度思考，是很上层的一个用户视角。
+                                                             生成是 B.1.2的事情，而编辑，我认为的malipulate更多的从本质和技术上，是会和B.2.3. Motion-Interactive相关。
+                                                             当然，好的生成应该满足Interactive下的各种约束的体现。比如瑞士钟表这种精确机械运动的立体重构，运动重构的比重远超形体和纹理的重构了。
+
+   ...... 如此类似的理解和分类。
+
