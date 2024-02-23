@@ -1,3 +1,6 @@
+https://twitter.com/ylecun/status/1759941089170206731
+
+
 1) Hi Prof. LeCun, I am a staunch supporter of your insights.  https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
 2) In terms of algorithmic research and engineering implementation understanding, personally, I believe that providing a stronger reference model based on your most fundamental world model definition is beneficial for researchers to progress towards a more powerful true AGI.
 3) a. The world model in AI and the brain is an abstract representation of the objective physical and symbolic world, which is not entirely consistent. For example, wavelengths and the human perception of red differ, and this is useful for creating the world model from scratch.
