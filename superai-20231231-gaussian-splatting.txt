@@ -24,7 +24,7 @@ GaussianSplatting:
     2311.16473  GS-IR 3D Gaussian Splatting for Inverse Rendering.pdf
     2311.16482  Animatable 3D Gaussian Fast and High-Quality Reconstruction of Multiple Human Avatars.pdf
     2311.16493  Mip-Splatting Alias-free 3D Gaussian Splatting.pdf
-    2311.16737  Point¡¯n Move Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields.pdf
+    2311.16737  PointÂ¡Â¯n Move Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields.pdf
     2311.17089  Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering.pdf
     2311.17113  Human Gaussian Splatting Real-time Rendering of Animatable Avatars.pdf
     2311.17245  GPS-Gaussian Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis.pdf
@@ -42,7 +42,7 @@ GaussianSplatting:
     2312.00093  GraphDreamer Compositional 3D Scene Synthesis from Scene Graphs.pdf
     2312.00109  Scaffold-GS Structured 3D Gaussians for View-Adaptive Rendering.pdf
     2312.00112  DynMF Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting.pdf
-    2312.00206  SparseGS Real-Time 360¡ã Sparse View Synthesis using Gaussian Splatting.pdf
+    2312.00206  SparseGS Real-Time 360Â¡Ã£ Sparse View Synthesis using Gaussian Splatting.pdf
     2312.00451  FSGS Real-Time Few-shot View Synthesis using Gaussian Splatting.pdf
     2312.00583  MD-Splatting Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes.pdf
     2312.00732  Gaussian Grouping Segment and Edit Anything in 3D Scenes.pdf
