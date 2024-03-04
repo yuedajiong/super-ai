@@ -1,0 +1,17 @@
+2024-03-01之前：
+
+首先：“极高速度”，“低配GPU”（能支持CUDA就行）；
+其次：“多视角”重构，比较准的“相机位姿”；
+
+目前最靠谱的技术路线：
+2.5D，explicit points(gauss-):  Gaussian Splatting
+3.0D，explicit mesh:            FlexiCubes
+
+前者基于随机或者colmap高斯点初始化；本身不支持mesh，如果需要则SuGaR是比较好的选择；
+后者基于voxel_grid初始化，本身支持mesh，mesh需要额外步骤从voxel_grid计算而来；
+
+两者都这么“快快快快快快快快快快快”，甚至可能是最快的完成重构fit，都是基于“梯度”的位置修改。
+
+目前暂未发现“又快又好”的其他路线，比如nerf, sdf等。
+
+
