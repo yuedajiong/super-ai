@@ -1,1 +1,31 @@
+Representation:
+	implicit:radiancefield: noNN(Plenoxels)
+	implicit:radiancefield: mlp(NeRF)
+	implicit:radiancefield: plane(triplane/multiplane)
+	implicit:radiancefield: tree(PlenOctrees)
+	implicit:radiancefield: hash(InstantNGP)
 
+	explicit:discrete: points
+	explicit:discrete: voxel(GS/GS++)
+	explicit:continuous:combinatorial: sdf/udf
+	explicit:continuous:combinatorial: mesh(FlexiCubes)
+	explicit:continuous:functional: *
+
+	other:hybrid:gs+surface(SuGaR)
+	other:hybrid:volume-surface(BakedSDF)
+	other:combination:misc(Brep)
+
+
+CameraPose:
+    keypoints-correlation:hard:colmap
+    keypoints-correlation:soft:dust3r
+
+    pose-render-only:LEAP
+    pose-differential-equation:RobustLoc
+    pose-auto-gressive:TripoSR
+    pose-joint-optimize:nerfmm
+    pose-joint-optimize:nerftrinsic-four 
+    pose-explicit-geometric+video-continuity:colmap-free3DGS
+    pose-space/perspective-warping:nerf-f2
+    pose-monocular-depth-prior:nerf-nope
+    pose-relative-rotations:realpose++
