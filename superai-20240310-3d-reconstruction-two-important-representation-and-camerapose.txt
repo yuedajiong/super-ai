@@ -1,12 +1,13 @@
 Representation:
 	implicit:radiancefield: noNN(Plenoxels)
 	implicit:radiancefield: mlp(NeRF)
-	implicit:radiancefield: plane(triplane/multiplane)
+	implicit:radiancefield: plane/triplane/multiplane(triposr)
 	implicit:radiancefield: tree(PlenOctrees)
 	implicit:radiancefield: hash(InstantNGP)
 
-	explicit:discrete: points
-	explicit:discrete: voxel(GS/GS++)
+	explicit:discrete: points(dust3r)
+    explicit:discrete: points++(GS/GS++)
+	explicit:discrete: voxel(Leap)
 	explicit:continuous:combinatorial: sdf/udf
 	explicit:continuous:combinatorial: mesh(FlexiCubes)
 	explicit:continuous:functional: *
@@ -20,6 +21,7 @@ CameraPose:
     keypoints-correlation:hard:colmap
     keypoints-correlation:soft:dust3r
 
+    pose-nothing:SplatterImage
     pose-render-only:LEAP
     pose-differential-equation:RobustLoc
     pose-auto-gressive:TripoSR
@@ -29,3 +31,4 @@ CameraPose:
     pose-space/perspective-warping:nerf-f2
     pose-monocular-depth-prior:nerf-nope
     pose-relative-rotations:realpose++
+
