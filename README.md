@@ -21,7 +21,7 @@
   
   input: single-image
   
-  output: explicit-stereo-representation (only: stereo, todo: dynamic and interactive.)
+  output: explicit-stereo-representation (only: stereo; todo: dynamic and interactive.)
 
 
 # to be continued, in diary ...
