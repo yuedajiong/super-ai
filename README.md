@@ -20,6 +20,7 @@
   The first version of the ultimate visual model is completed.
   
   input: single-image
+  
   output: explicit-stereo-representation (only: stereo, todo: dynamic and interactive.)
 
 
@@ -35,7 +36,4 @@
 # current: (physical/vision/dynamic-stereo)
 (symbol/mathink please refer to ['super-ai-symbol-mathink-lean-rl-environment'](https://github.com/yuedajiong/super-ai-symbol-mathink-lean-rl-environment))
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/43319dc9-22d7-4307-8288-73b3e137d624)
-
-
-
 
