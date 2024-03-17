@@ -16,15 +16,16 @@ all the tricks in one hand, no any newer:  :-(
  step 0-a:
    text -> Image-Gen -> image
 
- step 0-b:
-   image -> MV-gen -> MV images
-   image -> Video-Gen -> Framed images
+ step 0-b:   importent
+   image -> [no MV step]                 @Splatter-Image
+   image -> MV-gen -> MV images          @most of algorihtms
+   image -> Video-Gen -> Framed images   @V3D
 
- step 1:
-   images -> [Diffusion]Unet or Transformer++ -> middle representation (triplane, gs, sugar+gs, RF, ...)
+ step 1:    very important, different network architecture
+   image[s] -> [Diffusion]Unet or Transformer++ -> middle-representation (laten/RF, points,points-map, volex, triplane, gs, sugar, ...)    #favor: triplane or sugar
 
  step 2:
-   middle representation -> MarchCubes,[FlexiCubes],SDF, ... -> mesh
+   middle-representation -> MarchCubes,[FlexiCubes],SDF, ... -> mesh
 
  step 9:
    mesh -> refiner -> HR mesh
