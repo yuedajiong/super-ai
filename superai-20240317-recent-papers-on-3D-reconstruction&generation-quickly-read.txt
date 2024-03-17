@@ -13,13 +13,13 @@ all the tricks in one hand, no any newer:  :-(
  input:  image [text]
  output:  3d (gs, mesh, ...)
 
- step 0-a:
+ step 0-a:  optional, by imput, if text
    text -> Image-Gen -> image
 
- step 0-b:   importent
-   image -> [no MV step]                 @Splatter-Image
+ step 0-b:   importent  (essence: stereo priori)
+   image -> [no MV step]                 @Splatter-Image, ...
    image -> MV-gen -> MV images          @most of algorihtms
-   image -> Video-Gen -> Framed images   @V3D
+   image -> Video-Gen -> Framed images   @V3D, ...
 
  step 1:    very important, different network architecture
    image[s] -> [Diffusion]Unet or Transformer++ -> middle-representation (laten/RF, points,points-map, volex, triplane, gs, sugar, ...)    #favor: triplane or sugar
