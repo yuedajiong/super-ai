@@ -1,1 +1,31 @@
+# papers including-but-not-limited:
+  leap
+  triposr
+  lrm
+  dust3r
+  splatter
+  lgm
+  mvcontrol-threestudio
+  v3d
+  ...
+
+all the tricks in one hand, no any newer:  :-(
+ input:  image [text]
+ output:  3d (gs, mesh, ...)
+
+ step 0-a:
+   text -> Image-Gen -> image
+
+ step 0-b:
+   image -> MV-gen -> MV images
+   image -> Video-Gen -> Framed images
+
+ step 1:
+   images -> [Diffusion]Unet or Transformer++ -> middle representation (triplane, gs, sugar+gs, RF, ...)
+
+ step 2:
+   middle representation -> MarchCubes,[FlexiCubes],SDF, ... -> mesh
+
+ step 9:
+   mesh -> refiner -> HR mesh
 
