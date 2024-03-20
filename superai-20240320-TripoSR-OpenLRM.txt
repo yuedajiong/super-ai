@@ -1,1 +1,24 @@
+Network：
+  LRM: 有camera para带入
+  TST: 去掉了camera para带入；把triplane-dim从80减少到40
+  个人理解： TSR这个camera处理更好好，输入需求更少（估计训练收敛慢一点）；dim减少为了减少内存，但总体肯定不好，至少按照LRM几个模型规格，大一些不少
+
+Loss
+  LRM: pixel_loss, perceptual_loss, tv_loss
+  TSR: 1/n other views mse + current view lpisp + current view mask bce + [local patch loss]
+  个人理解：完全不同，mask抓轮廓肯定比较直接；local patch按照作者说的抓局部细节有效；有3D的时候同时采样兼顾其他几个角度（我觉得这个可能是减少了janus的一个因素，生成的对象多视角一致性有好处）; 组合LRM的可能有好处。
+
+Data Augment
+  LRM: 给出了数据集，还有render，比较明确咋做的
+  TSR: 数据集不知道有多少，按照文章的说法，估计通过角度/远近/甚至适当的变形摇摆噪音，光照多少和角度，估计多一些
+
+Train:
+  LRM: 公开了
+  TSR: 小细节未知
+
+Priori:
+  都通过网络记忆，网络参数也没有特别大，感觉受限。
+
+3D Represent:
+  现在主要的竞争方案，不是GS，主要是hybrid GS。 不好说哪个好，个人倾向连续。
 
