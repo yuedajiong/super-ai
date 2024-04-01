@@ -26,14 +26,11 @@
 
 # to be continued, in diary ...
 
-# long-term: (super ai /symbol/mathink) 
+# long-term: (super-ai /symbol/thinker/mathink) 
 (not generative direction; Fig.2 strcuture/algorithm is still on developing ...)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/4b03027c-8030-4f74-9126-da5d5b074f45)
 
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/ba17e1a2-3ebe-4111-bb10-ff66a03a228b)
+# current: (super-ai /physical/vision/dynamic-stereo)
+![image](https://github.com/yuedajiong/super-ai/assets/52232153/6038c765-cc15-4564-afce-742ee7eca8f7)
 
-
-# current: (physical/vision/dynamic-stereo)
-(symbol/mathink please refer to ['super-ai-symbol-mathink-lean-rl-environment'](https://github.com/yuedajiong/super-ai-symbol-mathink-lean-rl-environment))
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/43319dc9-22d7-4307-8288-73b3e137d624)
 
