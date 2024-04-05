@@ -19,7 +19,7 @@
 
   The first version of the ultimate visual model is completed.
   
-  input: single-image (camera-free, priori-hash, mask-support, single-object-so-far)
+  input: single-image (camera-free, incremental-hash-priori, mask-support, single-object-so-far)
   
   output: explicit-stereo-representation (only: stereo; todo: dynamic and interactive.)
 
