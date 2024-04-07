@@ -23,9 +23,11 @@
   
   output: explicit-stereo-representation (only: stereo; todo: dynamic and interactive.)
 
-  Accepting cooperation: 
-  1) Paper collaboration, where I provide SOTA algorithms for <not only stereo quality, but also task-definition with few-constrain>;
+  accepting-cooperation: 
+  1) Paper collaboration, where I provide SOTA algorithms for <not only stereo quality, but also task-definition with few-constrain>.
+
      few-constrain task-definion means: [few-constrain task-definion.py.txt](https://github.com/yuedajiong/super-ai/files/14897435/few-constrain.task-definion.py.txt)
+     
   2) Commercial-grade training <especially for object categories> and fee-based services, with both parties jointly providing computational resources.
 
 
