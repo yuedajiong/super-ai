@@ -23,6 +23,9 @@
   
   output: explicit-stereo-representation (only: stereo; todo: dynamic and interactive.)
 
+# Accepting cooperation: 
+  1) Paper collaboration, where I provide SOTA algorithms for <not only stereo quality, but also task-definition with few constrains>;
+  2) Commercial-grade training <especially for object categories> and fee-based services, with both parties jointly providing computational resources.
 
 # to be continued, in diary ...
 
