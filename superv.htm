@@ -1,0 +1,307 @@
+<html>
+<body style="height: 100%; width: 100%; margin: 0">
+    <div id="container" style="height: 200%; width: 100%;"></div>
+    <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
+    <script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('container'), null, {renderer: 'canvas', useDirtyRect: true});
+    var myData = 
+    {
+		"name": "Interactive Dynamic Stereo Vision\n<TODO Filter>",
+		"value": "Computer Vision Ultimate Task",
+		"children": 
+        [
+			{
+                "name": "By Technology",
+                "value": "Core Technoloies in E2E",
+			    "children": 
+                [
+					{
+					 "name": "Survey",
+					 "value": ""
+					},
+
+					{
+					 "name": "Dataset",
+					 "value": ""
+					},
+
+					{
+					    "name": "Preprocess",
+                        "value": "Image, Text, ...",
+					    "children":
+                        [
+							{
+								"name": "Image",
+								"value": "Image Processing",
+								"children":
+								[
+									{
+										"name": "Segmentation",
+										"value": "Background Segmentation",
+										"children":
+										[
+											{
+												"name": "rembg",
+												"value": "",
+												"children":
+												[
+													{"name": "My Favour",          "value": "<Personalized data, stroe in Cookie>"},
+                                                    {"name": "Other Category",     "value": "<TheTreePath>"},
+                                                    {"name": "Selling Points",     "value": "使用广泛，通用型，边缘整齐"},
+                                                    {"name": "Plain language",     "value": "大白话论文解读"},
+													{"name": "Paper",              "value": "https://arxiv.org/"},
+                                                    {"name": "Abstract",           "value": "bla,bla,bla"},
+													{"name": "Code",               "value": "https://github.com/danielgatis/rembg"},
+													{"name": "Output Examples",    "value": "https://github.com/danielgatis/example.jpg"},
+													{"name": "Authors",            "value": "Alice, Bob, ..."},
+													{"name": "Date",               "value": "2024-01"},
+                                                    {"name": "More/Collapsed",     "value": "Reader Rate+/-, Unofficial Implementation, ......"},
+												]
+											}
+										]
+									}
+								]
+							},
+
+							{
+								"name": "Text",
+								"value": "Text Processing",
+								"children":
+								[
+									{
+										"name": "Embedding",
+										"value": "Text Embedding",
+										"children":
+										[
+											{"name": "", "value": ""},
+											{"name": "", "value": ""}
+										]
+									}
+								]
+							},
+					    ]
+					},
+
+
+					{
+					    "name": "Camera Pose(Detection&Construction)",
+					    "value": ""
+					},
+
+					{
+					    "name": "Depth",
+					    "value": ""
+					},
+
+					{
+					    "name": "Keypoints",
+					    "value": ""
+					},
+
+					{
+					    "name": "Prior Involve",
+					    "value": ""
+					},
+
+					{
+					    "name": "Representation(3/4/5D)(Points,GS, NeRF, SDF, Volex, ...)",
+					    "value": "",
+					    "children": 
+                        [
+							{
+								"name": "Explicit",
+								"value": "",
+								"children": 
+								[
+
+									{
+										"name": "Gaussian Splatting",
+										"value": ""
+									},
+									{
+										"name": "Points Cloud",
+										"value": ""
+									},
+									{
+										"name": "Volex",
+										"value": ""
+									},
+									{
+										"name": "SDF",
+										"value": ""
+									},
+									{
+										"name": "...",
+										"value": ""
+									}
+								]
+							},
+
+							{
+								"name": "Implicit",
+								"value": "",
+								"children": 
+								[
+									{
+										"name": "NeRF",
+										"value": ""
+									},
+									{
+										"name": "...",
+										"value": ""
+									}
+								]
+							},
+
+							{
+								"name": "Hybrid",
+								"value": "",
+								"children": 
+								[
+									{
+										"name": "...",
+										"value": ""
+									}
+								]
+							}
+                        ]
+					},
+
+					{
+					    "name": "Stereo Generate/3D",
+					    "value": ""
+					},
+
+					{
+					    "name": "Motion Generation/4D(Regid,Human,Hair,Water,Machine,...)",
+					    "value": ""
+					},
+
+					{
+					    "name": "Interactive/5D",
+					    "value": ""
+					},
+
+					{
+					    "name": "Differentable Render",
+					    "value": ""
+					},
+
+					{
+					    "name": "Scene Composition",
+					    "value": ""
+					},
+
+					{
+					    "name": "Loss, Regularization ",
+					    "value": ""
+					},
+
+					{
+					    "name": "Train",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Viewer",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Speed(Train/Infer)",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Memory(Model, Compress)",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Large",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Quality(HR,...)",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Surface",
+					    "value": ""
+					},
+
+					{
+					    "name": "Special: Editor",
+					    "value": ""
+					},
+
+					{
+					    "name": "Misc ...",
+					    "value": ""
+					}
+			    ]
+			},
+
+			{
+			    "name": "By Application",
+                "value": "Main Applications",
+			    "children": 
+                [
+					{
+					    "name": "Human",
+					    "value": "",
+					    "children": 
+                        [
+							{
+								"name": "Face",
+								"value": ""
+							},
+							{
+								"name": "Head",
+								"value": ""
+							},
+							{
+								"name": "Hair",
+								"value": ""
+							},
+							{
+								"name": "Body",
+								"value": ""
+							},
+							{
+								"name": "Hand",
+								"value": ""
+							},
+							{
+								"name": "Garm",
+								"value": ""
+							}
+                        ]
+					},
+
+					{
+						"name": "Game Assets",
+						"value": ""
+					},
+
+					{
+						"name": "Autonomous Driving",
+						"value": ""
+					},
+
+					{
+						"name": "...",
+						"value": ""
+					}
+
+			   ]
+			}
+		]
+	}
+    myChart.setOption((option = {tooltip: {trigger: 'item', triggerOn: 'mousemove', formatter: '{c}', verticalAlign: 'bottom', align: 'right', fontColor: '#000', backgroundColor: 'rgba(192,192,255,1.0)'}, series: [{data: [myData], type: 'tree', initialTreeDepth: 9, expandAndCollapse: true, orient: 'horizontal', edgeShape: 'polyline', edgeForkPosition: "98%", symbol: 'circle', left: '3%', right: '33%', top: '3%', bottom: '3%', animationDuration: 550, animationDurationUpdate: 750, lineStyle: {color: '#ccc', width: 2, type: 'solid'}, label: {position: 'right', rotate: 0, verticalAlign: 'middle', align: 'left', fontSize: 11, formatter: '{b}'}, leaves: {label: {position: 'right', rotate: 0, verticalAlign: 'middle', align: 'left', formatter: '{b}:\n  {c}'}}}]}));
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
