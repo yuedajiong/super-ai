@@ -1,0 +1,436 @@
+https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
+
+
+
+(TPJ) some half-baked thoughts 
+
+(just an AGI amateur and making some smarter algorithm toys; English is not my native language)
+（只是一个 AGI 业余爱好者，制作一些更智能的算法玩具；英语不是我的母语）
+
+for main contributions: (JUST from my personal)
+主要贡献：（仅来自我个人）
+
+A Path Towards Autonomous Machine Intelligence #https://openreview.net/forum?id=BZ5a1r-kVsf #LeCun:
+迈向自主机器智能之路 # https://openreview.net/forum?id=BZ5a1r-kVsf #LeCun：
+
+worth learning 值得学习
+
+an E2E differentiable self-supervised model, only this. (of course, maybe this is very powerful.)
+一个端到端可微的自监督模型，仅此而已。 （当然，也许这很强大。）
+limitations  局限性
+
+should not be denied: non-generative
+不应该被否认：非生成性
+
+should not be denied: non-contrastive
+不应该被否认：非对比
+
+planning is complex and varied, and the hierarchical sequential planning is not the universal pattern.
+规划复杂多样，分层序贯规划不是通用模式。
+
+--- excessive exclusivity is misleading, especially from the big-masters!
+--- 过度的排他性会产生误导，尤其是来自大佬们！
+
+The Alberta Plan for AI Research #https://arxiv.org/abs/2208.11173 #Sutton:
+艾伯塔省人工智能研究计划 # https://arxiv.org/abs/2208.11173 #Sutton：
+
+worth learning 值得学习
+
+more 'general' task definition, than LeCun's
+比 LeCun 的任务定义更“通用”
+
+emphasized continual and online
+强调持续和在线
+
+emphasized value-function's', not value-function.
+强调价值函数，而不是价值函数。
+
+emphasized gradientless searching; refer to 'heuristic function', General Problem Solver, Herbert Alexander Simon, 1960.
+强调无梯度搜索；请参阅“启发式函数”，一般问题求解器，赫伯特·亚历山大·西蒙，1960 年。
+
+maybe, ordinary experience, temporal uniformity and special case are important.
+也许，普通经验、时间一致性和特殊情况都很重要。
+
+limitations  局限性
+
+just raised feature-finding, no reward-finding; in fact, a) what's reward in inputs, needs algorihtm to find; b)what's supervised-signal, more needed to find.
+只是提出了特征寻找，没有奖励寻找；事实上，a）输入的奖励是什么，需要算法来找到； b）什么是监督信号，更需要找到。
+
+no clear intelligence-components description, just a 12-steps, looks ....
+没有明确的智能组件描述，只有 12 个步骤，看起来....
+
+RL everywhere, RL is really enough?
+RL无处不在，RL真的够用吗？
+
+Both of above: 以上两者：
+
+NOT abstract and define a good-and-mini target-task.
+不要抽象和定义一个好的、迷你的目标任务。
+
+more others limitations will be listed in following sections.
+更多其他限制将在以下部分列出。
+
+what is the better way to construct AMI(LeCun's Auto)/AGI/SuperAI?
+构建AMI（LeCun's Auto）/AGI/SuperAI的更好方法是什么？
+
+bottom-up construction by composed intelligent-unit: more complete abstraction of neurons even larger granularity, interactive environment representing for certain types of tasks.
+由组合智能单元进行自下而上的构建：更完整的神经元抽象，更大的粒度，代表某些类型任务的交互环境。
+
+or scientists semi-manufactured guided by math-theory + experience + inspiration?
+还是由数学理论+经验+灵感指导的半成品科学家？
+
+--- LeCun and Sutton chose the second way, but God chose the first way.
+--- LeCun和Sutton选择了第二种方式，但上帝选择了第一种方式。
+
+Are other un-supervised/self-supervised supporting points to be excluded?
+是否要排除其他无监督/自监督支撑点？
+
+1/a-1. Self-reconstruction: AE,dAE,VAE,**AE,Dual, ...
+1/a-1。自重建：AE，dAE，VAE，**AE，双，...
+
+2/a-2. Context prediction: PreNet,xNN/Next,Mask, ...
+2/a-2。上下文预测：PreNet、xNN/Next、Mask、...
+
+3/b-1. True and false distinction(even far and near distinction): GAN; Noise or not: Diffusion; unsupervised-aspect-learning: random/real-text as inputs and final construction loss is AA'-I=0, ...
+3/b-1。真假区分（甚至远近区分）：GAN；是否有噪音：扩散；无监督方面学习：随机/真实文本作为输入，最终构造损失为 AA'-I=0，...
+
+4/c-1. Natural elimination: Evolutionary Algorithms
+4/c-1。自然淘汰：进化算法
+
+5/c-2. Win or lose: AlphaZero-SelfPlay, ...
+5/c-2。输赢：AlphaZero-SelfPlay，...
+
+6/d-1. Index optimization: MDL(minimum description length) minimization, NLL(negative log-likelihood) minimization, MI(mutual information) maximization... (optimized with expectation-maximization EM, or NN)
+6/d-1。索引优化：MDL（最小描述长度）最小化、NLL（负对数似然）最小化、MI（互信息）最大化...（使用期望最大化 EM 或 NN 进行优化）
+
+7/d-2. Distance iteration: K-means,**Clustering,SOM,Hebb,**LocalLearningRule, ...
+7/d-2。距离迭代：K-means，**聚类，SOM，Hebb，**LocalLearningRule，...
+
+8/d-3. Matrix factorization: MF/SVD, MF/QR, ...
+8/d-3。矩阵分解：MF/SVD、MF/QR，...
+
+9/e-1. Zero and few shot: For example, using word-embedding/text on high-level features to construct new categories, dragon = long-long + scales + claws + feet, ...
+9/e-1。零、少镜头：例如，在高级特征上使用词嵌入/文本来构造新类别，龙=长长+鳞片+爪子+脚，...
+
+No pure unsupervised learning, there is always some kind of fulcrum(supporting points). I made the list based on my personal learning.
+没有纯粹的无监督学习，总有某种支点（支撑点）。我根据个人学习情况列出了这份清单。
+Of course, you can also make more reasonable and essential abstract classifications instead of my abcde classification. Here, my question is whether to exclude other fulcrums that can be used as unsupervised/self-supervised automation?
+当然，你也可以做出更合理、更本质的抽象分类，来代替我的abcde分类。在这里，我的问题是是否排除其他可以用作无监督/自监督自动化的支点？
+I think super-AI can take all of these fulcrums to solve problems.
+我认为超级AI可以以所有这些支点来解决问题。
+
+
+
+(just an AGI amateur and making some smarter algorithm toys; English is not my native language)
+（只是一个 AGI 业余爱好者，制作一些更智能的算法玩具；英语不是我的母语）
+
+Do we need several typical/good/small tasks to drive research, even a basic code framework as a baseline? For intelligence and consciousness, I think, maybe, there are related but independent.
+我们是否需要几个典型/好的/小任务来推动研究，甚至需要一个基本的代码框架作为基线？对于智力和意识来说，我想，也许，它们是相关的，但又是独立的。
+So here I roughly arranged these several levels I want to discuss from the bottom to the top according to their strength:
+所以这里我按照强弱从下到上大致排列了我要讨论的这几个层次：
+
+level-0: so far, big-toy-level, still funtion fitting, just complexer.
+level-0：到目前为止，大玩具级别，仍然功能拟合，只是更复杂。
+
+level-1-a: more automatic: LeCun's paper. I don't know whether this kind of automation, supplemented by scale, can be strong artificial intelligence.
+level-1-a：更自动：LeCun 的论文。不知道这种自动化，辅以规模化，能不能算是强人工智能。
+
+level-1-b: more general: more general intelligence, maybe not necessarily powerful, but not limited on multi-tasks.
+level-1-b：更通用：更通用的智能，也许不一定强大，但不限于多任务。
+
+level-2: human-like: may have biological/human-specific parts such as consciousness, emotions, etc., which may never be fully covered by computer intelligence.
+level-2：类人：可能具有生物/人类特有的部分，例如意识、情感等，这些部分可能永远不会被计算机智能完全覆盖。
+
+level-3: super: just powerful. If my intelligence in mathematics is 120 (normal), Tao or Mochizuki Shinichi's(@Japan) IQ is 160 points, given the computing power, Machine Mathematician's IQ may be above 10^100+, and very easy.
+3级：超级：非常强大。如果我的数学智力是120（正常），Tao或者望月新一（@Japan）的智商是160分，考虑到计算能力，机器数学家的智商可能在10^100+以上，而且很容易。
+
+Many of our human minds, limitationed in three-dimensional space; and Machine Mathematician can think freely in ultra-high dimensions, which human flesh brains can never reach. Assuming that the most complex conjectures of human beings require 100 pages of very abstract and difficult papers, a few mathematicians can barely understand them, while Machine Mathematician can be easily understood in 10^10 pages of papers. If the natural number 123 has a mathematical abstraction degree of 1, and 0 has an abstraction degree of 2, calculus has an abstraction degree of 5, Yang-Mill is 20, and P=NP is 25; and Machine-Mathematician comes up with the concept of an abstraction degree of 100 and all relevant theorems can be automatically calculated. Of course, these confined to computable-theories based on everything we currently know, will that never be possible?
+我们许多人的思维都局限于三维空间；而机器数学家可以在超高维度上自由思考，这是人类肉脑永远无法达到的。假设人类最复杂的猜想需要100页非常抽象和困难的论文，少数数学家只能勉强理解，而机器数学家可以在10^10页论文中轻松理解。如果自然数123的数学抽象度为1，0的抽象度为2，微积分的抽象度为5，Yang-Mill为20，P=NP为25；机器数学家提出了抽象度为100的概念，所有相关定理都可以自动计算。当然，这些仅限于基于我们目前所知的一切的可计算理论，这永远不可能吗？
+
+In order to continue to develop smarter feasible algorihtms. I personally constructed these three tasks with different inclinations. These problems are small-scale, and let more people participate instead of the huge model on 10k~100k TPUs in Google, but all are very challenging.
+为了继续开发更智能可行的算法。我个人以不同的倾向构建了这三个任务。这些问题都是小规模的，让更多人参与，而不是Google在10k~100k TPU上的庞大模型，但都非常具有挑战性。
+
+a) Visual + text 3D mini world https://github.com/yuedajiong/super-ai-objective-world/physical_world/ The main tendency of exploration in this direction is to adapt to survival in the 3D world under the multiple senses of human beings.
+a) 视觉+文字3D迷你世界 https://github.com/yuedaj​​iong/super-ai-objective-world/physical_world/ 该方向探索的主要倾向是适应多重感官下的3D世界生存人类。
+
+b) Machine-mathematician (I call it mathink or mathinker) https://github.com/yuedajiong/super-ai-objective-world/math_add/ calculate, prove, assume, construct, ... deductive/inductive/abductive, ... The challenge or core is: whether it is able to learn the "abstraction" mathematics ability.
+b）机器数学家（我称之为mathink或mathinker）https://github.com/yuedaj​​iong/super-ai-objective-world/math_add/计算、证明、假设、构造、...演绎/归纳/溯因， ……挑战或者核心是：是否能够学会“抽象”的数学能力。
+
+c) Boolean Satisfiability Problem/01-SAT The problem is very simple, but it can be difficult to solve. it is an NP problem.
+c) 布尔可满足性问题/01-SAT 该问题非常简单，但可能很难解决。这是一个NP问题。
+The first one is to explore the gap between the next generation of artificial intelligence and the mathematical optimality in deterministic optimization problem, and to explore the boundaries of computability.
+第一个是探索下一代人工智能与确定性优化问题的数学最优性之间的差距，探索可计算性的边界。
+
+
+
+
+(just an AGI amateur and making some smarter algorithm toys; English is not my native language)
+（只是一个 AGI 业余爱好者，制作一些更智能的算法玩具；英语不是我的母语）
+
+Is there something else important missing?
+是不是还缺少其他重要的东西？
+
+a) Temporal modeling, interactive modeling spatio-temporal modeling, SNN, ...; Interactive not one-shot;
+a) 时间建模、交互式建模时空建模、SNN、……；互动而非一次性；
+
+b) In the main task of the human world, the tendency of information input is not independent discrete and single, nor artificial batch, but sequence/stream over time.
+b) 在人类世界的主要任务中，信息输入的趋势不是独立离散和单一，也不是人工批量，而是随时间推移的序列/流。
+
+c) Learning mechanism Is gradient descent/BP the ultimate learning mechanism beyond biological learning? Intuitively, we need a purely parallel but cooperative system.
+c) 学习机制 梯度下降/BP是超越生物学习的终极学习机制吗？直观上，我们需要一个纯粹并行但协作的系统。
+In human brain, at least, each neural cell is operating in parallel. If this is a reasonable direction, then local+parallel is necessary. 'Local' may be limited by the physical 3D connection in human brain, and 'parallel' happens to be limited by current computer architecture.
+至少在人脑中，每个神经细胞都是并行运行的。如果这是一个合理的方向，那么本地+并行是必要的。 “本地”可能受到人脑中物理 3D 连接的限制，而“并行”恰好受到当前计算机架构的限制。
+
+I will list some of these “Local” learning methods. Although they are still difficult to surpass GD/BP, it may just be that this direction has not fully developed to a high level.
+我将列出其中一些“本地”学习方法。虽然他们还很难超越GD/BP，但可能只是这个方向还没有完全发展到高水平。
+
+Simple physical principles/biological mechanisms (association and competition): Hebbian/ContrastiveHebbian/Grossberg/Oja/LWA(WTA)/…; Random Feedback Weights;
+简单的物理原理/生物机制（关联和竞争）：Hebbian/ContrastiveHebbian/Grossberg/Oja/LWA(WTA)/…；随机反馈权重；
+Assist network learning adjustment: RL for Local Learning; MetaL for Local Learning;
+辅助网络学习调整：RL for Local Learning； Metal 本地学习；
+Time-varying comparison: Real Time Recurrent Leaning; Recurrent Backpropagation; Eligibility Propagation; Equilibrium Propagation;
+时变比较：实时循环学习；循环反向传播；资格传播；平衡传播；
+Generate the model: Target Propagation; Difference Target Propagation; Predictive Coding;
+生成模型：目标传播；差异目标传播；预测编码；
+Feedback connection comparison: Feedback Connections; Direct Feedback Alignment; Deep Feedback Control;
+反馈连接比较：反馈连接；直接反馈对齐；深度反馈控制；
+Symmetrical weights or symbols: Weight Mirror & KP+; Weight Symmetry; Sign Symmetry;
+对称重量或符号：Weight Mirror & KP+；重量对称；符号对称；
+Neural/spike-inspired expanded graphs (nodes): SpikeGrad;
+神经/尖峰启发的扩展图（节点）：SpikeGrad；
+others: NGRAD/Neural Gradient Representation by Activity Differences; Dynamic Stimuli Trace Learning; GlobalErrorVector Broadcasting; Node Perturbation;
+其他：NGRAD/神经梯度活动差异表示；动态刺激跟踪学习；全局错误向量广播；节点扰动；
+d) Decomposition ability for solving complex problems 'Chain of Thought'@PaLM is not enough. For example, a mathematical problem requires 10,000 steps to solve, and even requires 'construction' ability.
+d) 解决复杂问题“思想链”@PaLM 的分解能力还不够。例如，一道数学题需要一万步才能解决，甚至需要“构造”能力。
+
+e) Iterations in the solution In the solution of complex problem, the human thinking process will repeatedly iterate and call different ability modules.
+e) 解决方案的迭代 在复杂问题的解决过程中，人类的思维过程会反复迭代、调用不同的能力模块。
+
+f) Uncertain to certain, such as mathematical calculations (decomposition fine enough and interpretable) How to learn some mathematically optimal deterministic problems, use neural networks as the only solving basis?
+f) 不确定到确定，比如数学计算（分解足够精细且可解释） 如何学习一些数学上最优的确定性问题，使用神经网络作为唯一的求解基础？
+Such as sort, various mathematical calculations. I personally think that: the uncertainty, relative certainty, and abstraction/symbols (which can be deterministically represented as tensor behind it), they are strongly related. Further, it is very worrying whether the approach starting from the neural network, which can really propose the 'infinity' symbol and understand the corresponding operation. Of course, about symbols and connections, the big guys have a lot of debate: @LeCun: What AI Can Tell Us About Intelligence; @Gary: Marcus #Deep Learning Alone Isn’t Getting Us To Human-Like AI
+比如排序，各种数学计算。我个人认为：不确定性、相对确定性和抽象/符号（可以确定性地表示为背后的张量），它们是强相关的。此外，令人非常担忧的是，从神经网络出发的方法是否能够真正提出“无穷大”符号并理解相应的操作。当然，关于符号和联系，大佬们有很多争论：@LeCun：AI 能告诉我们什么关于智能； @Gary：马库斯#深度学习本身并不能让我们获得类人的人工智能
+
+I personally believe that calculations on symbols can be executed on neural, and the human brain is an real example; In current computer architecture, can be implemented too, such as: Given a color mixing task.
+我个人认为符号的计算可以在神经上执行，人脑就是一个真实的例子；在当前的计算机架构中，也可以实现，例如：给定一个颜色混合任务。
+
+Do low-level tasks based on neural, and converge to a certain extent.
+基于神经网络做底层任务，并达到一定程度的收敛。
+
+The brain has a mechanism to abstract the "vector/symbol or sub-network operator" learned in the neural network to the upper layer.
+大脑有一种机制，可以将神经网络中学到的“向量/符号或子网络运算符”抽象到上层。
+
+For the parts with high probability or even 100% probability, do the mapping to the operation function area that tends to be symbolic, and give the label (label can be vector/tensor), and freeze, corresponding to deterministic concepts such as red, green, blue . (In the physical world it is the wavelength, in the human brain it is the color of subjective perception, in our case it is the tensor.)
+对于概率高甚至100%概率的部分，做映射到趋于符号化的运算函数区域，并给出标签（标签可以是向量/张量），并冻结，对应确定性概念如红色、绿，蓝 。 （在物理世界中它是波长，在人脑中它是主观感知的颜色，在我们的例子中它是张量。）
+
+Here, we have abstract symbols of physical, biological brain, computer intelligence models, and symbolic manipulations. (red+green+blud=white/black, + means mix)
+在这里，我们有物理、生物大脑、计算机智能模型和符号操作的抽象符号。 （红+绿+蓝=白/黑，+表示混合）
+
+We also completed neural probability/uncertainty, to symbolic determinism, and calculus on it. In fact, we also make a quantitative distinction between red; by extension, we can also do a similar process for human emotions.
+我们还完成了神经概率/不确定性、符号决定论及其微积分。其实我们对红色也做了数量上的区分；推而广之，我们也可以对人类的情感进行类似的处理。
+
+Personal conjecture, the symbolic calculation supported by neural needs to consume a large number of neurons in the brain, which is different from the symbolic calculation in the computer, which requires only a few bits of calculation. Symbolic operation is a relatively abstract ability to use the nervous system, and its essence is a natural ability of the nervous system.
+个人猜想，神经支持的符号计算需要消耗大脑中大量的神经元，这与计算机中的符号计算只需要很少的位数计算不同。符号运算是神经系统运用的一种相对抽象的能力，其本质是神经系统的一种天然能力。
+
+
+
+
+
+(just an AGI amateur and making some smarter algorithm toys; English is not my native language)
+（只是一个 AGI 业余爱好者，制作一些更智能的算法玩具；英语不是我的母语）
+
+g) From probability to optimal (such as some sort, combinatorial optimization problems have optimal solutions) How can some mathematically optimal deterministic problems be learned using neural networks as the only solving machine?
+g) 从概率到最优（比如某种排序、组合优化问题有最优解） 如何使用神经网络作为唯一的求解器来学习一些数学上最优的确定性问题？
+Such as sort, various mathematical calculations. Yes, I read some papar, there are solve these tasks, BUT, case by case, and very toy.
+比如排序，各种数学计算。是的，我读过一些文章，里面有解决这些任务的方法，但是，具体情况具体分析，而且非常玩具。
+
+h) Route in solution (function-partition, function-partition inside) / MoE / prompt / ...
+h) 解决方案中的路线（功能分区，内部功能分区）/MoE/提示/...
+
+i) different input sizes in different tasks (to handle it short-term memory?) (is projection enough? among functional partitions.)
+i）不同任务中的不同输入大小（以处理短期记忆？）（功能分区之间的投影是否足够？）
+
+j) Forgetting/Evolution; Growth; Online/Incremental; Reproduction and Evolution Reproduction and Evolution: Distillation of Distributed Agents in the big world compress and re-unfold.
+j) 遗忘/进化；生长;在线/增量；繁殖与进化 繁殖与进化：大世界中分布式智能体的蒸馏压缩和重新展开。
+
+k) few/zero samples For the mechanism of the few-shot/zero-shot itself, I think there are at least three paths: First, the network itself is sufficient to match the problem, Second, the world model is powerful enough to use, Third is that a special network can perform complex searches internally, and iteratively perform various self-consistent calculations.
+k)少样本/零样本 对于少样本/零样本本身的机制，我认为至少有3条路径：一是网络本身足以匹配问题，二是世界模型足够强大使用，第三是特殊的网络可以在内部进行复杂的搜索，并迭代地进行各种自洽计算。
+
+l) Full parallelism (naturally pure distributed) The entire computing mode is essentially serial, not full-parallel. For example, on each atomic building block, there is an independent thread, even if there is no input signal, it will idle nop.
+l) 全并行（天然纯分布式） 整个计算模式本质上是串行的，而不是全并行的。例如，在每个原子构建块上，都有一个独立的线程，即使没有输入信号，也会空闲nop。
+
+m) Computability/NP-hard Again, this pattern, intelligence, or boundaries of computability are not explored. For example, an NP-hard task may be solved to what extent-to.
+m) 可计算性/NP-hard 同样，这种模式、智能或可计算性的边界没有被探索。例如，一个 NP 困难任务可以解决到什么程度。
+
+n) Existence is the ultimate signal in philosophy. When all the various strong and weak points of supervision are missing, what exists in the world is the ultimate.
+n) 存在是哲学的终极信号。当监督的各种强弱点全部缺失时，世间存在的就是终极。
+
+--- To sum up, I think that what is really lacking now, the first step is a kind of independent but related, controll and controlled among several networks, the essence is relatively automatic coordination, and finally solve the problem or adapt to the world to get reward, such a mechanism.
+---综上所述，我认为现在真正缺乏的，第一步是几个网络之间的一种独立但又相关、控制和受控，本质是相对自动的协调，最终解决问题或者适应世界上获得奖励，这样的机制。
+
+
+
+
+
+(just an AGI amateur and making some smarter algorithm toys; English is not my native language)
+（只是一个 AGI 业余爱好者，制作一些更智能的算法玩具；英语不是我的母语）
+
+e) Add direction into scalar, to the vector, which can take into account various fulcrums such as generation, contrast, and regularization. Is exclusivity needed when looking for a fulcrum of supervision in learning.
+e) 将方向添加到标量、向量中，这可以考虑生成、对比度和正则化等各种支点。在寻找学习监督的支点时是否需要排他性？
+In the early days, LeCun recommended its PredictiveNetwork. I don't know whether he liked the mask in gpt/bert these years.
+早期，LeCun推荐了它的PredictiveNetwork。不知道这些年他是否喜欢gpt/bert里的面具。
+Now, he rejects generative and contrastive ones, and likes regularization. I think these different fulcrums are all effective, and they are just the reflections of the information relationship in the objective world.
+现在，他拒绝生成式和对比式，而喜欢正则化。我认为这些不同的支点都是有效的，它们只是客观世界中信息关系的反映。
+what we have, which we use. For example, for a scalar, add a direction to get a vector. We can predict forwards to generate and reason, and we can predict backwards to abductive-inference.
+我们拥有什么，我们使用什么。例如，对于标量，添加方向即可得到向量。我们可以向前预测生成和推理，也可以向后预测溯因推理。
+
+f) Explicit world model, or implicit in the algorithm. Is the algorithm itself enough to get an implicit world model, or is there such an explicit and independent one. Is there such a mechanism and ability in the human brain?
+f) 显式的世界模型，或隐式的算法。算法本身是否足以得到一个隐式的世界模型，或者是否存在这样一个显式的、独立的世界模型。人脑中是否有这样的机制和能力呢？
+It seems that there is no part of the independent brain area dedicated to it? Of course, it is useful.
+好像没有独立的大脑区域专门负责的吧？当然，它是有用的。
+
+g) configurator is not the kind of automatic coordination of various interactions. Obviously the ability desiged is too weak.
+g) 配置器不是那种自动协调各种交互的。显然设计的能力太弱了。
+
+h) Scaling is necessary, scaling is not enough. needs more ingenious building-block.
+h) 缩放是必要的，但缩放还不够。需要更巧妙的构建模块。
+
+some imporant ones, when I try to implement a smater AI algorihtm on my tasks, especial Matchine-mathematician.
+当我尝试在我的任务中实现更简单的人工智能算法时，一些重要的问题，特别是 Matchine 数学家。
+growth ability automatic decompose big-task into subtasks, even to find and use similar sub-networks
+成长能力自动将大任务分解为子任务，甚至找到并使用相似的子网络
+
+network to network collaboration, in nn style
+nn 风格的网络间协作
+
+routing mechanism (not only MoE) / sparse network architecture
+路由机制（不仅仅是MoE）/稀疏网络架构
+
+full-parallel, every unit
+完全并行，每个单元
+
+reward automatic finding<delay, external>/supervised-signal finding<direct, internal>
+奖励自动发现<延迟，外部>/监督信号发现<直接，内部>
+
+spatio-temporal especial temporal for embodied in real world
+时空，特别是体现在现实世界中的时间
+
+non-deterministic to/and deterministic for connecting between symbolic and neural.
+符号和神经之间的连接具有非确定性和确定性。
+
+gradient/gradient-less, local, learning
+梯度/无梯度、局部、学习
+
+and a realistic engineering problem, how to unify the DIFFERENT input_output data shape in different tasks(vision, audio, text, structured, ...; Euclidean, sequence, set, graph, ...), linear is not enough. (obviously, our brain handle it better.)
+而一个现实的工程问题，如何统一不同任务中不同的输入输出数据形状（视觉、音频、文本、结构化……；欧几里得、序列、集合、图……），线性是不够的。 （显然，我们的大脑处理得更好。）
+
+continue to explore bottom-up AI construction, to find that ingenious and univesal building block & composition policy.
+继续探索自下而上的人工智能构建，寻找巧妙且通用的构建块和组合策略。
+
+Add
+[–] [-]
+(TPJ) some half-baked thoughts （5/6)
+(TPJ)一些不成熟的想法（5/6) 
+DaJiong YUE  岳大炯
+30 Aug 2022 (modified: 05 May 2023)OpenReview Archive Paper10356 CommentReaders:  EveryoneShow Revisions
+2022年8月30日（修改：2023年5月5日）OpenReview Archive Paper10356 CommentReaders：Everyone Show Revisions
+Comment:  评论：
+(just an AGI amateur and making some smarter algorithm toys; English is not my native language)
+（只是一个 AGI 业余爱好者，制作一些更智能的算法玩具；英语不是我的母语）
+
+Some personal disagreements.
+个人有些不同意见。
+
+a) common sense What is common sense?
+a) 常识 什么是常识？
+I think it's various constraints, just looks "very basic" by "human". Although LeCun is a great scientist and even a Turing Award winner, I really can't understand why this question is repeatedly raised by him. For example, in a task, when a pangolin crosses a hill, it may drill a hole; and when a human crosses a hill, it should climb over; if a human also drills a hole, everyone naturally thinks that this algorithm lacks common sense. Obviously, as long as the given constraints are enough, especially there are seemingly basic and obvious constraints.
+我认为这是各种限制，只是“人类”看起来“非常基本”。虽然LeCun是​​一位伟大的科学家，甚至是图灵奖获得者，但我实在无法理解他为什么会反复提出这个问题。例如，在一个任务中，当穿山甲翻越一座小山时，它可能会钻一个洞；人越过一座山，就应该爬过去；如果人类也钻洞，每个人自然会认为这个算法缺乏常识。显然，只要给定的约束就足够了，特别是有看似基本且明显的约束。
+
+b) awareness There are many theories about consciousness, an interesting one: https://www.sciencedirect.com/science/article/abs/pii/S0166432821005830 According to the platform theory of consciousness, consciousness is not a state of the brain itself, but is rather related to what the brain is operating on, or actively manipulating.
+b）意识 关于意识有很多理论，一个有趣的理论：https://www.sciencedirect.com/science/article/abs/pii/S0166432821005830 根据意识平台理论，意识不是大脑本身的一种状态，但与大脑正在运行或积极操纵的内容有关。
+Consciousness is bound to sophisticated and complex cognitive operations, that require large processing resources of the brain.
+意识与复杂的认知操作息息相关，这需要大脑的大量处理资源。
+Furthermore, consciousness is something that the brain is allotting to mental representations of stimuli, associations, concepts, memories, and experiences that are effortfully maintained in working memory and actively manipulated in a central executive/online platform. Consciousness: a state associated with complex cognitive operations; not: a passive basic state that is automatically occupied while awake. In the end, I thought it was a philosophical question, 中文：我思，故我在；English: I think, therefore I am; Latin: Cogito, ergo sum; French: Je pense, donc je suis.; If it is really generated in a computer algorithm, then I think there are several keywords:
+此外，意识是大脑分配给刺激、关联、概念、记忆和经验的心理表征，这些表征被努力维持在工作记忆中，并在中央执行/在线平台中积极操纵。意识：与复杂认知操作相关的状态； not：清醒时自动占据的被动基本状态。最后我认为这是一个哲学问题，中文：我思，故我在；英文：我思故我在；拉丁语：Cogito, ergo sum；法语：Je pense, donc je suis.；如果真的是用计算机算法生成的，那么我觉得有几个关键词：
+
+Loop-back and direct-to Self
+环回和直接到自身
+
+Subnetwork-to-Subnetwork
+子网到子网
+
+Coordinate many information
+协调许多信息
+
+Time: now (brain and physical environment, a few micro-seconds to a few hundred micro-seconds)
+时间：现在（大脑和物理环境，几微秒到几百微秒）
+
+c) reasoning rational reasoning Irrational reasoning (What is the ultimate source of emotion, personalization? Random numbers?)
+c) 推理 理性推理 非理性推理（情感、个性化的最终来源是什么？随机数？）
+
+d) Relationships within the network z@H-JEPA where z comes from sampling on a distribution? Or an artificial value?
+d) 网络 z@H-JEPA 内的关系，其中 z 来自分布采样？还是人为的价值？
+Or is it a component of information derived from the world? I think that there is at least one possibility, that is, the output of upper-layer and the output of another-network; even the intent information of task.
+或者它是来自世界的信息的组成部分？我认为至少有一种可能，即upper-layer的输出和another-network的输出；甚至任务的意图信息。
+
+c) automation of cost So far, the design of various loss/cost is very tricky. I think for the development of the cost part, it should:
+c) 成本自动化 到目前为止，各种损失/成本的设计非常棘手。我认为对于成本部分的开发，应该：
+
+As long as 3 conditions in general metric are satisfied, https://en.wikipedia.org/wiki/Distance.
+只要满足一般指标中的 3 个条件即可，https://en.wikipedia.org/wiki/Distance。
+The system can automatically combine and construct many losses, including regular terms, and has the ability of subsystems to perceive and select losses.
+系统可以自动组合和构造包括正则项在内的多种损失，并具有子系统感知和选择损失的能力。
+Here, the internal loss is not enough. When there is no way to evaluate, the learning should be weakened: involve random exploration, involve search, and involve feedback rewards from the external world.
+这里，内部损失还不够。当没有办法评估时，学习就应该被削弱：涉及随机探索、涉及搜索、涉及外部世界的反馈奖励。
+d) RL / reinforcement Especially interact, such as the physical world of robots and Go, need to execute actions to change the physical world, and get solutions more efficiently. Otherwise, if passively based on the active output of the world, and it is difficult to solve the problem. For example, we want to learn an addition task consisting of 0123456789 numbers.
+d) RL/强化 特别是交互，比如机器人和围棋的物理世界，需要执行动作来改变物理世界，并更高效地得到解决方案。否则，如果以被动的方式主动输出世界，也很难解决问题。例如，我们想要学习一个由 0123456789 数字组成的加法任务。
+If the world tends to give 01234 with high probability, but never gives 9+8, then we may never be able to learn complete addition based on data.
+如果世界倾向于以高概率给出01234，但从不给出9+8，那么我们可能永远无法根据数据学习完整的加法。
+
+
+
+
+
+2022-08-19: I'm trying to implement an algorithm, based on LeCun's paper and Sutton's paper, and my personal understanding. I hope to get guidance from experts. (English is not my native language, please ignore my linguistic mistakes.)
+2022-08-19：我正在尝试基于 LeCun 的论文和 Sutton 的论文以及我个人的理解来实现一种算法。希望得到专家的指导。 （英语不是我的母语，请忽略我的语言错误。）
+
+2022-08-24: I submitted 3 mini-tasks for SuperAI, mentioned in '(TPJ) some half-baked thoughts' https://github.com/yuedajiong/super-ai-objective-world
+2022-08-24：我为 SuperAI 提交了 3 个迷你任务，在“（TPJ）一些不成熟的想法”中提到 https://github.com/yuedaj​​iong/super-ai-objective-world
+
+2022-09-01: I submitted AI-Mathematician. I will focus on it. https://github.com/yuedajiong/super-ai-math-thinker
+2022-09-01：我提交了AI-数学家。我会重点关注它。 https://github.com/yuedaj​​iong/super-ai-math-thinker
+
+2022-09-08: I submited a RL-based for the task, with low convergence, becasue no batch-training, and more tricks. Just an E2E toy.
+2022-09-08：我提交了一个基于强化学习的任务，由于没有批量训练，收敛性较低，而且技巧较多。只是一个E2E玩具。
+
+2022-09-09:
+
+I have constrcuted the framework, and am trying to implement the '3.1.1 Mode-1: Reactive behavior'.
+我已经构建了框架，并正在尝试实现“3.1.1 模式 1：反应行为”。
+Here I encountered a design-choice: in mathink task, if input x is char-by-char (e.g. only '3' in 3+2=5), the reception model must try to remember something and predict out the s[0]; if input x is line-by-line (e.g. entire '3+2=5'), the reception model need not 'rememeber'.
+在这里我遇到了一个设计选择：在mathink任务中，如果输入x是逐个字符的（例如3+2=5中只有“3”），接收模型必须尝试记住一些东西并预测出s[0 ];如果输入 x 是逐行的（例如整个“3+2=5”），则接收模型不需要“记住”。
+So, ' is memory everywhere, or is memory centralized?' Just let the algorithm move on, I chose adding a mini-queue before the 'Percetion/Encoder'.
+那么，“内存是无处不在的，还是内存是集中的？”让算法继续前进，我选择在“Percetion/Encoder”之前添加一个迷你队列。
+For this type of text-based math task, what is the difference between input/x and encoded/s[0]? I mean that is not the expression difference before and after encoding. In LenCun's paper, I can understand he said. Do we need add some noises here?
+对于这种基于文本的数学任务，input/x 和encoded/s[0] 有什么区别？我的意思是这不是编码前后的表达差异。在LenCun的论文中，我能理解他说的。我们需要在这里添加一些噪音吗？
+maybe, (just by my personal viewpoint), LeCun did a TOOOOO idealistic hypothesis: AI can learn anythink by 'prediction-next'.
+也许（仅以我个人的观点），LeCun 做了一个太理想化的假设：人工智能可以通过“预测下一步”来学习任何想法。
+I got this thought, when I try to solve different tasks, whether in daily AI working, personal research, or in free thinking about human-brain, super-AI.
+当我尝试解决不同的任务时，无论是在日常人工智能工作、个人研究，还是在对人脑、超级人工智能的自由思考中，我都有这个想法。
+2022-09-13 new submitting: formal code: text2integer, embeder, encoder/positional, a minimal queue/not-neural for buffer char-by-char input; comment: sutten's models, lecun's models, VICRegularization, A mini transformer, ...
+2022-09-13 新提交：正式代码：text2integer、embeder、encoder/positional、用于缓冲区逐个字符输入的最小队列/非神经网络；评论：sutten 的模型、lecun 的模型、VICRegularization、迷你变压器、...
+
+LeCun's sample/task pays more attention to physicial world, especial vision task, so some implied meaning: sequencial, step-by-step occurrence, next ones are supervised signal, no-jump/skip, .... My mother language is not Engilsh, maybe I can not express appropriately my meaning that I want to say; in a word, too idealized.
+LeCun的样本/任务更关注物理世界，特别是视觉任务，所以有一些隐含的含义：顺序的，逐步发生的，下一个是监督信号，不跳转/跳过，......我的母语不是英语，也许我不能恰当地表达我想说的意思；一句话，太理想化了。
+
+In my mathematic task: Machine Mathematician, Unless we're well organized the input, what is the learning signal, need some constraints.
+在我的数学任务：机器数学家中，除非我们很好地组织了输入，否则学习信号是什么，需要一些约束。
+
+
+
+
+
+
+
+
+
