@@ -1,1 +1,37 @@
 
+https://x.com/JohnYue122333/status/1780963650771276034
+@Petar Veličković
+You mentioned: not all transformations of interest are symmetries.
+I append:  1) not all transformations in/of the generalized world(eg. physicial, symbolic, mental,  ...)  are rational;  2) not all mechanism (s) in machine(s)(eg. brain) to implement transformations are rational.
+您提到：并非所有的兴趣变换都是对称的。
+我补充：1）并非广义世界中的所有转变（例如物理的、象征性的、精神的……）都是理性的； 2）并非机器（例如大脑）中所有实现转换的机制都是理性的。
+
+If you guys want to design an AlphaMath/Mathinker,  CDL/Type/Lean4+AI, I don't have any different understanding. Maybe we need a generalized/unified 'thinking machine',  it can think on not only rational-mode, but also unrational-md.  why unrational, just because learn-targets.
+
+
+
+https://x.com/symbolica/status/1778192505483497870
+
+我很认可Symbolica正在开辟的更有希望的智能之路。但单纯从技术性上讨论而言，我们应该设计一种：
+对世界的更本质更泛化表示，以及与此通用“思维”机器，还有相关的更强的学习算法。
+至于数学级别的严谨性，是恰好在符号特别是数学场合才需要，强调严谨性可能走入了LLM的反面，但其实是同样的错误。
+
+
+在更有希望的超级智能的道路上，无论你们，还是我，能够走多远？
+我的想法：
+0.仅仅一个看起来有某种优势的漂亮的数学理论支撑是不够，
+我个人认为还需要：
+1.它能够搞定的所建模世界的复杂性有多高？现实世界的极度复杂的，处理复杂性需要的不仅仅是规模，还有限制要少。否则可能最后只能局限在要么是小规模的问题，要么是特定领域的问题比如类似AlphaZero/AlphaZero的AlphaMath/AlphaMaterial. 2.我们是否能够理性的分析它的天花板。与之相反的就是LLM这个教训，其实在GPT-1的时候，是可以看到这条路的天花板的，远不是AGI。
+3.当新方法对广义的世界的表示和世界的运行被很好的提出后，我们是否有好的学习方法将世界映射到我们这种方法表示下的算法中。
+
+On the path towards a more promising superintelligence, how far can either of us go?
+
+Here are my thoughts:
+0.0 Merely having an aesthetically pleasing mathematical theory that seems advantageous isn't enough. 
+
+In my opinion, it also requires:
+1.1 How complex is the complexity of the modeled world it can handle? Dealing with extreme complexity in the real world requires not just scale but also minimal constraints. Otherwise, it might end up being limited to either small-scale problems or specific domains, such as AlphaMath/...(AlphaZero/Fold-like).
+1.2 Can we rationally analyze its ceiling? In contrast, there's a lesson to be learned from LLM; actually, back in the days of GPT-1, one could see the ceiling of this path, far from AGI.
+1.3 Once new methods for representing the general world and its operations are well proposed, do we have good learning methods to map the world into algorithms represented by our methods?
+
+
