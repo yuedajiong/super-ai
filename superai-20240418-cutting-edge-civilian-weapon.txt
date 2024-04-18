@@ -6,8 +6,9 @@
     价格：量产做到5000甚至3000元以下
 软件：
     自主目标
-    自主无线电静默/惯性+视觉导航
+    自主无线电静默/惯性+视觉导航/Visual Inertial Odometry (VIO)
     分布式
+    
 
 This guys are on the way:
 https://x.com/oseiskar/status/1780258986152927460
