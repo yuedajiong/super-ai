@@ -3,9 +3,12 @@ not only paper, but also blog-post:
     code: https://github.com/zanzix/idris-neural-net
 
     https://github.com/bgavran/Category_Theory_Machine_Learning
+    https://github.com/bgavran/Category_Theory_Resources
 
+    https://zanzix.github.io/posts/bcc.html
+    https://zanzix.github.io/posts/stlc-idris.html
 
-
+    https://philipzucker.com/reverse-mode-differentiation-is-kind-of-like-a-lens-ii/
 
 
 https://x.com/JohnYue122333/status/1780963650771276034
