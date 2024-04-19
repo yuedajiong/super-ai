@@ -1,3 +1,12 @@
+not only paper, but also blog-post:
+    blog: https://cybercat.institute/2024/04/15/neural-network-first-principles/
+    code: https://github.com/zanzix/idris-neural-net
+
+    https://github.com/bgavran/Category_Theory_Machine_Learning
+
+
+
+
 
 https://x.com/JohnYue122333/status/1780963650771276034
 @Petar Veličković
