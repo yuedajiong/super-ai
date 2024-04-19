@@ -11,6 +11,13 @@ not only paper, but also blog-post:
     https://philipzucker.com/reverse-mode-differentiation-is-kind-of-like-a-lens-ii/
 
 
+2106.07032  Category Theory in Machine Learning
+2402.05232  Universal Neural Functionals
+2402.15332  Categorical Deep Learning An Algebraic Theory of Architectures
+2403.13001  Fundamental Components of Deep Learning A category-theoretic approach
+2404.07273  Combinatorics of higher-categorical diagrams
+
+
 https://x.com/JohnYue122333/status/1780963650771276034
 @Petar Veličković
 You mentioned: not all transformations of interest are symmetries.
