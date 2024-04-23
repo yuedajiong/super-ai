@@ -10,7 +10,7 @@
     分布式
 
 
-50,000$ cost, 100 units of autonomous-cruise-racing-drone, distributed, accelerating to 300kph in 4 seconds, with a cruising speed of 400kph, GPS-free, wireless silent, capable of reaching targets several kilometers away, especial fixed key political and military targets within few kilometer, arriving at the target and deploying combat payload in just over 10 seconds.
+50k$ cost, 100+ auto-cruise-racing-drone, distributed, 300kph in 4 seconds, cruising speed 400kph, GPS-free, wireless silent, reaching targets several kms away, especial  key political & military fixed targets in a few kms, arriving & deploying combat payload in 10s.
 
 These guys are on the way:
 https://x.com/oseiskar/status/1780258986152927460
