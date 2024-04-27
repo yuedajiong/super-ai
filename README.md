@@ -28,8 +28,11 @@
 
 # long-term: (super-ai /symbol/thinker/mathink) 
 (not generative direction; Fig.2 strcuture/algorithm is still on developing ...)
+
 https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
+
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/4b03027c-8030-4f74-9126-da5d5b074f45)
+
 
 # current: (super-ai /physical/vision/dynamic-stereo)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/a1ecb2ff-8cb1-46dd-8167-09e337bdfde9)
