@@ -31,7 +31,12 @@
 
 https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
 
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/4b03027c-8030-4f74-9126-da5d5b074f45)
+(Chinese)
+![image](https://github.com/yuedajiong/super-ai/assets/52232153/a43fb2c3-963c-40be-a3fa-0f1134151419)
+
+(English)
+![image](https://github.com/yuedajiong/super-ai/assets/52232153/b8859d1c-f26e-41ce-9ee0-fbb7a6ce7041)
+
 
 
 # current: (super-ai /physical/vision/dynamic-stereo)
