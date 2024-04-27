@@ -29,7 +29,7 @@
 # long-term: (super-ai /symbol/thinker/mathink) 
 (not generative direction; Fig.2 strcuture/algorithm is still on developing ...)
 
-https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
+2022-08-28 My thoughts, under LeCun's Paper on OpenReview:  https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
 
 (Chinese)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/a43fb2c3-963c-40be-a3fa-0f1134151419)
