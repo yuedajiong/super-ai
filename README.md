@@ -35,8 +35,7 @@
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/a43fb2c3-963c-40be-a3fa-0f1134151419)
 
 (English)
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/b8859d1c-f26e-41ce-9ee0-fbb7a6ce7041)
-
+![image](https://github.com/yuedajiong/super-ai/assets/52232153/7099d885-4fc6-41a4-954a-c3f5b9fe9af8)
 
 
 # current: (super-ai /physical/vision/dynamic-stereo)
