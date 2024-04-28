@@ -1,0 +1,29 @@
+### Generalized Visual Quality ###
+
+#Priori as Condition
+    Increamental hash priori as Condition for UNet/Diffusion    #UNet3DConditionModel  #Contional Unet
+
+#Unseen Process
+    2D novel views generation    #MVDream:4views+MVControl  #LGM:4views-unet-GS  #RetrievalFuse:knn-database  #Zero123++*: n-view-images
+
+#Local Process
+    Local Patcher Supervised   #TripoSR(NoCode)
+
+#Bigger Data/Representation/Network
+    Bigger I/O        #Point-number  #SH-degree
+    Bigger Network    #Deeper/Wider
+    Bttter Network    #Splatter/Unet  #EDM/Diffusion  (#En+De  #ViT)
+
+#Extra Network
+    Extra Refine    #
+
+#Special Network
+    Recursion-Resolution    #PointInfinity
+    Super-Resolution    #Transformer for Single Image Super-Resolution  #Multi-Scale Vision Longformer  #FlexiViT
+
+#Special Loss&Regularization
+    Visual     #LPIPS
+    Surface    #SuGaR  
+    Deblure    #2401.00834-Deblurring 3DGS
+    Robust     #2404.04211-Robust GS
+
