@@ -1,5 +1,7 @@
 ### Generalized Visual Quality ###
 
+(still updating ...)
+
 #Priori as Condition
     Increamental hash priori as Condition for UNet/Diffusion    #UNet3DConditionModel  #Contional Unet
 
