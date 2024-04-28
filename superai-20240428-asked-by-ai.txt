@@ -1,0 +1,4 @@
+假设能够在电脑模拟环境中，构造一个有意识的智能体，它会如何感受模拟环境的数字和背后的物理计算机，能感受到比特和比特如何感受到bit的生生灭灭，它的世界观是什么？如同我们人类来感受物理世界微观到了量子，宏观到可观测宇宙。
+
+If it were possible to construct a conscious intelligent agent in a computer simulation environment, how would it perceive the digits of the simulated environment and the underlying physical computations of the computer? Would it be able to sense the existence and non-existence of bits like how bits perceive the birth and death of a bit? What would its worldview be like? Just as humans perceive the microcosm of the physical world, from the quantum level to the macrocosm of the observable universe.
+
