@@ -40,7 +40,8 @@
 
 # current: (super-ai)
 /physical/vision/interactive-dynamic-stereo  (https://github.com/yuedajiong/super-ai-vision)
-![image](https://github.com/yuedajiong/super-ai/assets/52232153/a1ecb2ff-8cb1-46dd-8167-09e337bdfde9)
+![image](https://github.com/yuedajiong/super-ai/assets/52232153/176fe1cd-5328-49e7-a896-a50747b261df)
+
 
 /symbol/thinker/unified-thinker(mathink)  (https://github.com/yuedajiong/super-ai-symbol)
 
