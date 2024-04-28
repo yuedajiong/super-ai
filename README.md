@@ -26,7 +26,7 @@
 
 # to be continued, in diary ...
 
-# long-term: (super-ai /symbol/thinker/mathink) 
+# long-term: (super-ai) 
 (not generative direction; Fig.2 strcuture/algorithm is still on developing ...)
 
 2022-08-28 My thoughts, under LeCun's Paper on OpenReview:  https://openreview.net/forum?id=BZ5a1r-kVsf&noteId=8g5X9wi4HX
@@ -38,8 +38,11 @@
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/7099d885-4fc6-41a4-954a-c3f5b9fe9af8)
 
 
-# current: (super-ai /physical/vision/dynamic-stereo)
+# current: (super-ai)
+/physical/vision/interactive-dynamic-stereo (code: https://github.com/yuedajiong/super-ai-vision)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/a1ecb2ff-8cb1-46dd-8167-09e337bdfde9)
+
+/symbol/thinker/unified-thinker(include mathink) (code: https://github.com/yuedajiong/super-ai-symbol)
 
 
 
