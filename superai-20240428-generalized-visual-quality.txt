@@ -10,6 +10,7 @@
 
 #Local Process
     Local Patcher Supervised   #TripoSR(NoCode)
+    Local vs. Global  #eg. LOD in GameEngile
 
 #Bigger Data/Representation/Network
     Bigger I/O        #Point-number  #SH-degree
