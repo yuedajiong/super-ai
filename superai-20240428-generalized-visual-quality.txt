@@ -6,7 +6,7 @@
     Increamental hash priori as Condition for UNet/Diffusion    #DiffHashPriori  #UNet3DConditionModel  #Contional Unet
 
 #Unseen Process
-    2D novel views generation    #MVDream:4views+MVControl  #LGM:4views-unet-GS  #RetrievalFuse:knn-database  #Zero123++*: n-view-images
+    2D novel views generation    #MVDream:4views+MVControl  #LGM:4views-unet-GS  #RetrievalFuse:knn-database  #Zero123++*: n-view-images  #2404.18669 Bootstrap 3DGS
 
 #Local Process
     Local Patcher Supervised   #TripoSR(NoCode)
