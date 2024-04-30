@@ -18,7 +18,7 @@
     Bttter Network    #Splatter/Unet  #EDM/Diffusion  (#En+De  #ViT)
 
 #Extra Network
-    Extra Refine    #
+    Extra Refine    #HybridRepresentation+SuperResolution:2401.04099AGG
 
 #Special Network
     Recursion-Resolution    #PointInfinity
