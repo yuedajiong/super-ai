@@ -28,4 +28,5 @@
     Surface    #SuGaR  
     Deblure    #2401.00834-Deblurring 3DGS
     Robust     #2404.04211-Robust GS
+    GS-Point   #dense/distance, scale, sh-degree, ...
 
