@@ -20,6 +20,7 @@
 
 #Extra Network
     Extra Refine    #HybridRepresentation+SuperResolution:2401.04099AGG
+    Depth Inpaint   #InvisibleStitch:Generating Smooth 3D Scenes with Depth Inpainting:https://github.com/paulengstler/invisible-stitch
 
 #Special Network
     Recursion-Resolution    #PointInfinity
