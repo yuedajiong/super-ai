@@ -11,6 +11,7 @@
 #Local Process
     Local Patcher Supervised   #TripoSR(NoCode)
     Local vs. Global  #eg. LOD in GameEngile
+    Structure-Aware： 2404.19149SAGS
 
 #Bigger Data/Representation/Network
     Bigger I/O        #Point-number  #SH-degree
