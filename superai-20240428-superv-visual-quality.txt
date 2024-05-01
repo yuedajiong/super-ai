@@ -23,7 +23,7 @@
     Depth Inpaint   #InvisibleStitch:Generating Smooth 3D Scenes with Depth Inpainting:https://github.com/paulengstler/invisible-stitch
 
 #Special Network
-    Recursion-Resolution    #PointInfinity
+    Recursion-Resolution    #PointInfinity: Train@LowResolution+Infer@HighResolution
     Super-Resolution    #Transformer for Single Image Super-Resolution  #Multi-Scale Vision Longformer  #FlexiViT
 
 #Special Loss&Regularization
