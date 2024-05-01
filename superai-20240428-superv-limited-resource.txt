@@ -1,0 +1,10 @@
+### Fucking Limited Resource ###
+
+(still updating ...)
+
+
+single beggar's GPU for train and infer (dataset: objvase-level 3d objects + internet-leve 2d images)
+diff hash based priori (incremental)
+diff compressed GS respresentation
+pre-computed image features (eg. features on rendered objvase )
+...
