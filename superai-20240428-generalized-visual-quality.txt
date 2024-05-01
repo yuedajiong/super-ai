@@ -10,7 +10,7 @@
 
 #Local Process
     Local Patcher Supervised   #TripoSR(NoCode)
-    Local vs. Global  #eg. LOD in GameEngile
+    Local vs. Global  #eg. LOD in GameEngine
     Structure-Aware： 2404.19149SAGS
 
 #Bigger Data/Representation/Network
