@@ -5,3 +5,4 @@ The object cognized by intelligence is NOT always naturally equivalent to the mo
 Seeking shortcuts is the essence of intelligence, and it can even be said that the essence is the ’Least Action principle‘ or 'Minimum Free Energy principle'. 
 How to approach the object is worth studying. 
 Symbolic precise representation, hierarchical function composition, in-place function searching, ... are all means to achieve AGI.
+
