@@ -1,4 +1,4 @@
-### Generalized Visual Quality ###
+ ### Generalized Visual Quality ###
 
 (still updating ...)
 
@@ -19,7 +19,7 @@
     Bttter Network    #Splatter/Unet  #EDM/Diffusion  (#En+De  #ViT)
 
 #Extra Network
-    Extra Refine    #HybridRepresentation+SuperResolution:2401.04099AGG
+    Extra Refine    #HybridRepresentation+SuperResolution:2401.04099AGG  https://github.com/mit-han-lab/pvcnn
     Depth Inpaint   #InvisibleStitch:Generating Smooth 3D Scenes with Depth Inpainting:https://github.com/paulengstler/invisible-stitch
 
 #Special Network
