@@ -1,1 +1,71 @@
+https://github.com/KindXiaoming/pykan/issues/23
 
+I am pessimistic about 'extracting symbolic representations through regression'. #23
+Open
+yuedajiong opened this issue 6 hours ago · 6 comments
+Open
+I am pessimistic about 'extracting symbolic representations through regression'.
+#23
+yuedajiong opened this issue 6 hours ago · 6 comments
+Comments
+@yuedajiong
+yuedajiong commented 6 hours ago • 
+I am pessimistic about 'extracting symbolic representations through regression'.
+The feasible path as I understand it is: (abstraction + (search and/or (heuristic-guessing + validation)))
+
+@genglinxiao
+genglinxiao commented 5 hours ago
+Should that even be the goal?
+My understanding is that the authors believe KAN has such potential, which in turn improves interpret-ability, but extracting symbolic representation should not be the goal.
+
+@yuedajiong
+Author
+yuedajiong commented 5 hours ago • 
+你一定程度上，扩大了讨论的范围，我们限定在：采样的数据->KAN学习的模型->KAN提取的符号表示。
+直接针对你的理解：通过KAN来提取符号表示，肯定不是KAN单纯目标，如代码示例，还有KAN具有的优势（算法中明显有这些逻辑/函数），其实这肯定是一个比较重要的场景，或者说目标之一。
+我为什么有这个疑问呢？ 我觉得所有的AI，都是在表示+学习被认知的世界。DL现在是非常热闹，特别LLM。其中“是否符号化甚至强推理，是更强AI的必须的，这是一个问题。” 我自然会思考KAN这种明显有这种优势的方向，走下去会如何。
+关于可解释性，我其实不太认同你的，还有KAN的论断：KAN的可解释性更高。
+我没有打算这里详细讨论，我大概说我的观点：什么叫可解释性？ 我觉得是模型的表示空间，和人类思维对被学习对象的空间，相关的对象和映射，是否能够尽力align。 模型的表示空间，可以被表示成符号化的一些函数复合，不见得可解释性就一定高了。 在传统DL的网络中，这些小的理解单元，被分布在（张量+算子）组合的子网络中；假设KAN中学习完毕，甚至提取出符号，那么这些单元，还必须能够和人类（不一定是某个特定人）的思维空间的能够对齐，不然它还是停留在sin/cos这种函数级别。 要么是对齐人类已有的符号（比如数学/群/上同调，比如自然语言的符号/红色/柔软）。 如果KAN提取出的东西，是人类思维已经有的，那么最好；如果是没有的，确实是解纠缠(Disentangled)的甚至正交(Orthogonal)的一个一个的维度，那只有去"label it"，好比从来没有“红色”，我们创造出这个符号来表示rgb中r很高其他分量很低。（如果再深入下去，其实没有rgb只有波的频率；而人类颜色中还有一些颜色是复合频率） 所以，什么是可解释性，这是第一问题。
+个人看法，水平有限，欢迎指正。
+
+@genglinxiao
+genglinxiao commented 4 hours ago
+感谢回复！
+确实有些离题太远。我尽量简短回复，我的意思，无论是可解释性还是符号提取，都不必是pykan的目标。我个人的看法，单靠统计学习是无法产生符号知识的。
+
+@KindXiaoming
+Owner
+KindXiaoming commented 2 hours ago
+大家好，感谢大家的讨论。KAN（对于所有模型都是这样）最终是否有用取决于你的应用是什么。可解释性是一个挺主观的东西，不同领域的人对什么东西可解释不一样。比如科学领域，函数就是语言，KAN是有帮助的。对自然语言，人类的概念确实很难用函数去表达，KAN就不行。另外符号回归到底是离散（Search）还是连续（训练神经网络）做，现在还没有定论，只是我个人的偏好，很难说谁好谁坏（还是看应用场景）。
+
+@yuedajiong
+Author
+yuedajiong commented 21 minutes ago
+谢谢两位大神的回复和指点。
+
+我其实也是很认真的在做ASI方向的，一直希望毕生从事这个方向有很多年了，去年感觉财务自由了就辞职自己独立专职做这个方向，也是从头在思考和设计很底层的算法，包含表示和优化。
+
+我心理保持了几个非常高阶的应用场景，作为我设计底层算法的时候，看是否算法成熟，通过scale-law就能达到ASI的程度。
+当然，笼统的说，就是一个活生生的人的非理性和理性思维能力。
+其中2个场景/应用：
+一个场景，是WorldDream，交互式动态立体世界的生成/重构：这个场景，除了商业上的考虑之外，从技术上说，它强迫我去思考那种超高维度的输入，看起来直观但复杂的x->y的关系；当然更远可能会想，能否自发的从rgb最后智能体如果要很好的对世界建模就必须产生出red这样的抽象概念，说的比较玄一点，如果世界重来，人类2.0是不是必然会产生类似red这样的主观概念。
+另外一个场景，是Mathink/Mathinker，机器数学家，它强迫我去思考我的算法，能否从简单的count开始，到group这种抽像的概念。 如果尝试将“古今数学思想”这种数学思维发展的过程能够被“计算”化表示，从范畴论的角度：数学对象如何扩展的，态射如何发展的。 从“法”到“算法”到“形式化/符号化”，到“计算法”，“证明法”到“反证法”，... 这些在一个ThinkerMachine中如何被表示和被学习。没有微分如何被发明出微分，没有无限如何被发明出无限，（如果类推能知道数学的下一个类似“无限”这种级别的概念，那无疑是真正的ASI）......
+
+除了KAN这种很有启发的东西，最近有个Symbolica也值得关注，他们想把范畴论带入到code-level，不知道很够走到多高。
+
+@yuedajiong
+Author
+yuedajiong commented 5 minutes ago • 
+连续与离散，vs.，NN与Symbol
+我觉得强相关但不等价。
+
+我现在隐约觉得的路：（一定程度上又大脑的实例作为证据）
+
+底层和大脑一样，就是NN这种连接主义，对应到计算机实现，就是张量和张量上的计算。
+最通用的的表示和计算，就是张量与计算。 比如：红色有一个张量（具体实现可能简化为向量），红色的抽象颜色也有一个张量，计算形式就是张量和对应函数的。这种抽象关系（树或者更复杂的结构关系，比如属于关系），可以体现在张量和对应的函数上。
+那我们AI/ML的过程，就是优化类似word-embedding这个空间类似，和学习这些对象之间的关系的函数。
+从张量到符号，其实是个对学习“稳定”的张量，做"label-it"的过程。
+这个学习过程，我觉得可以置于这种范式之下（之一）：world = function_composed(functions_deterministic, parameters_constant, parameters_random) 当能容忍“一定范围”的随机噪音的时候，我可以开始标定，比如红色这种概念的出现；当可以完全消除噪音的时候，我们可以得到数学级严谨的公式。
+--- 这一部分，我与当前主流的研究中不同，我能看到的就是大家倾向于用一个单纯的张量来表示一个符号/对象；我倾向于用张量和张量上相关的计算，联合起来表示一个符号/对象，具体到实现就是一个“含参子网络”。
+
+当然，人脑是生物限制，计算机符号部分完全可以直接符号化计算；但得考虑符号产生，和混合系统的优化。
