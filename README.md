@@ -8,6 +8,7 @@
   Just for my dream: close to the demiurge, by super-intelligence. 
 
   The highest form of all our scientific research is in defining or discovering (essentially discovering) constants and deterministic functions within the function of the Creator, whether in the physical world or the symbolic world including mathematics: world = function_composed(functions_deterministic, parameters_constant, parameters_random)
+  
   我们所有的科学研究的最高形式，就是在定义或者发现（本质是发现）造物主函数中的常数和确定性函数，无论是物理世界，还是符号世界包含数学：world = function_composed(functions_deterministic, parameters_constant, parameters_random)
   
 # 2023-07-01
