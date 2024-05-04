@@ -16,10 +16,10 @@
 #Bigger Data/Representation/Network
     Bigger I/O        #Point-number  #SH-degree
     Bigger Network    #Deeper/Wider
-    Better Network    #Splatter/Unet  #EDM/Diffusion  (#En+De  #ViT)
+    Better Network    (#En+De  #ViT  #Unet  #Diffusion)   #EDM/Diffusion  #AGG      #Splatter/Unet  #Gamba/DINO+Gamba->3dgs->Render  #LatenSplat  #DIG3D  #FDGaussian     
 
 #Extra Network
-    Extra Refine    #HybridRepresentation+SuperResolution:2401.04099AGG  https://github.com/mit-han-lab/pvcnn
+    Extra Refine    #HybridRepresentation+SuperResolution:2401.04099 AGG/DINOv2+...+PVCNN   https://github.com/mit-han-lab/pvcnn
     Depth Inpaint   #InvisibleStitch:Generating Smooth 3D Scenes with Depth Inpainting:https://github.com/paulengstler/invisible-stitch
 
 #Special Network
@@ -32,4 +32,33 @@
     Deblure    #2401.00834-Deblurring 3DGS
     Robust     #2404.04211-Robust GS
     GS-Point   #dense/distance, scale, sh-degree, ...
+
+
+###########################
+
+
+### Some Important Networks
+
+## Gamba
+image -> GambaNet -> 3dgs -> Render -> image'
+
+
+## AGG
+image -> DINOv2 -> feature#11                                                                                         -|                                 -|
+                              -> Transformer Geometry -> location-point-cloud#211                         -| -> PVCNN -| -> CrossAttent -> feature-expan -| -> CrossAttent -> PVCNN -> HR-GS
+                              -> Transformer Texture/reshape -> triplane#221 -> MLP -> opacity-color#222  -|
+
+
+## LatenSplat
+image -> {Encoder: DINO -> Transformer -> header}) -> 3dgs -> feature-map -> (Decoder) -> Diffustion
+
+
+## Splatter
+image -> Unet ->  GS***
+
+
+## DIG3D (X)
+
+
+## FDGaussian (X)
 
