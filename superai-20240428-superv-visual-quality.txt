@@ -16,7 +16,7 @@
 #Bigger Data/Representation/Network
     Bigger I/O        #Point-number  #SH-degree
     Bigger Network    #Deeper/Wider
-    Bttter Network    #Splatter/Unet  #EDM/Diffusion  (#En+De  #ViT)
+    Better Network    #Splatter/Unet  #EDM/Diffusion  (#En+De  #ViT)
 
 #Extra Network
     Extra Refine    #HybridRepresentation+SuperResolution:2401.04099AGG  https://github.com/mit-han-lab/pvcnn
