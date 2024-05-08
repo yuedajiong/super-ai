@@ -1,0 +1,41 @@
+https://github.com/KindXiaoming/pykan/issues
+
+（on editing ...）
+
+1.Since my native language is Chinese, I will first write quickly in Chinese to avoid language issues affecting the expression of technical content itself. Later, I will translate it into English. If non-Chinese friends see this post and interested, they can try using ChatGPT for translation.
+因为我的母语是中文，我将先用中文快速的写，不至于英文语言问题影响我技术内容本身的表达，等最后我会翻译为英文。 如果非中文的朋友看到这个贴子且有兴趣，可以尝试用chatgpt翻译。
+
+2.During the continuous thinking and writing process, the intermediate process may not be organized well here. Finally, I will organize it.
+不断思考书写的过程，这中间过程，可能不是那么有条理的记录在这里，最后我会整理。
+
+3.The author's level is very high, far above me. If there are some expressions that are not completely 'say-great' in later list, it is purely technical discussion, and it is very likely to be my misunderstanding. @KindXiaoming
+作者水平很高，远在我之上，这中间如果出现一些非完全肯定的表述，是纯粹技术探讨，而且很大可能是我的理解错误。
+
+1.关于“网络表示”和“符号提取”能力
+我尝试整理了一下作者的代码，https://github.com/yuedajiong/minimum-kan 看从KA+Spline来做逼近的过程，特别在
+https://github.com/yuedajiong/minimum-kan/blob/main/kan.py 我把最核心的逻辑，用了60多行整理出来，并用一行简写和论文公式做了对齐。
+简明表示如下：
+KAN_Y = sequential: sum { _mask * [ $_Scale_base * base_fun_silu(X) + $_Scale_spline * $Coef * spline(X, !grid, !k) ] } + $_bias
+prefix: $:Parameter: _:optional !:relative-fixed
+这里，为了一眼看清，我对每项做了一个简单的处理约定：$大写表示待优化的参数；_表示这项是可选的；!表示一旦表示和学习完毕这里是相对固定的准常数看待；sequential是 pytorch层间顺序化调用复合，函数复合的依次逐层复合；对于非线性base激活单元作者用的silu我就固定跟在这里。
+更简化一些看:
+KA_Y = sequential: sum { _W1silu(X_i) + W2spline(X_i) + _Bias_j }
+最简化的形式是:
+KA_Y = sequential: sum { W2*spline(X_i) }
+所以我们得到，最外层形式:
+KA_Y= f1(f2(fn(...))
+
+思考一：网络表示&符号提取 sequential: 现代数学的数理逻辑基础中，关键的四论集合论，表示论，递归论，证明论。 递归论研究递归函数、可计算性和计算复杂性等问题。 或者更泛泛的数，现代数学学起来困难，纯个人的一个理解，一个是引入了无限这个东西，一个是抽象的思维。 言归正传，我这里想引入的第一个关键词是“递归”，“抽象”放到后面来说。（插播：我的一个进行中的研究工作之一，是Mathink（参见我主页），在我看来，真正的要实现mathinker，不是“类型类-to-Code"实现lean4做ATP自动定理证明就完事了的，从算法难度上，那是相对比较简单的一部分。一是要类似伽罗瓦这样/群/代数群，系统性的解决”抽象“这个问题，一个是要解决研究对象类似”无限‘的东西。当然退而求其次，类似拉马努金这样提出一大堆公式（很多是逼近相关的），也行啊。）假设我们要用KAN, KAN++或者将来的其他算法，来实现：e的提取，pi的提取，sin的提取（这是指无中生有的提取这种符号，不是KAN中设置这个符号）。 所以，我们知道，在实数空间，我们需要连分数这种递归着一层套一层的递归形式才能表示完实数，对于重复出现的有规律的形式我们甚至可以提取（发现/发明）出pi, e之外的一些有用的无理数，将带有递归嵌套的一些规律简化的表示出来(https://en.wikipedia.org/wiki/Approximations_of_%CF%80)； 类似的，我们需要无穷级数的这种带有广义递归形式的来表示很多函数，比如简单且我们熟悉的的诸如sin，当然类似这样的可以无限写下去。SO：所以，直接嵌套+样条函数，如何在表示能力上，发现“无限递归”的这种“模式”并提取出来。 其实相当有难度。
+
+思考二：网络表示 sum: 关于KA(https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Arnold_representation_theorem) ，为了方便交流，和快速思维，我们先用不严谨的表述基本形式： KA 就是：（单变量函数，二元加） 组合逼近 多变量函数。所以我们可以看到，在KAN的的第二层次中，KA的表示采用了sum。这里，我先插播一个例子，然后继续讨论。以前的工作中，比较深入的理解和处理过一类问题，时序预测和异常检测，并设计过一种网络TNN。一个实际的例子CPU使用率的关于时间的变化。 这个非常适合举例。 在深入分析后，其实可以表示为： Y = [Trend(t)] op(+x) Periods(t) op(+x) Noise。其中Trend部分可能是采样的时间窗口不够但本质上是更长周期的一部分（比如周期为年，但只观察到季度），也有可能是真实地一个趋势（比如一个新业务用户访问量是逐渐上升/下降。）这种尝试合适的滑动窗口做滑动平均可以处理。 而 Periods相对比较复杂，第一是具有不同地周期，比如年，月，周，5+2，天等，按照日历放假可以作为常数和项引入，周期的个数，频率，振幅，相位（cpu反应延后等）等。展开后可以表示为： Y = [Trend(t)] op(+x) Periods(t) {A(sin&cos(BX+C)+D} op(+x) Noise。 当在该"统一模式"下，处理不同的时序数据的时候，会有不少挑战: 二元操作类型，B的宽度，噪音的建模等等。 我仅仅列举与KAN这里的讨论相关的。 SO: a) 在不同的“部分”之间的__op__关系，可能是加性关系还是乘性的关系？ 对应到KAN中，从外向内的第二层，受KA理论的约束被确定为sum，可能有很好的理论保证，但实际上在有限网络深度/宽度下，从本质上，限制了最终符号表示的空间/形式，或者需要更复杂的组合才能用加性完成乘性的性质。 或者更抽象的说，KAN的函数复合形式（不仅这里讨论的第二层），对整个最后的符号表示其实是一种比较强的限制(负面)。 要最终提取出上面TS的公式，其实很困难。 b）在符号提取的原子表示中，其实还有一类概率性质的函数，比如某类业务会概率性（有规律但不是确定性的）的影响cpu指标，比如此式所示例的：y = np.sin(3*x) * np.random.binomial(n=1, p=0.5, size=len(x))；是否需要建模。 c)沿此思路下去，个人在AI4Science中，做过Bio/Drug, Phy/DFT/Density Functional Theory, 还有组合优化等问题，而数学家们眼里，对函数从不同角度去看有更广泛的类型，比如封闭曲线/多值函数，除了初等函数之外太多，等等等等，很多函数类型是很难用KAN/MLP/NN这种去表示后提取（无论整体，还是局部）。
+
+思考三：网络表示 spline：选择了用spline作为基，局部上对不同函数的逼近能力/精度，逼近速度，和对应的spline的复杂度（我们可以假设k=3足够平滑后，grid的大小。 在issues中，我看到有人至少已经扩展到grid到几百了。这里我举例一个例子，来帮助说明我想表达的。 假设我们还没有sin函数，这里想提取出一个sin。而sin我们看当前的实现，基本都是基于泰勒展开，然后很多优化技巧来实现足够的精度。所以粗略，有一定道理但不一定严格正确的结论就是：sin的拟合用泰勒展开比用样条好一些？ 以此类推。SO: 局部：局部逼近的不同方式的优劣。
+
+思考四：符号提取 code: 我们在KAN的代码中，符号抽取部分，看到的是相对简单的逻辑：通过循环，“很局部的”在做suggest_symbolic，这是一种自底向上的策略。另外，我们看到有 prune等逻辑，但好像没有看到merge/equivalent等逻辑。意思是将一个相对紧密连接的“子网络”给合并抽象到一个更简洁的表示，或者将一个复杂的表示替换为等价的简洁的表示的化简过程，类似的可以展开思考；在提取代码中，我们看到，很多系数出现了1.000000000123, 3.1415...这种数值，是否可以有策略将其替换为1和pi等，然后将误差的“挤”到其他的系数/参数上，这要可能更能接近上帝公式。 SO：全局：更强大的符号提取的策略是什么？是否甚至需要更强大search的过程？（我不肯定其他的符号提取软件这些方向算法怎么做的。）
+
+未完待续...
+
+感谢 @Baijiong-Lin, @ztb-35，在这个问题下，放了一个eyes的emoji，促使我把我的想法写出来。也作为自己思考的一个笔记。
+
+
+
