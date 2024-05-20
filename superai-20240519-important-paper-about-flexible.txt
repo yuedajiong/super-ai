@@ -1,2 +1,4 @@
 Flexible information routing by transient synchrony 
 
+Hidden state inference requires abstract contextual representations in ventral hippocampus
+
