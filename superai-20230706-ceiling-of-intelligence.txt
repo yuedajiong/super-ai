@@ -22,5 +22,6 @@ Open-AI对外貌似在做看起来既很远大又很负责任的强人工智能�
 3）可计算且可智能化： 就是约束constraint的表示representation、学习learning和验证validation，对齐aligin既是一种监督supervise手段，也是一种实现realize手段。
 
 
+2024-06-05:  补充一篇好文章： https://writings.stephenwolfram.com/2024/03/can-ai-solve-science/
 
 
