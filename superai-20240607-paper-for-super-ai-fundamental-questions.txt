@@ -1,0 +1,66 @@
+把Super-AI的目标完全按照理想状态来定义的，太多问题需要回到本质去考虑，需要研究的东西太多。
+
+最近的一些点的比较不错的论文收藏如下：(侧重vision/cnn)
+
+SOTA:
+    FastViT/FasterViT
+    Yolo v8~v10
+
+Reasoning
+	2405.15143  Intelligent Go-Explore Standing on the Shoulders of Giant Foundation Models
+	2405.15143  Intelligent Go-Explore Standing on the Shoulders of Giant Foundation Models.zip
+	2405.18357  Faithful Logical Reasoning via Symbolic Chain-of-Thought  SymbCoT.zip
+	2405.18357  Faithful Logical Reasoning via Symbolic Chain-of-Thought
+	2406.00592  Model Predictive Control and Reinforcement Learning A Unified Framework Based on Dynamic Programming
+
+Postion@CNN
+	2001.08248  How Much Position Information Do Convolutional Neural Networks Encode
+	2001.08248  How Much Position Information Do Convolutional Neural Networks Encode.zip
+	2101.12322  Position, Padding and Predictions A Deeper Look at Position Information in CNNs
+	2101.12322  Position, Padding and Predictions A Deeper Look at Position Information in CNNs.zip
+	2108.07884  Global Pooling, More than Meets the Eye Position Information is Encoded Channel-Wise in CNNs
+	2108.07884  Global Pooling, More than Meets the Eye Position Information is Encoded Channel-Wise in CNNs.zip
+
+ExplicitPositionCNN
+	1807.03247v2
+	1807.07044v3
+	2005.03463v1
+
+Disentangle
+	1506.06579  Understanding Neural Networks Through Deep Visualization
+	1512.02479  Explaining NonLinear Classification Decisions with Deep Taylor Decomposition
+	1705.10915  Unsupervised Learning of Disentangled Representations from Video  drnet.zip
+	1705.10915  Unsupervised Learning of Disentangled Representations from Video
+	1712.02621  Disentangled Person Image Generation
+	1804.04694  A Variational U-Net for Conditional Appearance and Shape Generation
+	1806.07421  RISE Randomized Input Sampling for Explanation of Black-box Models  RISE.zip
+	1806.07421  RISE Randomized Input Sampling for Explanation of Black-box Models
+	1900.00000  Content and Style Disentanglement for Artistic Style Transfer
+	1903.06946  Unsupervised Part-Based Disentangling of Object Shape and Appearance  unsupervised-disentangling.zip
+	1903.06946  Unsupervised Part-Based Disentangling of Object Shape and Appearance
+	1910.10223  Unsupervised Robust Disentangling of Latent Characteristics for Image Synthesis  robust-disentangling.zip
+	1910.10223  Unsupervised Robust Disentangling of Latent Characteristics for Image Synthesis
+
+Invertible
+	1410.8516x  NICE Non-linear Independent Components Estimation
+	1512.04150  Learning Deep Features for Discriminative Localization
+	1602.04938  Why Should I Trust You Explaining the Predictions of Any Classifier
+	1605.08803  Density estimation using Real NVP
+	1802.07088  i-RevNet Deep Invertible Networks  i-revnet.zip
+	1802.07088  i-RevNet Deep Invertible Networks
+	1807.03039  Glow Generative Flow with Invertible 1x1 Convolutions  glow.zip
+	1807.03039  Glow Generative Flow with Invertible 1x1 Convolutions
+	1808.04730  Analyzing Inverse Problems with Invertible Neural Networks
+	1907.07945  MintNet Building Invertible Neural Networks with Masked Convolutions
+	2004.13166  A Disentangling Invertible Interpretation Network for Explaining Latent Representations  iin.zip
+	2004.13166  A Disentangling Invertible Interpretation Network for Explaining Latent Representations
+	2005.13580  Network-to-Network Translation with Conditional Invertible Neural Networks
+	2007.15849  Solving inverse problems using conditional invertible neural networks
+	2204.07415  Universal approximation property of invertible neural networks
+	Invertible Denoising Network A Light Solution for Real Noise Removal
+	Invertible Hierarchical Generative Model for Images  hflow.zip
+	Invertible Hierarchical Generative Model for Images  Supplementary Material.zip
+	Invertible Hierarchical Generative Model for Images
+	Invertible Residual Networks
+	Invertible residual neural networks with conditional injector and interpolator for point cloud upsampling
+
