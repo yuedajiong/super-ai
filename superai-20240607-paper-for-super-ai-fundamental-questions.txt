@@ -26,6 +26,9 @@ ExplicitPositionCNN
 	1807.07044v3
 	2005.03463v1
 
+Cell paper:
+    A Unifying Principle for the Functional Organization of Visual Cortex
+
 Disentangle
 	1506.06579  Understanding Neural Networks Through Deep Visualization
 	1512.02479  Explaining NonLinear Classification Decisions with Deep Taylor Decomposition
