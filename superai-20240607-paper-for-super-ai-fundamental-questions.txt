@@ -67,3 +67,6 @@ Invertible
 	Invertible Residual Networks
 	Invertible residual neural networks with conditional injector and interpolator for point cloud upsampling
 
+Language vs. Functional:
+        Language is primarily a tool for communication rather than thought
+
