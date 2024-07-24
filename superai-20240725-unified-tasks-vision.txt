@@ -1,1 +1,10 @@
+Unified-Tasks (vision)
+
+https://github.com/allenai/unified-io-inference
+
+https://github.com/google-research/big_vision/tree/main/big_vision/models/proj/uvim
+
+https://github.com/facebookresearch/segment-anything
+
+
 
