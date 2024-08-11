@@ -17,7 +17,9 @@ https://arxiv.org/html/2312.09257?_immersive_translate_auto_translate=1
         局部
             非协同
             协同
-
+                差异
+                能量
+                仅前向
 
 
 by chatgpt:
