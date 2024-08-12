@@ -1,8 +1,9 @@
+2008.00000  Nature:  A deep learning framework for neuroscience
+2306.04810  Correlative Information Maximization A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry
+2403.00000  A Review of Neuroscience-Inspired Machine Learning
+
+
 2312.09257  Brain-Inspired Machine Intelligence A Survey of Neurobiologically-Plausible Credit Assignment
-
-https://arxiv.org/html/2312.09257?_immersive_translate_auto_translate=1
-
-
 要点：
 1. BP的问题：
     全局反馈路径
@@ -20,7 +21,6 @@ https://arxiv.org/html/2312.09257?_immersive_translate_auto_translate=1
                 差异
                 能量
                 仅前向
-
 
 by chatgpt:
 受大脑启发的机器智能：神经生物学上合理的信用分配调查
