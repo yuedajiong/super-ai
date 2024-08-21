@@ -1,8 +1,74 @@
+https://arxiv.org/html/2312.09257
+
+0. NEED
+   FF/RFF/PFF
+   PC/NGC
+   SLU
+   Hebbian(3F)
+
+1. BP的问题：
+    p1 全局反馈路径 global feedback pathway
+    p2 权重运输 weight transport
+    p3 短期可塑性 short-term plasticity
+    p4 约束和敏感性 constraint and sensitivity：可微+有向无环图；初始敏感+归一化敏感
+    p5 局部性和锁定 locality and locking：前向 + 后向 + 更新
+    p6 推理学习依赖性 inference-learning dependency
+
+2. 驱动突触可塑性的目标信号  （隐显，局全，非协）
+    隐式：没有目标或外部信号   赫布 + 竞争
+    显式
+        全局： 单个全局反馈路径来传递调整信号  反馈对齐 + 神经调节 + 希尔伯特-施密特独立准则瓶颈/HSIC+三因子Hebbian + SA
+                DirectFeedbackAlignment  https://github.com/iacolippo/Direct-Feedback-Alignment
+        局部
+            非协同Non-Synergistic：本身位于要适应的突触附近/本地机制产生的驱动信号仅对网络的特定块可用的信息进行操作  综合本地更新/SLU + 本地信号器 + 再循环
+                综合本地更新/SLU    解开（前向、后向、更新）锁定；用额外的参数模型来增强每一层，该模型学习预测权重更新或可微系统背景下的梯度
+                    错误批评家
+                    局部梯度估计器
+                    元学习（局部）反向传播
+                    解耦神经接口
+                        Decoupled Neural Interfaces using Synthetic Gradients  https://github.com/Ramos-Ramos/tourbillon-pytorch
+                    *乘法器交替方向法（ADMM）
+                    *块坐标下降中心训练
+                本地信号器    通过集成一组分层的、通常不可学习的“信号器”，即预测器或估计器分类或回归，结合反馈对齐的随机固定反馈的想法。
+                        Deep supervised learning using local errors
+                        Training Neural Networks with Local Error Signals  https://github.com/anokland/local-loss
+                再循环
+                        Learning Representations by Recirculation
+                        Biologically plausible error-driven learning using local activation differences The generalized recirculation algorithm
+                        Tourbillon a Physically Plausible Neural Architecture  https://github.com/Ramos-Ramos/tourbillon-pytorch
+            协同Synergistic
+                差异： 目标传播 + 局部表示对齐 + 预测编码predictive coding/神经生成编码neural generative coding
+                能量： 对比赫布学习 + 对比分歧 + 唤醒睡眠 + 平衡传播/EProp
+                前向： FO + RFF + PFF
+                        1905.11786  Putting an end to end-to-end Gradient-isolated learning of representations  GIM/GreedyInfoMax:使用正负样本对比(互信息最大化)的贪婪优化
+                        2002.05709  A Simple Framework for Contrastive Learning of Visual Representations  SimCLR:对比表示学习
+                        #2008.01342  LoCo Local Contrastive Representation Learning  LoCo:局部对比表示学习; 错层对比Loss;彼此堆叠的局部块:两个块分组为一个局部单元，并由两个单元同时共享中间块;中间的块将从下部和上部接收梯度，就像梯度“桥”一样。
+                        $2204.01723  Signal Propagation A Framework for Learning and Inference In a Forward Pass    SigProp:根据学习信号生成目标，然后重新使用前向路径将这些目标传播到隐藏层并更新参数。使用x和y/c作为新输入而不是仅使用原始输入x。目标生成器投影学习信号y/c。
+                        $2212.13345  The Forward-Forward Algorithm Some Preliminary Investigations  FF:把标签合并到输入中，构造正负样本然后逐层构造差异损失，推理时逐标签计算优度取最大。
+                        #2300.00000  Preventing dimensional collapse in contrastive local learning with subsampling  折腾了各种trick，代码不公开了
+                        2302.01647  Blockwise Self-Supervised Learning at Scale  多图对比；分块训练Barlow Twins损失函数（Barlow Twins目标函数尝试使用其损失函数最大化互相关矩阵的对角线项并最小化非对角线项）  VICReg方差不变-协方差正则化
+
+Contrastive Hebbian Learning 对比赫布学习
+SoftHebb 软赫布
+Forward-Only Learning 前向学习
+Equilibrium Propagation 平衡传播
+
+Direct Feedback Alignment 直接反馈对齐
+Predictive Coding 预测编码
+Target Propagation 目标传播
+LRA local representation learning  本地表示对齐
+
+Mortal Computation and Structural Evolution 凡人计算与结构演进
+
+
+
+
+
+
 2008.00000  Nature:  A deep learning framework for neuroscience
 2306.04810  Correlative Information Maximization A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry
 2312.09257  Brain-Inspired Machine Intelligence A Survey of Neurobiologically-Plausible Credit Assignment
 2403.00000  A Review of Neuroscience-Inspired Machine Learning
-
 
 2312.09257  Brain-Inspired Machine Intelligence A Survey of Neurobiologically-Plausible Credit Assignment
 by chatgpt:
