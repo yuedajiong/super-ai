@@ -1,4 +1,8 @@
-https://arxiv.org/html/2312.09257
+https://arxiv.org/pdf/2403.18929    A Review of Neuroscience-Inspired Machine Learning
+https://arxiv.org/pdf/2312.09257    Brain-Inspired Machine Intelligence A Survey of Neurobiologically-Plausible Credit Assignment
+https://arxiv.org/pdf/2209.11883    Hebbian Deep Learning Without Feedback
+
+https://mp.weixin.qq.com/s/C6Pvzd079OYfPHYT1cNqvw
 
 0. NEED
    FF/RFF/PFF
