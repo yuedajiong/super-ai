@@ -1,1 +1,14 @@
+2024-09-24 my first-vision super-representation&learning algorithm
+
+算法包含两部分：
+  1.1 前馈： 
+              表示层（类似Transformer中Patch，Conv)，
+              变换层（类似Transformer中Attention-Block），
+              生成层（任务完成）
+  1.2 学习：     
+              表示层，全新设计遗传-生长算法，避免了BP训练；
+              变换层，将Brain-Leaning和Attention结合，实现layer/block之间的异步+并发+局部学习。
+              生成层，单层全连接或者极浅，采用单层BP/GD，也可以采用目标分配算法。
+      --- 整个算法完成了： 紧凑Transformer的网络/CIFAR10在20+M参数的精简表示下达到98+%的测试精度，（异步+并发+局部)学习
+
 
