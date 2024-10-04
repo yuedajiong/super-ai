@@ -14,4 +14,7 @@
 
 总结：
 1.通往Non-BP学习，旧的道路，各种思路的，几乎都看完试验完了，前路相当坎坷。
-2.继续扩大阅读范围，像神经科学计算建模的研究中找思路，比如：Karl Friston等的工作。（From pixels to planning: scale-free active inference） （https://themesis.com/2024/08/19/big-agi-breakthrough-leveling-the-playing-field/）
+2.继续扩大阅读范围，像神经科学计算建模的研究中找思路，比如：Karl Friston等的工作。
+   （From pixels to planning: scale-free active inference） 
+   （https://themesis.com/2024/08/19/big-agi-breakthrough-leveling-the-playing-field/）
+   （https://www.youtube.com/watch?v=nqH2j2Eh_FM&list=PLQ7kdul7PF0dNb7PBYNlBb23NQmHoC78O）
