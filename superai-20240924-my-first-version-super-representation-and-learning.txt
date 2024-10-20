@@ -6,10 +6,10 @@
               变换层（类似Transformer中Attention-Block），
               生成层（任务完成）
   1.2 学习：     
-              表示层，全新设计遗传-生长算法，避免了BP训练；
-              变换层，将Brain-Leaning和Attention结合，实现layer/block之间的异步+并发+局部学习。
-              生成层，单层全连接或者极浅，采用单层BP/GD，也可以采用目标分配算法。
-      --- 整个算法完成了： 紧凑Transformer的网络/CIFAR10在20+M参数的精简表示下达到98+%的测试精度，（异步+并发+局部)学习
+              表示层，提出设计遗传-生长算法，避免了BP训练表示层；
+              变换层，将Brain-Leaning(Hebb-like)和Attention结合，实现layer/block之间的异步+并发+局部学习。
+              生成层，单层全连接或者极浅网络，采用单层BP/GD，或伪逆等方式，也可以采用其他目标分配算法。
+      --- 整个算法完成了： 目标是继续保持（异步+并发+局部)非BP学习策略，继续优化变换层等，因为紧凑Transformer的网络/CIFAR10在20+M参数的精简表示下达到98+%的测试精度。
 
 
 总结：
@@ -18,3 +18,9 @@
    （From pixels to planning: scale-free active inference） 
    （https://themesis.com/2024/08/19/big-agi-breakthrough-leveling-the-playing-field/）
    （https://www.youtube.com/watch?v=nqH2j2Eh_FM&list=PLQ7kdul7PF0dNb7PBYNlBb23NQmHoC78O）
+3. 2024-10-20补充最近回头阅读：
+   表示部分：ELM, HTM, Reservoir, ... ;  KAN, RBF  ;  RBM, SOM, Hopfield
+             (Jeff Hawkins, Darl Friston, Paul Werbos, ...)
+   学习部分：CwComp, HSIC, IB, LCA, SoftHebb, ...
+             Metaheuristic Optimization 元启发
+             Hippocampus/TEM/..., ELM, ...
