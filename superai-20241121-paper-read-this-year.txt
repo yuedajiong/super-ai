@@ -1,1 +1,1452 @@
+2301.04709  Causal Abstraction  A Theoretical Foundation for Mechanistic Interpretability.pdf 
+1911.01547  On the Measure of Intelligence.pdf 
+2301.03094v1.pdf 
+2309.05660v2.pdf 
+2407.20806v1.pdf 
+2408.12212v1.pdf 
+2409.01374v1.pdf 
+2409.09513v1.pdf 
+2410.02536v2.pdf 
+arc_dsl_writeup.pdf 
+$$  2305.18354  LLMs and the Abstraction and Reasoning Corpus Successes, Failures, and the Importance of Object-based Representations.pdf 
+$$  2410.06405  Tackling the Abstraction and Reasoning Corpus with Vision Transformers the Importance of 2D Representation, Positions, and Objects.pdf 
+1907.03950  Learning by Abstraction The Neural State Machine.pdf 
+1712.01815  Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm.pdf 
+2007.13544  Combining Deep Reinforcement Learning and Search for Imperfect-Information Games.pdf 
+2207.00919  An AlphaZero-Inspired Approach to Solving Search Problems.pdf 
+2310.08348  LightZero A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios.pdf 
+2404.16364  ReZero Boosting MCTS-based Algorithms by Just-in-Time and Speedy Reanalyze.pdf 
+writeup.pdf 
+contributor_tutorial.pdf 
+mcts_rl_evolution_overview.pdf 
+alphazero_overview.pdf 
+efficientzero_overview.pdf 
+gumbel_muzero_overview.pdf 
+mcts_overview.pdf 
+muzero_overview.pdf 
+sampled_muzero_overview.pdf 
+hopper_main.pdf 
+walker2d_main.pdf 
+AlphaZero.pdf 
+EfficientZero.pdf 
+GumbelMuZero.pdf 
+MuZero.pdf 
+NotationTable.pdf 
+SampledMuZero.pdf 
+StochasticMuZero.pdf 
+2106.07032  Category Theory in Machine Learning.pdf 
+2402.05232  Universal Neural Functionals.pdf 
+2402.15332  Categorical Deep Learning An Algebraic Theory of Architectures.pdf 
+2403.13001  Fundamental Components of Deep Learning A category-theoretic approach.pdf 
+2404.07273  Combinatorics of higher-categorical diagrams.pdf 
+2312.16731  Disentangled Continual Learning Separating Memory Edits from Model Updates.pdf 
+2402.01364  Continual Learning for Large Language Models A Survey.pdf 
+1506.06579  Understanding Neural Networks Through Deep Visualization.pdf 
+1512.02479  Explaining NonLinear Classification Decisions with Deep Taylor Decomposition.pdf 
+1705.10915  Unsupervised Learning of Disentangled Representations from Video.pdf 
+1712.02621  Disentangled Person Image Generation.pdf 
+1804.04694  A Variational U-Net for Conditional Appearance and Shape Generation.pdf 
+1806.07421  RISE Randomized Input Sampling for Explanation of Black-box Models.pdf 
+1900.00000  Content and Style Disentanglement for Artistic Style Transfer.pdf 
+1903.06946  Unsupervised Part-Based Disentangling of Object Shape and Appearance.pdf 
+1910.10223  Unsupervised Robust Disentangling of Latent Characteristics for Image Synthesis.pdf 
+2212.02105  Matrix factorization with neural networks.pdf 
+2302.10524  LU-Net Invertible Neural Networks Based on Matrix Factorization.pdf 
+2309.05968  Neural Network Layer Matrix Decomposition reveals Latent Manifold Encoding and Memory Capacity.pdf 
+2202.08587  Gradients without Backpropagation.pdf 
+2209.06302  Optimization without Backpropagation.pdf 
+2211.09119  Token Turing Machines.pdf 
+Fundamentals of Neural Networks  Architectures, Algorithms and Applications (1994).pdf 
+Fundamentals of Neural Networks  Architectures, Algorithms and Applications.pdf 
+The Little Book of Deep Learning.pdf 
+2006.10503  SE(3)-Transformers 3D Roto-Translation Equivariant Attention Networks.pdf 
+2104.13478  Geometric Deep Learning Grids, Groups, Graphs, Geodesics, and Gauges.pdf 
+2206.11990  Equiformer Equivariant Graph Attention Transformer for 3D Atomistic Graphs.pdf 
+2306.12059  EquiformerV2 Improved Equivariant Transformer for Scaling to Higher-Degree Representations.pdf 
+2303.03846v2.pdf 
+2307.12375v4.pdf 
+2310.17086v2.pdf 
+2404.11018v2.pdf 
+1410.8516x  NICE Non-linear Independent Components Estimation.pdf 
+1512.04150  Learning Deep Features for Discriminative Localization.pdf 
+1602.04938  Why Should I Trust You Explaining the Predictions of Any Classifier.pdf 
+1605.08803  Density estimation using Real NVP.pdf 
+1802.07088  i-RevNet Deep Invertible Networks.pdf 
+1807.03039  Glow Generative Flow with Invertible 1x1 Convolutions.pdf 
+1808.04730  Analyzing Inverse Problems with Invertible Neural Networks.pdf 
+1811.00995  Invertible Residual Networks  slides.pdf 
+1811.00995  Invertible Residual Networks.pdf 
+1907.07945  MintNet Building Invertible Neural Networks with Masked Convolutions.pdf 
+2004.13166  A Disentangling Invertible Interpretation Network for Explaining Latent Representations.pdf 
+2005.13580  Network-to-Network Translation with Conditional Invertible Neural Networks.pdf 
+2007.15849  Solving inverse problems using conditional invertible neural networks.pdf 
+2204.07415  Universal approximation property of invertible neural networks.pdf 
+Invertible Convolutional Flow.pdf 
+Invertible Denoising Network A Light Solution for Real Noise Removal.pdf 
+Invertible Hierarchical Generative Model for Images.pdf 
+Invertible residual neural networks with conditional injector and interpolator for point cloud upsampling.pdf 
+2311.12424  Looped Transformers are Better at Learning Learning Algorithms.pdf 
+2301.06627  Dissociating language and thought in large language models.pdf 
+2400.00000  The language network as a natural kind within the broader landscape of the human brain.pdf 
+2406.04344  Verbalized Machine Learning Revisiting Machine Learning with Language Models.pdf 
+Intractability obstacles to explanations of communication.pdf 
+Language is primarily a tool for communication rather than thought.pdf 
+Language is primarily a tool for communication rather than thought_SuppInfo.pdf 
+2311.03757  Manifold learning what, how, and why.pdf 
+1111.6117  Principles of Solomonoff Induction and AIXI.pdf 
+2406.18518  APIGen Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets.pdf 
+2410.03170  Autoregressive Large Language Models are Computationally Universal.pdf 
+2410.05229  GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models.pdf 
+2401.04088  Mixtral of Experts.pdf 
+2401.13660  MambaByte Token-free Selective State Space Model.pdf 
+2401.14196  DeepSeek-Coder When the Large Language Model Meets Programming -- The Rise of Code Intelligence.pdf 
+2401.16467  ReGAL Refactoring Programs to Discover Generalizable Abstractions.pdf 
+2402.00838  OLMo Accelerating the Science of Language Models.pdf 
+2404.14469  SnapKV LLM Knows What You are Looking for Before Generation.pdf 
+2404.11584  The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling A Survey.pdf 
+Centaur a foundation model of human cognition.pdf 
+Prospect Theory An Analysis of Decision under Risk .pdf 
+Prospect Theory An Analysis of Decision under Risk.pdf 
+2312.00000  WikiChat.pdf 
+2402.00253  A Survey on Hallucination in Large Vision-Language Models.pdf 
+2402  LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks.01817.pdf 
+2005.11401  Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf 
+2312.10997  Retrieval-Augmented Generation for Large Language Models A Survey.pdf 
+2401.09350  Foundations of Vector Retrieval.pdf 
+2401.18059  RAPTOR Recursive Abstractive Processing for Tree-Organized Retrieval.pdf 
+2402.16837  Do Large Language Models Latently Perform Multi-Hop Reasoning.pdf 
+2307.16789  ToolLLM.pdf 
+2402.14158  ToolVerifier  Generalization to New Tools via Self-Verification.pdf 
+2202.01344  Formal Mathematics Statement Curriculum Learning.pdf 
+2205.11491  HyperTree Proof Search for Neural Theorem Proving.pdf 
+2307.03381  Teaching Arithmetic to Small Transformers.pdf 
+2309.03241  GPT Can Solve Mathematical Problems Without a Calculator.pdf 
+2311.11045  Orca 2 Teaching Small Language Models How to Reason.pdf 
+2312.08935  Math-Shepherd Verify and Reinforce LLMs Step-by-step without Human Annotations.pdf 
+2312.15166  SOLAR 10.7B Scaling Large Language Models with Simple yet Effective Depth Up-Scaling.pdf 
+2312.17120  Generative AI for Math Part I MATHPILE A Billion-Token-Scale Pretraining Corpus for Math.pdf 
+2402.00157  Large Language Models for Mathematical Reasoning Progresses and Challenges.pdf 
+2402.00854  SymbolicAI A framework for logic-based approaches combining generative models and solvers.pdf 
+2402.01107  Simulation of Graph Algorithms with Looped Transformers.pdf 
+2404.12534  Towards Large Language Models as Copilots for Theorem Proving in Lean.pdf 
+2405.03553  AlphaMath Almost Zero process Supervision without process.pdf 
+AlphaGeometry.pdf 
+FunSearch.pdf 
+Mathematical discoveries from program search with large language models.pdf 
+Nature  Solving olympiad geometry without human demonstrations.pdf 
+Turing Complete Transformers Two Transformers Are More Powerful Than One.pdf 
+2306.15626  LeanDojo.pdf 
+2410.06209  LeanAgent Lifelong Learning for Formal Theorem Proving.pdf 
+Avigad_logic_and_proof.pdf 
+fields_type_theory.pdf 
+lean_intro_slides.pdf 
+math_concepts.pdf 
+Teaching Logic and Mechanized Reasoning in Lean4.pdf 
+The Lean 4 Theorem Prover.pdf 
+Toronto2016lean.pdf 
+tutorial.pdf 
+Axiom-Circle.pdf 
+defined_objects.pdf 
+euclid_postulated_objects.pdf 
+hilbert_postulated_objects1.pdf 
+hilbert_postulated_objects2.pdf 
+2306.15626  LeanDojo.pdf 
+2404.12534  LeanCopilot.pdf 
+2012.11045  Monte-Carlo Graph Search for AlphaZero.pdf 
+2210.01426  Continuous Monte Carlo Graph Search.pdf 
+Improving AlphaZero Using Monte-Carlo Graph Search.pdf 
+Monte Carlo Graph Search in Sparse Reward Environments.pdf 
+Monte-Carlo Graph Search  the Value of Merging Similar States  talk.pdf 
+Monte-Carlo Graph Search  the Value of Merging Similar States.pdf 
+2310.08560  MemGPT.pdf 
+2404.09562  σ-GPTs A New Approach to Autoregressive Models.pdf 
+2406.04267  Transformers need glasses! Information over-squashing in language tasks.pdf 
+2406.06248  Compute Better Spent Replacing Dense Layers with Structured Matrices.pdf 
+2407.07059  Differentiable Optimization of Similarity Scores Between Models and Brains.pdf 
+A Unifying Principle for the Functional Organization of Visual Cortex.pdf 
+2406.02528  Scalable MatMul-free Language Modeling.pdf 
+2406.09787  Evolving Self-Assembling Neural Networks From Spontaneous Activity to Experience-Dependent Learning.pdf 
+2406.11463  Just How Flexible are Neural Networks in Practice.pdf 
+2105.12994  The q-Gauss-Newton method for unconstrained nonlinear optimization.pdf 
+2307.15034  Guaranteed Approximation Bounds for Mixed-Precision Neural Operators.pdf 
+2402.11295  OneBit Towards Extremely Low-bit Large Language Models.pdf 
+2001.08248  How Much Position Information Do Convolutional Neural Networks Encode.pdf 
+2101.12322  Position, Padding and Predictions A Deeper Look at Position Information in CNNs.pdf 
+2108.07884  Global Pooling, More than Meets the Eye Position Information is Encoded Channel-Wise in CNNs.pdf 
+2405.18719  Contextual Position Encoding Learning to Count What's Important.pdf 
+1807.03247v2.pdf 
+1807.07044v3.pdf 
+2005.03463v1.pdf 
+2405.15143  Intelligent Go-Explore Standing on the Shoulders of Giant Foundation Models.pdf 
+2405.18357  Faithful Logical Reasoning via Symbolic Chain-of-Thought.pdf 
+2406.00592  Model Predictive Control and Reinforcement Learning A Unified Framework Based on Dynamic Programming.pdf 
+2406.09308  Transformers meet Neural Algorithmic Reasoners.pdf 
+2406.11012  Connecting the Dots Evaluating Abstract Reasoning Capabilities of LLMs Using the New York Times Connections Word Game.pdf 
+Which Model to Use for Cortical Spiking Neurons.pdf 
+2405.07987  The Platonic Representation Hypothesis.pdf 
+1702.08489  Depth Separation for Neural Networks.pdf 
+2006.00625  Neural Networks with Small Weights and Depth-Separation Barriers.pdf 
+2409.17592  Deep Manifold Part 1 Anatomy of Neural Network Manifold.pdf 
+1900.00000  Novel positional encodings to enable tree-based transformers.pdf 
+2004.08483  ETC Encoding Long and Structured Inputs in Transformers.pdf 
+2106.05667  GraphiT Encoding Graph Structure in Transformers.pdf 
+2210.05062  Generalizing Transformers for Graph-Structured Tasks.pdf 
+2300.00000  Transformers for Tabular Data Representation.pdf 
+2303.00716  Aligning benchmark datasets for table structure recognition.pdf 
+2402.14547   OmniPred Language Models as Universal Regressors.pdf 
+2402.13144  Neural Network Diffusion.pdf 
+2402.12479  In deep reinforcement learning, a pruned network is a good network.pdf 
+0094.00000  Neural Routing Circuits for Forming Invariant Representations of Visual Objects.pdf 
+1600.00000  Deep Neural Decision Forests.pdf 
+1701.00299  Dynamic deep neural networks Optimizing accuracy-efficiency trade-offs by selective execution.pdf 
+1702.07780  Changing Model Behavior at Test-Time Using Reinforcement Learning.pdf 
+1703.06217  Deciding How to Decide Dynamic Routing in Artificial Neural Networks.pdf 
+1708.04607  Segmentation-aware convolutional networks using local attention masks.pdf 
+1711.09784  Distilling a Neural Network Into a Soft Decision Tree.pdf 
+1811.10201  Instanas Instance-aware neural architecture search.pdf 
+1905.04849  Dynamic Routing Networks.pdf 
+1907.00000  SNR Sub-Network Routing.pdf 
+1911.05443  Dynamic Connected Neural Decision Classifier and Regressor with Dynamic Softing Pruning.pdf 
+2003.10401  Learning Dynamic Routing for Semantic Segmentation.pdf 
+2100.00000  Neural Routing by Memory.pdf 
+2101.03961  Switch Transformers  Scaling to Trillion Parameter Models with Simple and Efficient Sparsity.pdf 
+2101.03961  Switch Transformers Scaling to Trillion Parameter Models with Simple and E?cient Sparsity.pdf 
+2102.01732  Truly Sparse Neural Networks at Scale.pdf 
+2102.04906  Dynamic Neural Networks A Survey.pdf 
+2107.11817  Go Wider Instead of Deeper.pdf 
+2112.06905  GLaM  Efficient Scaling of Language Models with Mixture-of-Experts.pdf 
+2402.08609  Mixtures of Experts Unlock Parameter Scaling for Deep RL.pdf 
+2403.07652  Harder Tasks Need More Experts Dynamic Routing in MoE Models.pdf 
+Adaptive Gating in Mixture-of-Experts based Language Models.pdf 
+Dynamic Layer Aggregation for Neural Machine Translation with Routing-by-Agreement.pdf 
+Efficient Content-Based Sparse Attention with Routing Transformers.pdf 
+Exploring Dynamic Routing As A Pooling Layer.pdf 
+Modified Dynamic Routing Convolutional Neural Network for Pan-Sharpening.pdf 
+Neural Routing by Memory.pdf 
+2212.14024  Demonstrate-Search-Predict Composing retrieval and language models for knowledge-intensive NLP.pdf 
+2305.13914  Routing by spontaneous synchronization.pdf 
+2405.10399  A note on continuous-time online learning.pdf 
+2405.10938  Observational Scaling Laws and the Predictability of Language Model Performance.pdf 
+A Guide to the General Problem-solver Program GPS-2-2.pdf 
+Artificial Intelligence  A Modern Approach  4th.Edition  Peter.Norvig  Stuart.Russell.Pearson.9780134610993.EBooksWorld.ir.pdf 
+Flexible information routing by transient synchrony.pdf 
+Hidden state inference requires abstract contextual representations in ventral hippocampus.pdf 
+Prediction and Entropy of Printed English  @shannon.pdf 
+2410.01104  softmax is not enough (for sharp out-of-distribution).pdf 
+2410.01686  Positional Attention Out-of-Distribution Generalization and Expressivity for Neural Algorithmic Reasoning.pdf 
+2402.04494  Grandmaster-Level Chess Without Search.pdf 
+2409.12272  Mastering Chess with a Transformer Model.pdf 
+2106.01345  Decision Transformer Reinforcement Learning via Sequence Modeling.pdf 
+2202.05607  Online Decision Transformer.pdf 
+@@ Baars Gage 2010 Cognition, Brain and Consciousness (2nd edition).pdf 
+Scientific discovery in the age of artificial intelligence.pdf 
+What makes a good theory, and how do we make a theory good.pdf 
+古今数学思想.pdf 
+古今数学思想1.pdf 
+古今数学思想2.pdf 
+古今数学思想3.pdf 
+古今数学思想4.pdf 
+普林斯顿数学指南  (中文) 第1卷.pdf 
+普林斯顿数学指南  (中文) 第2卷.pdf 
+普林斯顿数学指南  (中文) 第3卷.pdf 
+普林斯顿数学指南  (英文).pdf 
+现代数学主要分支学科的通俗介绍 -- 普林斯顿数学指南.pdf 
+代数学引论(第1卷)：基础代数-[俄]柯斯特利金-高等教育出版社-2006.pdf 
+代数学引论(第2卷)：线性代数-[俄]柯斯特利金-高等教育出版社-2006.pdf 
+代数学引论(第3卷)：基本结构-[俄]柯斯特利金-高等教育出版社-2006.pdf 
+微积分学教程.第1卷.菲赫金哥尔茨.pdf 
+微积分学教程.第2卷.菲赫金哥尔茨.pdf 
+微积分学教程.第3卷.菲赫金哥尔茨.pdf 
+微积分学教程.第01卷.菲赫金哥尔茨.pdf 
+微积分学教程.第02卷.菲赫金哥尔茨.pdf 
+微积分学教程.第03卷.菲赫金哥尔茨.pdf 
+数学分析讲义第3版  [俄]Г.И.阿黑波夫等(译者)王昆扬 高等教育2006年6月第1版.pdf 
+二十世纪数学经纬（张奠宙）.pdf 
+函数逼近论方 法.pdf 
+张量分析_黄克智.pdf 
+数学分析原理.第1卷.pdf 
+数学分析原理.第2卷.pdf 
+数理逻辑.pdf 
+1410.0369x  The Universe of Minds.pdf 
+1612.00796  Overcoming catastrophic forgetting in neural networks.pdf 
+1709.04057  Parallelizing Linear Recurrent Neural Nets Over Sequence Length.pdf 
+2022.08.23  RTNet A neural network that exhibits the signatures of human perceptual decision making.pdf 
+2200.00000  The Xzistor Concept a functional brain model to solve Artificial General Intelligence.pdf 
+2207.02098  Neural Networks and the Chomsky Hierarchy.pdf 
+2302.00843  Computational Dualism and Objective Superintelligence.pdf 
+2305.15372  Learning high-level visual representations from a child's perspective without strong inductive biases.pdf 
+2306.04251  Stochastic Collapse.pdf 
+2306.13812  Loss of Plasticity in Deep Continual Learning.pdf 
+2308.03598  Why We Don’t Have AGI Yet.pdf 
+2309.01622  Concepts is All You Need A More Direct Path to AGI.pdf 
+2310.16028  What Algorithms can Transformers Learn A Study in Length Generalization.pdf 
+2310.19089  Pushdown Layers Encoding Recursive Structure in Transformer Language Models.pdf 
+2311.00537  Machine Learning Without a Processor Emergent Learning in a Nonlinear Electronic Metamaterial.pdf 
+2311.05762  On a conjecture of Marton.pdf 
+2311.11829  System 2 Attention.pdf 
+2311.12983  GAIA  A Benchmark for General AI Assistants.pdf 
+2311.14737  Positional Description Matters for Transformers Arithmetic.pdf 
+2312.00752  Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf 
+2312.02149  Generative Powers of Ten.pdf 
+2312.08550  Harmonics of Learning Universal Fourier Features Emerge in Invariant Networks.pdf 
+2312.11562  A Survey of Reasoning with Foundation Models.pdf 
+2312.16143  On the Trajectories of SGD Without Replacement.pdf 
+2312.16337  Task Contamination Language Models May Not Be Few-Shot Anymore.pdf 
+2312.17241  Compact Neural Graphics Primitives with Learned Hash Probing.pdf 
+2400.00000  Computational Neuroscience Building a mathematical model of the brain.pdf 
+2400.00000  The Platonic Representation Hypothesis.pdf 
+2401.00000  LeCun.pdf 
+2401.05744  Attention Is Not the Only Choice Counterfactual Reasoning for Path-Based Explainable Recommendation.pdf 
+2403.02241  Neural Redshift Random Networks are not Random Functions.pdf 
+2404.07227  Is Complexity an Illusion.pdf 
+2406.00000  Connectivity profile and function of uniquely human cortical areas.pdf 
+2407.04153  Mixture of A Million Experts.pdf 
+2408.00949  Equivariant neural networks and piecewise linear representation theory.pdf 
+2410.06405  Tackling the Abstraction and Reasoning Corpus with Vision Transformers  the Importance of 2D Representation, Positions, and Objects.pdf 
+A Tutorial Introduction to the Minimum Description Length Principle.pdf 
+Adding One Neuron Can Eliminate All Bad Local Minima.pdf 
+Application And Challenges of Alphazero Algorithm in Chinese Chess.pdf 
+Common Neural Mechanisms Control Attention and Working Memory.pdf 
+Emergence of Maps in the Memories of Blind Navigation Agents.pdf 
+Flexible information routing by transient synchrony.pdf 
+Introduction to Progress and Puzzles of Cognitive Science.pdf 
+Kolmogorov Complexity and Algorithmic Randomness.pdf 
+Language as a Tool for Communication and Cultural Reality Discloser.pdf 
+Language is primarily a tool for communication rather than thought.pdf 
+Language is primarily a tool for communication rather than thought_SuppInfo.pdf 
+lecun-20240328-harvard.pdf 
+lecun-20241018-columbia.pdf 
+Machine_Super_Intelligence.pdf 
+Mathematical Approaches in the Scientific Study of Consciousness (Preprint, Johannes Kleiner).pdf 
+natuer.2024  Loss of plasticity in deep continual learning.pdf 
+Natural language syntax complies with the free-energy principle.pdf 
+nature  Abstract representations emerge in human hippocampal neurons during inference.pdf 
+Promises and Pitfalls of Generative Masked Language Modeling  Theoretical Framework and Practical Guidelines.pdf 
+Remember the 'human' in human neuroscience.pdf 
+Understanding Deep Learning.pdf 
+Yann Lecun # Objective-Driven AI.pdf 
+2209.00796  Diffusion Models A Comprehensive Survey of Methods and Applications.pdf 
+2211.01095  DPM-SOLVER++.pdf 
+2211.09869  RenderDiffusion Image Diffusion for 3D Reconstruction, Inpainting and Generation.pdf 
+HoloDiffusion Training a 3D Diffusion Model using 2D Image.pdf 
+$$  2111.05849  Advances in Neural Rendering.pdf 
+$$  2210.00379  NeRF  Neural Radiance Field in 3D Vision, Introduction and Review.pdf 
+$$  2304.10050  Neural Radiance Fields  Past, Present, and Future.pdf 
+2302.01226  Dictionary Fields Learning a Neural Basis Decomposition.pdf 
+2302.01226  Factor Fields A Unified Framework for Neural Fields and Beyond.pdf 
+2201.05816  A Critical Analysis of Image-based Camera Pose Estimation Techniques.pdf 
+2203.11174  DiffPoseNet Direct Differentiable Camera Pose Estimation.pdf 
+2206.01916  (TO)  Nerfels  Renderable Neural Codes for Improved Camera Pose Estimation.pdf 
+2306.05410  (TO)  LU-NeRF Scene and Pose Estimation by Synchronizing Local Unposed NeRFs.pdf 
+1800.00000  Benchmarking 6DOF Outdoor Visual Localization in Changing Conditions.pdf 
+2103.09213  (OK)  Back to the Feature  Learning Robust Camera Localization from Pixels to Pose.pdf 
+2200.00000  LaMAR Benchmarking Localization and Mapping for Augmented Reality.pdf 
+2201.02861  (OK)  Decoupling Makes Weakly Supervised Local Feature Better.pdf 
+2204.00559  DFNet Enhance Absolute Pose Regression with Direct Feature Matching.pdf 
+2212.07047  (OK)  Shared Coupling-bridge for Weakly Supervised Local Feature Learning.pdf 
+2304.07691  Long-term Visual Localization with Mobile Sensors.pdf 
+2103.15606  (GAN+Estimate+NeRF)  GNeRF GAN-based Neural Radiance Field without Posed Camera.pdf 
+2204.03593  ($$$$)  AutoRF  Learning 3D Object Radiance Fields from Single View Observations.pdf 
+2212.00436  ($$$$)  ViewNeRF  Unsupervised Viewpoint Estimation Using Category-Level Neural Radiance Fields.pdf 
+2306.17843  ($$$$)  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Prior.pdf 
+2112.10752  High-Resolution Image Synthesis with Latent Diffusion Models.pdf 
+2209.14988  DreamFusion  Text-to-3D using 2D Diffusion.pdf 
+2211.16431  NeuralLift-360  Lifting An In-the-wild 2D Photo to A 3D Object with 360° Views.pdf 
+2303.11328  Zero-1-to-3  Zero-shot One Image to 3D Object.pdf 
+1801.03910  (OK)  Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction.pdf 
+1810.09381  (OK)  Unsupervised Learning of Shape and Pose with Differentiable Point Clouds.pdf 
+1905.11946  (TO)  EfficientNet  Rethinking Model Scaling for Convolutional Neural Networks.pdf 
+2004.01793  (OK)  Self-Supervised Viewpoint Learning From Image Collections.pdf 
+2011.12100  ($$)  GIRAFFE  Representing Scenes as Compositional Generative Neural Feature Fields.pdf 
+2107.12549  (TO)  DISP6D Disentangled Implicit Shape and Pose Learning for Scalable 6D Pose Estimation.pdf 
+2109.01750  (OK)  CodeNeRF  Disentangled Neural Radiance Fields for Object Categories.pdf 
+2110.08985  ($$)  StyleNeRF  A Style-based 3D-Aware Generator for High-resolution Image Synthesis.pdf 
+2200.00000  (OK)  Style2Nerf.pdf 
+2203.04802  (OK)  NeRF-Pose A First-Reconstruct-Then-Regress Approach for Weakly-supervised 6D Object Pose Estimation.pdf 
+2204.03645  (OK)  DaViT Dual Attention Vision Transformers.pdf 
+2211.11674  (SO mesh)  Shape, Pose, and Appearance from a Single Image via Bootstrapped Radiance Field Inversion.pdf 
+2212.00435  ($$)  ViewNet  Unsupervised Viewpoint Estimation from Conditional Generation.pdf 
+2303.14158  (XX rgbd)  BundleSDF Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects.pdf 
+0740.pdf 
+0740_poster.pdf 
+0740_supp.pdf 
+ViewNeRF_MARIOTTI_DOA30092022_AFV.pdf 
+2102.07064  (XX  Direct Fit Learn)NeRF?? Neural Radiance Fields Without Known Camera Parameters.pdf 
+2108.13826  (TO  Joint Learn)  Self-Calibrating Neural Radiance Fields.pdf 
+2210.00183  (TO  Epipolar Constraint  Learn)  Structure-Aware NeRF without Posed Camera via Epipolar Constraint.pdf 
+2212.07388  (XX  Sequence Learn)  NoPe-NeRF Optimising Neural Radiance Field with No Pose Prior.pdf 
+2303.09412  (TO  Gaussian Fourier Learn)  NeRFtrinsic Four An End-To-End Trainable NeRF Jointly Optimizing Diverse Intrinsic and Extrinsic Camera Parameters.pdf 
+2003.08934  NeRF.pdf 
+2106.10689  NeuS.pdf 
+2106.12052  VolSDF.pdf 
+2111.04276  DMT.pdf 
+2111.09996  LOLNeRF  Learn from One Look.pdf 
+2111.13539  GeoNeRF  Generalizing NeRF with Geometry Priors.pdf 
+2207.11368  Neural-Sim  Learning to Generate Training Data with NeRF.pdf 
+2211.11738  SPARF  Neural Radiance Fields from Sparse and Noisy Poses.pdf 
+2212.00774  Score Jacobian Chaining Lifting Pretrained 2D Diffusion Models for 3D Generation.pdf 
+2212.00792  SparseFusion  Distilling View-conditioned Diffusion for 3D Reconstruction.pdf 
+2302.10109  NerfDiff.pdf 
+2303.07418  FreeNeRF  Improving Few-shot Neural Rendering with Free Frequency Regularization.pdf 
+2303.11328  Zero-1-to-3.pdf 
+2303.14184  Make-It-3D High-Fidelity 3D Creation from A Single Image with Diffusion Prior.pdf 
+2303.14184  Make-It-3D.pdf 
+2304.06714  Single-Stage Diffusion NeRF  A Unified Approach to 3D Generation and Reconstruction.pdf 
+2305.02310  Real-Time Radiance Fields for Single-Image Portrait View Synthesis.pdf 
+2305.09662  Make-An-Animation.pdf 
+2305.10853  LDM3D  Latent Diffusion Model for 3D.pdf 
+2305.11588  Text2NeRF.pdf 
+2305.11870  Chupa  Carving 3D Clothed Humans from Skinned Shape Priors using 2D Diffusion Probabilistic Models.pdf 
+2305.16213  ProlificDreamer.pdf 
+2306.06093  HyP-NeRF  Learning Improved NeRF Priors using a HyperNetwork.pdf 
+2306.16928  One-2-3-45.pdf 
+2306.17843  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors.pdf 
+2307.05663  Objaverse-XL.pdf 
+Differentiable Volumetric Rendering.pdf 
+DiffRF Rendering-Guided 3D Radiance Field Diffusion.pdf 
+DiffusioNeRF.pdf 
+2103.10380  FastNeRF  High-Fidelity Neural Rendering at 200FPS.pdf 
+2103.15595  MVSNeRF  Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo.pdf 
+2111.13112  VaxNeRF  Revisiting the Classic for Voxel-Accelerated Neural Radiance Field.pdf 
+2201.05989  Instant Neural Graphics Primitives with a Multiresolution Hash Encoding.pdf 
+2206.00878  EfficientNeRF  Efficient Neural Radiance Fields.pdf 
+2208.00277  MobileNeRF  Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures.pdf 
+2205.15285  Fast Dynamic Radiance Fields with Time-Aware Neural Voxels.pdf 
+2210.15947  NeRFPlayer  A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields.pdf 
+2301.10241  K-Planes  Explicit Radiance Fields in Space, Time, and Appearance.pdf 
+2202.05263  Block-NeRF  Scalable Large Scene Neural View Synthesis.pdf 
+2211.13762  ScanNeRF a Scalable Benchmark for Neural Radiance Fields.pdf 
+2204.02585  SqueezeNeRF  Further factorized FastNeRF for memory-efficient inference.pdf 
+2111.12077  Mip-NeRF 360  Unbounded Anti-Aliased Neural Radiance Fields.pdf 
+2304.06706  Zip-NeRF  Anti-Aliased Grid-Based Neural Radiance Fields.pdf 
+2305.17134  NeuManifold Neural Watertight Manifold Reconstruction with Efficient and High-Quality Rendering Support.pdf 
+2212.07626  NeuralDome  A Neural Modeling Pipeline on Multi-View Human-Object Interactions.pdf 
+2308.11198  Novel-view Synthesis and Pose Estimation for Hand-Object Interaction from Sparse Views.pdf 
+2212.11966  Removing Objects From Neural Radiance Fields.pdf 
+2303.13843  CompoNeRF  Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout.pdf 
+2202.11855  Learning Multi-Object Dynamics with Compositional Neural Radiance Fields.pdf 
+2302.11566  Vid2Avatar  3D Avatar Reconstruction from Videos in the Wild via Self-supervised Scene Decomposition.pdf 
+2304.05735  RO-MAP  Real-Time Multi-Object Mapping with Neural Radiance Fields.pdf 
+2305.12529  DreamWaltz  Make a Scene with Complex 3D Animatable Avatars.pdf 
+2303.12012  NeAT  Learning Neural Implicit Surfaces with Arbitrary Topologies from Multi-view Images.pdf 
+2303.15951  F2-NeRF Fast Neural Radiance Field Training with Free Camera Trajectories.pdf 
+2305.08810  AutoRecon  Automated 3D Object Discovery and Reconstruction.pdf 
+2206.00665  MonoSDF  Exploring Monocular Geometric Cues for Neural Implicit Surface Reconstruction.pdf 
+2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf 
+2212.07422  ECON  Explicit Clothed humans Optimized via Normal integration.pdf 
+1908.06903  Multi-Garment Net  Learning to Dress 3D People from Images.pdf 
+2003.12753  Deep Fashion3D A Dataset and Benchmark for 3D Garment Reconstruction from Single Images.pdf 
+2104.03313  SCANimate  Weakly Supervised Learning of Skinned Clothed Avatar Networks.pdf 
+2104.03978  Dynamic Surface Function Networks for Clothed Human Bodies.pdf 
+2104.07660  SCALE  Modeling Clothed Humans with a Surface Codec of Articulated Local Elements.pdf 
+2203.01923  Recovering 3D Human Mesh from.pdf 
+2206.15470  Dressing Avatars  Deep Photorealistic Appearance for Physically Simulated Clothing.pdf 
+2304.03167  CloSET  Modeling Clothed Humans on Continuous Surface with Explicit Template Decomposition.pdf 
+2305.14236  REC-MV  REconstructing 3D Dynamic Cloth from Monocular Videos.pdf 
+2200.00000  Understanding contrastive versus reconstructive self-supervised learning of Vision Transformers.pdf 
+2201.06857  RePre  Improving Self-Supervised Vision Transformer with Reconstructive Pre-training.pdf 
+2300.00000  What Do Self-Supervised Vision Transformers Learn .pdf 
+retinal neural code.pdf 
+2112.12390  DD-NeRF Double-Diffusion Neural Radiance Field as a Generalizable Implicit Body Representation.pdf 
+2112.12390  Learning Implicit Body Representations from Double Diffusion Based.pdf 
+2212.00792  SparseFusion  Distilling View-conditioned Diffusion for 3D Reconstruction.pdf 
+2212.00792  SparseFusion Distilling View-conditioned Diffusion for 3D Reconstruction.pdf 
+2302.10109  NerfDiff  Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion.pdf 
+2302.12231  DiffusioNeRF  Regularizing Neural Radiance Fields with Denoising Diffusion Models.pdf 
+2303.12789  Instruct-NeRF2NeRF  Editing 3D Scenes with Instructions.pdf 
+2303.13450  Set-the-Scene Global-Local Training for Generating Controllable NeRF Scenes.pdf 
+2303.14184  Make-It-3D High-Fidelity 3D Creation from A Single Image with Diffusion Prior.pdf 
+2303.17015  HyperDiffusion Generating Implicit Neural Fields with Weight-Space Diffusion.pdf 
+2304.06714  Single-Stage Diffusion NeRF  A Unified Approach to 3D Generation and Reconstruction.pdf 
+2304.10261  Anything-3D  Towards Single-view Anything Reconstruction in the Wild.pdf 
+2304.10261  Anything-3D Towards Single-view Anything Reconstruction in the Wild.pdf 
+2305.02463  Shap·E  Generating Conditional 3D Implicit Functions.pdf 
+2204.03645  DaViT Dual Attention Vision Transformers.pdf 
+2301.08243  Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture.pdf 
+2304.07193  DINOv2  Learning Robust Visual Features without Supervision.pdf 
+2305.09880  A survey of the Vision Transformers and its CNN-Transformer based Variants.pdf 
+A Comprehensive Survey of Transformers for Computer Vision.pdf 
+2301.08243  I-JEPA.pdf 
+2402.00000  V-JEPA.pdf 
+2212.10156  Planning-oriented Autonomous Driving.pdf 
+2211.11559  Visual Programming  Compositional visual reasoning without training.pdf 
+2308.04288  Cloth2Tex A Customized Cloth Texture Generation Pipeline for 3D Virtual Try-On.pdf 
+2309.06441  Learning Disentangled Avatars with Hybrid 3D Representations.pdf 
+1910.00000  How does the brain learn simple arithmetic  The impact of teaching methods.pdf 
+1912.01412  Deep Learning for Symbolic Mathematics.pdf 
+2110.14168  Training Verifiers to Solve Math Word Problems.pdf 
+2203.14680  Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space.pdf 
+2204.10532  End-to-end symbolic regression with transformers.pdf 
+2206.14858  Solving Quantitative Reasoning Problems with Language Models.pdf 
+2211.00170  What is my math transformer doing -- Three results on interpretability and generalization.pdf 
+2300.00000  Towards a Mathematics Formalisation Assistant using Large Language Models.pdf 
+2301.06627  ($$)  Dissociating language and thought in large language models  a cognitive perspective.pdf 
+2301.09723  Mathematics, word problems, common sense, and artificial intelligence.pdf 
+2301.13867  Mathematical Capabilities of ChatGPT.pdf 
+2303.05398  MathPrompter  Mathematical Reasoning using Large Language Models.pdf 
+2305.00586  How does GPT-2 compute greater-than  Interpreting mathematical abilities in a pre-trained language model.pdf 
+2306.15400  Length Generalization in Arithmetic Transformers.pdf 
+2307.03381  Teaching Arithmetic to Small Transformers.pdf 
+2410.06209  LeanAgent Lifelong Learning for Formal Theorem Proving.pdf 
+Cognitive Neuroscience Research Status Quo of Number Processing.pdf 
+Mathematics.pdf 
+The Neuroscience of Mathematical Cognition and Learning.pdf 
+2103.10360  GLM.pdf 
+2203.02155  Training language models to follow instructions with human feedback.pdf 
+2206.10498  Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change).pdf 
+2210.03493  Automatic Chain of Thought Prompting in Large Language Models.pdf 
+2301.06627  Dissociating language and thought in large language models  a cognitive perspective.pdf 
+2301.13196  Looped Transformer.pdf 
+2302.04761  Toolformer  Language Models Can Teach Themselves to Use Tools.pdf 
+2302.12813  Check Your Facts and Try Again  Improving Large Language Models with External Knowledge and Automated Feedback.pdf 
+2302.13971  LLaMA  Open and Efficient Foundation Language Models.pdf 
+2303.04671  Visual ChatGPT  Talking, Drawing and Editing with Visual Foundation Models.pdf 
+2303.17580  HuggingGPT  Solving AI Tasks with ChatGPT and its Friends in HuggingFace.pdf 
+2304.03442  Generative Agents  Interactive Simulacra of Human Behavior.pdf 
+2304.05128  Self-Debug  Teaching Large Language Models to Self-Debug.pdf 
+2304.12244  WizardLM.pdf 
+2305.03495  Automatic Prompt Optimization with “Gradient Descent” and Beam Search.pdf 
+2305.08746  Seeing is Believing  Brain-Inspired Modular Training for Mechanistic Interpretability.pdf 
+2305.09137  Pre-Training to Learn in Context.pdf 
+2305.09645  StructGPT  A General Framework for Large Language Model to Reason over Structured Data.pdf 
+2305.09993  Reprompting  Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling.pdf 
+2305.10276  Chain-of-Symbol Prompting Elicits Planning in Large Langauge Models.pdf 
+2305.10601  Tree of Thoughts  Deliberate Problem Solving with Large Language Models.pdf 
+2305.10783  Transforming Human-Centered AI Collaboration  Redefining Embodied Agents Capabilities through Interactive Grounded Language Instructions.pdf 
+2305.11206  LIMA  Less Is More for Alignment.pdf 
+2305.11391  A Survey of Safety and Trustworthiness of Large Language Models through the Lens of Verification and Validation.pdf 
+2305.11430  TELeR  A General Taxonomy of LLM Prompts for Benchmarking Complex Tasks.pdf 
+2305.11598  Introspective Tips  Large Language Model for In-Context Decision Making.pdf 
+2305.11738  CRITIC  Large Language Models Can Self-Correct with Tool-Interactive Critiquing.pdf 
+2305.11846  Any-to-Any Generation via Composable Diffusion.pdf 
+2305.11854  Multimodal Web Navigation with Instruction-Finetuned Foundation Models.pdf 
+2305.11860  Let's Sample Step by Step  Adaptive-Consistency for Efficient Reasoning with LLMs.pdf 
+2305.12295  Logic-LM  Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning.pdf 
+2305.12524  TheoremQA  A Theorem-driven Question Answering dataset.pdf 
+2305.13083  InheritSumm  A General, Versatile and Compact Summarizer by Distilling from GPT.pdf 
+2305.13091  Are Large Language Models Good Evaluators for Abstractive Summarization.pdf 
+2305.13160  Can ChatGPT Defend the Truth  Automatic Dialectical Evaluation Elicits LLMs' Deficiencies in Reasoning.pdf 
+2305.13304  RecurrentGPT  Interactive Generation of (Arbitrarily) Long Text.pdf 
+2305.15334  Gorilla  Large Language Model Connected with Massive APIs.pdf 
+2305.16291  Voyager  An Open-Ended Embodied Agent with Large Language Models.pdf 
+2306.12672  From Word Models to World Models  Translating from Natural Language to the Probabilistic Language of Thought.pdf 
+2303.17760  CAMEL  Communicative Agents for  Mind  Exploration of Large Scale Language Model Society.pdf 
+2304.03442  ($$)  Westworld Simulation  Generative Agents Interactive Simulacra of Human Behavior.pdf 
+2305.16291  Voyager  An Open-Ended Embodied Agent with Large Language Models.pdf 
+2305.17144  Ghost in the Minecraft  Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory.pdf 
+2303.11366  Reflexion  Language Agents with Verbal Reinforcement Learning.pdf 
+2305.15334  Gorilla  Large Language Model Connected with Massive APIs.pdf 
+($$)  Learning to Decompose and Organize Complex Tasks.pdf 
+($$)  Neural Task Programming Learning to Generalize Across Hierarchical Tasks.pdf 
+(OK)  Learning Task Decomposition With Ordered Memory Policy Network.pdf 
+2112.13208  (OK)  Neural Network Module Decomposition and Recomposition.pdf 
+2003.00400  Learn Task First or Learn Human Partner First A Hierarchical Task Decomposition Method for Human-Robot Cooperation.pdf 
+2108.11346  Auxiliary Task Update Decomposition  The Good, The Bad and The Neutral.pdf 
+A Decomposition Machine-learning Strategy for Automated Fruit Grading.pdf 
+A Neuroevolutionary Approach to Emergent Task Decomposition.pdf 
+Acting and Learning with Goal and Task Decomposition.pdf 
+Deep Co-Training with Task Decomposition for Semi-Supervised Domain Adaptation.pdf 
+Evolving Soccer Keepaway Players Through Task Decomposition.pdf 
+Learning Hierarchical Task Networks with Preferences from Unannotated Demonstrations.pdf 
+PACE Learning Effective Task Decomposition for Human-in-the-loop Healthcare Delivery.pdf 
+Task Decomposition and Role Sharing for Real-time Human-AI Swarm Collaboration.pdf 
+Task Decomposition, Dynamic Role Assignment, and Low-Bandwidth Communication for Real-Time Strategic Teamwork.pdf 
+2005.00000  Task-driven hierarchical deep neural network models of the proprioceptive pathway.pdf 
+Task decomposition a framework for comparing diverse training models in human brain plasticity studies.pdf 
+(OK)  Task decomposition on abstract states, for planning under nondeterminism.pdf 
+(OK)  Automatic Task Decomposition and State Abstraction from Demonstration.pdf 
+2102.04022  Towards Hierarchical Task Decomposition using Deep Reinforcement Learning for Pick and Place Subtasks.pdf 
+Divide and conquer Hierarchical reinforcement learning and task decomposition in humans.pdf 
+Interactive Reinforcement Learning from Human Language and Evaluative Feedback Through Task Decomposition.pdf 
+Skills Regularized Task Decomposition for Multi-task Offline Reinforcement Learning.pdf 
+Structure Learning-Based Task Decomposition for Reinforcement Learning in Non-stationary Environments.pdf 
+TACO Learning Task Decomposition via Temporal Alignment for Control.pdf 
+The Task Decomposition and Dedicated Reward-System-Based Reinforcement Learning Algorithm for Pick-and-Place.pdf 
+Towards Hierarchical Task Decomposition using Deep Reinforcement Learning for Pick and Place Subtasks.pdf 
+Using Reinforcement Learning and Task Decomposition for Learning to Play Doom.pdf 
+Explainable Reinforcement Learning via Reward Decomposition.pdf 
+2301.00303  Rethinking with Retrieval  Faithful Large Language Model Inference.pdf 
+2205.00445  MRKL Systems  A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning.pdf 
+2205.12255  TALM  Tool Augmented Language Models.pdf 
+2302.04761  Toolformer  Language Models Can Teach Themselves to Use Tools.pdf 
+2205.06175   A Generalist Agent.pdf 
+2306.11706   RoboCat A Self-Improving Foundation Agent for Robotic Manipulation.pdf 
+2406.09246  OpenVLA An Open-Source Vision-Language-Action Model.pdf 
+($$)  1604.00289  Building Machines That Learn and Think Like People.pdf 
+2106.01345  Decision Transformer  Reinforcement Learning via Sequence Modeling.pdf 
+2112.04035  Relating transformers to models and neural representations of the hippocampal formation.pdf 
+2112.04426  Improving language models by retrieving from trillions of tokens.pdf 
+2201.11903  Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.pdf 
+2202.06991  Transformer Memory as a Differentiable Search Index.pdf 
+2204.07258  Causal Transformer for Estimating Counterfactual Outcomes.pdf 
+2210.03350  Measuring and Narrowing the Compositionality Gap in Language Models.pdf 
+2210.03629  ReAct  Synergizing Reasoning and Acting in Language Models.pdf 
+2210.14215  In-context Reinforcement Learning with Algorithm Distillation.pdf 
+2212.02264  Bagging is an Optimal PAC Learner.pdf 
+2212.09597  Reasoning with Language Model Prompting  A Survey.pdf 
+2301.12652  REPLUG  Retrieval-Augmented Black-Box Language Models.pdf 
+2302.04761  Toolformer  Language Models Can Teach Themselves to Use Tools.pdf 
+2302.07842  Augmented Language Models  a Survey.pdf 
+2302.09051  Complex QA and language models hybrid architectures, Survey.pdf 
+2303.11366  Reflexion  Language Agents with Verbal Reinforcement Learning.pdf 
+2303.16434  TaskMatrix.AI Completing Tasks by Connecting Foundation Models with Millions of APIs.pdf 
+2303.18223  A Survey of Large Language Models.pdf 
+2304.01665  Mastering Symbolic Operations  Augmenting Language Models with Compiled Neural Networks.pdf 
+2304.09842  Chameleon  Plug-and-Play Compositional Reasoning with Large Language Models.pdf 
+2305.04091  Plan-and-Solve Prompting  Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.pdf 
+2305.10601  Tree of Thoughts  Deliberate Problem Solving with Large Language Models.pdf 
+2305.11554  ToolkenGPT  Augmenting Frozen Language Models with Massive Tools via Tool Embeddings.pdf 
+2305.11738  CRITIC  Large Language Models Can Self-Correct with Tool-Interactive Critiquing.pdf 
+2305.15334  Gorilla  Large Language Model Connected with Massive APIs.pdf 
+2305.17126  Large Language Models as Tool Makers.pdf 
+2306.00323  Thought Cloning  Learning to Think while Acting by Imitating Human Thinking.pdf 
+2306.00924  Minding Language Models' (Lack of) Theory of Mind  A Plug-and-Play Multi-Character Belief Tracker.pdf 
+2306.08640  AssistGPT  A General Multi-modal Assistant that can Plan, Execute, Inspect, and Learn.pdf 
+2307.03567  SpawnNet  Learning Generalizable Visuomotor Skills from Pre-trained Networks.pdf 
+1200.00000  Deep Hierarchies in the Primate Visual Cortex  What Can We Learn For Computer Vision.pdf 
+1907.12071  Spatiotemporal Information Processing with a Reservoir Decision-making Network.pdf 
+2007.00000  Brain hierarchy score Which deep neural networks are hierarchically brain-like.pdf 
+2022.00000  Brain-optimized neural networks learn non-hierarchical models of representation in human visual cortex.pdf 
+2023.00009  Brain-optimized deep neural network models of human visual areas learn non-hierarchical representations.pdf 
+2024.11.14.623565  A vector calculus for neural computation in the cerebellum.pdf 
+A brian-inspired computational model for spatio-temporal information processing.pdf 
+Baars Gage 2010 Cognition, Brain and Consciousness (2nd edition).pdf 
+DNNBrain A Unifying Toolbox for Mapping Deep Neural Networks and Brains.pdf 
+Hierarchy in the organization of brainnetworks.pdf 
+Mathematical Approaches in the Scientific Study of Consciousness (Preprint, Johannes Kleiner).pdf 
+Spatio-Temporal Pattern Representation from AI Inspired Brain Model in Spiking Neural Network.pdf 
+Understanding the Brain The Birth of a Learning Science.pdf 
+Why Don’t Students Like School.pdf 
+2206.02069  Only what exists can cause An intrinsic powers view of free will.pdf 
+2308.03598  Why We Don’t Have AGI Yet.pdf 
+Exploiting the Approximate Omniscience of LLMs in Planning without Deluding yourself in the Process.pdf 
+2002.09402  Addressing Some Limitations of Transformers with Feedback Memory.pdf 
+2206.10498  PlanBench An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change.pdf 
+2211.09085  Galactica A Large Language Model for Science.pdf 
+2302.01107  A Survey on Efficient Training of Transformers.pdf 
+2302.07730  Transformer models  an introduction and catalog.pdf 
+2303.18223  A Survey of Large Language Models  (Chinese).pdf 
+2303.18223  A Survey of Large Language Models.pdf 
+2305.00000  Exploiting the Approximate Omniscience of LLMs in Planning without Deluding yourself in the Process.pdf 
+2305.13546  Neural Functional Transformers.pdf 
+2305.14909  Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning.pdf 
+2305.15771  On the Planning Abilities of Large Language Models  A Critical Investigation.pdf 
+2307.11000  GPT-4  Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE.pdf 
+2311.00000  Can LLMs Really Reason & Plan.pdf 
+2311.14648  Calibrated Language Models Must Hallucinate.pdf 
+2311.16989  ChatGPT's One-year Anniversary Are Open-Source Large Language Models Catching up.pdf 
+2312.10997  Retrieval-Augmented Generation for Large Language Models A Survey.pdf 
+2312.16549  How Robust are LLMs to In-Context Majority Label Bias.pdf 
+2403.04121  Can Large Language Models Reason and Plan.pdf 
+2405.20299  Scaling White-Box Transformers for Vision.pdf 
+2406.07394  Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B.pdf 
+1706.01427  A simple neural network module for relational reasoning.pdf 
+2306.05685  Judging LLM-as-a-judge with MT-Bench and Chatbot Arena.pdf 
+2307.10635  SciBench.pdf 
+$$  Hierarchical Reinforcement Learning A Survey and Open Research Challenges.pdf 
+1604.07255  A Deep Hierarchical Approach to Lifelong Learning in Minecraft.pdf 
+1609.05140  The Option-Critic Architecture.pdf 
+1703.01161  FeUdal Networks for Hierarchical Reinforcement Learning.pdf 
+1712.00948  Learning Multi-Level Hierarchies with Hindsight.pdf 
+2302.14451  Hierarchical Reinforcement Learning in Complex 3D Environments.pdf 
+Detect, Understand, Act A Neuro?symbolic Hierarchical Reinforcement Learning Framework.pdf 
+Dynamics-Aware Unsupervised Discovery of Skills.pdf 
+End-to-End Entity Linking with Hierarchical Reinforcement Learning.pdf 
+Hierarchical Reinforcement Learning A Comprehensive Survey.pdf 
+Hierarchical Reinforcement Learning With Attention Reward.pdf 
+HierarchicalReinforcementLearningAComprehensiveSurvey-ACMComputingSurvey2021.pdf 
+HIRO  O? policy Hierarchical Reinforcement Learning to control the AWAKE e? beam.pdf 
+Option Discovery using Deep Skill Chaining.pdf 
+Skill Discovery in Continuous Reinforcement Learning Domains using Skill Chaining.pdf 
+contributor_tutorial.pdf 
+mcts_rl_evolution_overview.pdf 
+alphazero_overview.pdf 
+efficientzero_overview.pdf 
+gumbel_muzero_overview.pdf 
+mcts_overview.pdf 
+muzero_overview.pdf 
+sampled_muzero_overview.pdf 
+hopper_main.pdf 
+walker2d_main.pdf 
+AlphaZero.pdf 
+EfficientZero.pdf 
+GumbelMuZero.pdf 
+MuZero.pdf 
+NotationTable.pdf 
+SampledMuZero.pdf 
+StochasticMuZero.pdf 
+2211.11238  RobustLoc.pdf 
+2310.01410  LEAP.pdf 
+2212.05231  NeuS2.pdf 
+2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf 
+2306.03092  Neuralangelo.pdf 
+Mesh Editing with Poisson-Based Gradient Field Manipulation.pdf 
+1506.05254  Gradient Estimation Using Stochastic Computation Graphs.pdf 
+1906.04173  Differentiable Surface Splatting for Point-based Geometry Processing.pdf 
+2205.14330  Differentiable Point-Based Radiance Fields for Efficient View Synthesis.pdf 
+2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf 
+2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf 
+2312.00846  NeuSG Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance.pdf 
+2312.07504  COLMAP-Free 3D Gaussian Splatting.pdf 
+2312.09147  Triplane Meets Gaussian Splatting Fast and Generalizable Single-View 3D Reconstruction with Transformers.pdf 
+RTR4-CN.pdf 
+2111.05849  Advances in Neural Rendering.pdf 
+2300.00000  Neural Mesh Reconstruction.pdf 
+2303.02879  $$  A Review of Deep Learning-Powered Mesh Reconstruction Methods.pdf 
+2312.14132  DUSt3R Geometric 3D Vision Made Easy.pdf 
+2308.04288  Cloth2Tex A Customized Cloth Texture Generation Pipeline for 3D Virtual Try-On.pdf 
+2309.06441  Learning Disentangled Avatars with Hybrid 3D Representations.pdf 
+2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf 
+2004.06302  Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors.pdf 
+2208.00183  Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network.pdf 
+2103.04922  $$  Deep Generative Modelling A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models.pdf 
+2209.02646  $$  A Survey on Generative Diffusion Models.pdf 
+2308.13680  ACC-UNet A Completely Convolutional UNet model for the 2020s.pdf 
+1902.04049  MultiResUNet  Rethinking the U-Net architecture for multimodal biomedical image segmentation.pdf 
+2105.05537  Swin-Unet  Unet-like Pure Transformer for Medical Image Segmentation.pdf 
+2109.04335  UCTransNet Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer.pdf 
+2212.01206  DiffRF.pdf 
+2212.06135  Rodin.pdf 
+2305.02463  Shap·E.pdf 
+2212.08751  Point·E.pdf 
+2303.01469  Consistency Models.pdf 
+2206.00364  Elucidating the Design Space of Diffusion-Based Generative Models.pdf 
+2209.03003  RectifiedFlow.pdf 
+1810.01367  FFJORD Free-form Continuous Dynamics for Scalable Reversible Generative Models.pdf 
+1809.10486  nnU-Net.pdf 
+TransUNet.pdf 
+2011.10650  vdvae Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images.pdf 
+1804.04694  vunet.pdf 
+2004.09376  Conditional-UNet.pdf 
+2109.08937  UNetFormer A UNet-like Transformer for Efficient Semantic Segmentation of Remote Sensing Urban Scene Imagery.pdf 
+2301.11798  MedSegDiff-V2  Diffusion based Medical Image Segmentation with Transformer.pdf 
+1902.00275  Flow++.pdf 
+1911.02052  A Method to Model Conditional Distributions with Normalizing Flows.pdf 
+1912.00042  Learning Likelihoods with Conditional Normalizing Flows.pdf 
+2304.14963  Flow Away your Differences  Conditional Normalizing Flows as an Improvement to Reweighting.pdf 
+A Conditional Normalizing Flow for Accelerated Multi-Coil MR Imaging.pdf 
+Abdelhamed_Noise_Flow_Noise_Modeling_With_Conditional_Normalizing_Flows_ICCV_2019_paper.pdf 
+Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory.pdf 
+2212.00436  ViewNeRF.pdf 
+2303.11328  Zero123.pdf 
+2309.03453  SyncDreamer.pdf 
+2102.07064  NeRF??.pdf 
+2206.11474  Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation.pdf 
+2207.10183  2D GANs Meet  #Single View.pdf 
+2211.17091  Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models.pdf 
+2212.00436  ($$$$)  ViewNeRF  Unsupervised Viewpoint Estimation Using Category-Level Neural Radiance Fields.pdf 
+2212.08051  Objaverse  A Universe of Annotated 3D Objects.pdf 
+2300.00000  Real-Time Radiance Fields for Single-Image Portrait View Synthesis.pdf 
+2301.10241  K-Planes  Explicit Radiance Fields in Space, Time, and Appearance.pdf 
+2301.11093  simple diffusion End-to-end diffusion for high resolution images.pdf 
+2303.11328  ($$$$)  Zero-1-to-3  Zero-shot One Image to 3D Object.pdf 
+2306.17843  ($$$$)  Magic123  One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Prior.pdf 
+2307.00000  Automatic Single-Image 3d Reconstructions of Indoor Manhattan World Scenes.pdf 
+2307.05663  Objaverse-XL A Universe of 10M+ 3D Objects.pdf 
+2309.16653  DreamGaussian.pdf 
+NeRF年度报告.pdf 
+2003.03369  A Survey on Deep Hashing Methods.pdf 
+2105.06138  CIBHash  Unsupervised Hashing with Contrastive Information Bottleneck.pdf 
+DATE  A Statistical Approach to Mining Semantic Similarity for Deep.pdf 
+2310.09806  Can LSH (Locality-Sensitive Hashing) Be Replaced by Neural Network.pdf 
+Deep Constrained Siamese Hash Coding Network and Load-Balanced Locality-Sensitive Hashing for Near Duplicate Image Detection.pdf 
+Image Retrieval Algorithm Based on Locality-Sensitive Hash Using Convolutional Neural Network and Attention Mechanism.pdf 
+LSH-SMILE  Locality Sensitive Hashing Accelerated Simulation and Learning.pdf 
+2001.04451  Reformer The Efficient Transformer.pdf 
+MONGOOSE A Learnable LSH Framework for Efficient Neural Network.pdf 
+1606.03126  Key-Value Memory Networks for Directly Reading Documents.pdf 
+Dynamic Key-Value Memory Networks for Knowledge Tracing.pdf 
+A survey on long short-term memory networks for time series prediction.pdf 
+A Survey on Memory Subsystems for Deep Neural Network Accelerators.pdf 
+A Survey on Neural Networks Using Memory Component.pdf 
+End-to-End Memory Networks A Survey.pdf 
+2004.06302  Few-shot Single-View 3D Object Reconstruction with Compositional Priors  #Single View.pdf 
+2011.01437  DefTet.pdf 
+2106.10689  NeuS.pdf 
+2111.12503  Extracting Triangular 3D Models, Materials, and Lighting From Images.pdf 
+2204.10310  UNICORN  Share With Thy Neighbors  Single-View Reconstruction by Cross-Instance Consistency  #Single View.pdf 
+2208.00183  Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network  #Single View.pdf 
+2208.12697  Voxurf.pdf 
+2211.14173  NeuralUDF.pdf 
+2212.05231  NeuS2.pdf 
+2303.02091  Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement.pdf 
+2303.02879  A Review of Deep Learning-Powered Mesh Reconstruction Methods.pdf 
+2303.12012  NeAT.pdf 
+2308.05371  Flexible Isosurface Extraction for Gradient-Based Mesh Optimization.pdf 
+Extracting Triangular 3D Models, Materials, and Lighting From Images.pdf 
+MeshDiffusion.pdf 
+Recovering_Fine_Details_for_Neural_Implicit_Surface_Reconstruction.pdf 
+Ref-NeuS.pdf 
+Towards_Unbiased_Volume_Rendering_of_Neural_Implicit_Surfaces_With_Geometry.pdf 
+2106.11272  NeuralMarchingCubes.pdf 
+1908.06903  Multi-Garment Net.pdf 
+2103.06871  SMPLicit.pdf 
+2206.07850  HF-NeuS.pdf 
+2302.06793  HR-NeuS (So).pdf 
+2303.02375  NeuDA (SoSo).pdf 
+2306.03092  Neuralangelo.pdf 
+0200.00000  EWA Splatting.pdf 
+1506.05254  Gradient Estimation Using Stochastic Computation Graphs.pdf 
+1906.04173  Differentiable Surface Splatting for Point-based Geometry Processing.pdf 
+2006.12057  Differentiable Rendering A Survey.pdf 
+2109.02369  Point-Based Neural Rendering with Per-View Optimization.pdf 
+2204.01287  Software Rasterization of 2 Billion Points in Real Time.pdf 
+2205.14330  Differentiable Point-Based Radiance Fields for Efficient View Synthesis.pdf 
+2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf 
+2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf 
+Chang_Pointersect_Neural_Rendering_With_Cloud-Ray_Intersection_CVPR_2023_paper.pdf 
+DIB-R  Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer.pdf 
+Feature Preserving Point Set Surfaces based on Non-Linear Kernel Regression.pdf 
+InverseRenderNet Learning single image inverse rendering.pdf 
+Towards 3D Scene Understanding Using Differentiable Rendering.pdf 
+2308.02751  NeRFs The Search for the Best 3D Representation.pdf 
+2312.02980  GPT4Point A Unified Framework for Point-Language Understanding and Generation.pdf 
+3D Object Representations.pdf 
+$$  2204.10310  Share With Thy Neighbors  Single-View Reconstruction by Cross-Instance Consistency.pdf 
+$$  2211.11674  Shape, Pose, and Appearance from a Single Image via Bootstrapped Radiance Field Inversion.pdf 
+$$  2303.15181  DreamStone-ISS.pdf 
+2209.04145  ISS.pdf 
+2211.11674  Bootstrapped Radiance Field Inversion.pdf 
+2301.13510  3D-Former.pdf 
+3D Shape Reconstruction from 2D Images with Disentangled Attribute Flow.pdf 
+3D-R2N2 A Unified Approach for Single and Multi-view 3D Object Reconstructio.pdf 
+Accurate 3D Shape Reconstruction from Single Structured-Light Image via Fringe-to-Fringe Network.pdf 
+Differentiable Volumetric Rendering.pdf 
+Learning Single-Image 3D Reconstruction by Generative Modelling of Shape, Pose and Shading.pdf 
+Ray-ONet.pdf 
+SDF-SRN.pdf 
+Shape-Pose Ambiguity in Learning 3D Reconstruction from Images.pdf 
+Survey of methods and principles in three-dimensional reconstruction from two-dimensional medical images.pdf 
+Three-Dimensional Shape Reconstruction from a Single Image by Deep Learning.pdf 
+2202.02435  On Neural Differential Equations.pdf 
+2211.11238  RobustLoc.pdf 
+1806.07366  Neural Ordinary Differential Equations.pdf 
+1810.01367  FFJORD.pdf 
+1904.01681  Augmented Neural ODEs.pdf 
+2102.11802  Three ways to solve partial differential equations with neural networks — A review.pdf 
+2201.03269  Neural Networks to Solve Partial Differential Equations  A Comparison With Finite Elements.pdf 
+A neural network?based PDE solving algorithm with high precision.pdf 
+2003.09229  Learning to Encode Position for Transformer with Continuous Dynamical Model.pdf 
+2012.12556  A Survey on Visual Transformer.pdf 
+2102.10882  Conditional Positional Encodings for Vision Transformers.pdf 
+2103.15808  CvT Introducing Convolutions to Vision Transformers.pdf 
+2104.08698  A Simple and Effective Positional Encoding for Transformers.pdf 
+2104.09864  RoFormer Enhanced Transformer with Rotary Position Embedding.pdf 
+2309.15426  NeuRBF A Neural Fields Representation with Adaptive Radial Basis Functions.pdf 
+2310.08584  Is ImageNet worth 1 video Learning strong image encoders from 1 long unlabelled video.pdf 
+2402.03908  EscherNet A Generative Model for Scalable View Synthesis.pdf 
+2403.13298  Rotary Position Embedding for Vision Transformer.pdf 
+2405.18719  Contextual Position Encoding Learning to Count What's Important.pdf 
+2406.03689  Evaluating the World Model Implicit in a Generative Model.pdf 
+2406.09246  OpenVLA An Open-Source Vision-Language-Action Model.pdf 
+2406.09415  An Image is Worth More Than 16x16 Patches Exploring Transformers on Individual Pixels.pdf 
+2406.11741  Transcendence Generative Models Can Outperform The Experts That Train Them.pdf 
+Joint coding of visual input and eyehead position in V1 of freely moving mice (more).pdf 
+Joint coding of visual input and eyehead position in V1 of freely moving mice.pdf 
+Leveraging Generic Problem Structure for Efficient Reinforcement Learning.pdf 
+Neuronal tuning and population representations of shape and category in human visual cortex.pdf 
+Proposed Hybrid Spatial Indexing QX Tree.pdf 
+Rethinking and Improving Relative Position Encoding for Vision Transformer.pdf 
+1807.03247  An Intriguing Failing of Convolutional Neural Networks and the CoordConv Solution.pdf 
+1908.11415  Translating Math Formula Images to LaTeX Sequences Using Deep Neural Networks with Sequence-level Training.pdf 
+2001.08248  How Much Position Information Do Convolutional Neural Networks Encode.pdf 
+2303.14189  FastViT A Fast Hybrid Vision Transformer using Structural Reparameterization.pdf 
+2405.18719  Contextual Position Encoding Learning to Count What’s Important.pdf 
+1706.03762.pdf 
+1803.02999.pdf 
+1805.09801.pdf 
+1910.02054.pdf 
+2003.08934.pdf 
+2006.11239.pdf 
+2103.00020.pdf 
+2109.02869.pdf 
+2109.08668.pdf 
+2112.04426.pdf 
+2203.14465.pdf 
+2203.15556.pdf 
+2204.02311.pdf 
+2204.10628.pdf 
+2205.01068.pdf 
+2205.14135.pdf 
+dall-e-2.pdf 
+distillation.pdf 
+gans_n_roses.pdf 
+google_maps_eta.pdf 
+muzero.pdf 
+ponder_net.pdf 
+resnet.pdf 
+RWKV.pdf 
+vit.pdf 
+2205.10337  UViM A Unified Modeling Approach for Vision with Learned Guiding Codes.pdf 
+2206.08916  A Unified Model for Vision, Language, and Multi-Modal Tasks.pdf 
+2406.11832  Unveiling Encoder-Free Vision-Language Models.pdf 
+2402.13616  YOLOv9.pdf 
+2405.14458  YOLOv10.pdf 
+Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns.pdf 
+Joint Learning Neuronal Skeleton and Brain Circuit Topology with Permutation Invariant Encoders for Neuron Classification.pdf 
+MmAP Multi-modal Alignment Prompt for Cross-domain Multi-task Learning.pdf 
+Prompt-based Distribution Alignment for Unsupervised Domain Adaptation.pdf 
+Structure-CLIP Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations.pdf 
+DiAD A Diffusion-based Framework for Multi-class Anomaly Detection.pdf 
+Improving the Robustness of Knowledge-GroundedDialogue via Contrastive Learning.pdf 
+TimesURL Self-supervised Contrastive Learning for Universal Time Series Representation Learning.pdf 
+VadCLIP Adapting Vision-Language Models for Weakly Supervised Video Anomaly Detection.pdf 
+Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data.pdf 
+MSGNet Learning Multi-Scale Inter-Series Correlations for Multivariate Time Series Forecasting.pdf 
+Far3D Expanding the Horizon for Surround-view 3D Object Detection.pdf 
+Weakly Supervised Open-Vocabulary Object Detection.pdf 
+GaussianAvatar Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians.pdf 
+GPS-Gaussian Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis.pdf 
+Scaffold-GS Structured 3D Gaussians for View-Adaptive Rendering.pdf 
+PTT Point-Trajectory Transformer for Efficient Temporal 3D Object Detection.pdf 
+GaussianAvatar Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians.pdf 
+DETRs Beat YOLOs on Real-time Object Detection.pdf 
+InstanceDiffusion Instance-level Control for Image Generation.pdf 
+Residual Denoising Diffusion Models.pdf 
+EmbodiedScan A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI.pdf 
+Residual Denoising Diffusion Models.pdf 
+An Empirical Study of Scaling Law for OCR.pdf 
+TransNeXt Robust Foveal Visual Perception for Vision Transformers.pdf 
+Object Recognition as Next Token Prediction.pdf 
+ParameterNet Parameters Are All You Need for Large-scale Visual Pretraining of Mobile Networks.pdf 
+ECLIPSE A Resource-Efficient Text-to-Image Prior for Image Generations.pdf 
+mPLUG-Owl2 Revolutionizing Multi-modal Large Language Model with Modality Collaboration.pdf 
+DETRs Beat YOLOs on Real-time Object Detection.pdf 
+A Benchmark on Robust Semi-Supervised Learning in Open Environments.pdf 
+ClimODE Climate Forecasting With Physics-informed Neural ODEs.pdf 
+Differentiable Trajectory Optimization as a Policy Class for Reinforcement and Imitation Learning.pdf 
+Generalization in diffusion models arises from geometry-adaptive harmonic representation.pdf 
+iTransformer Inverted Transformers Are Effective for Time Series Forecasting.pdf 
+Monte Carlo guided Denoising Diffusion models for Bayesian linear inverse problems.pdf 
+Revitalizing Channel-dimension Fourier Transform for Image Enhancement.pdf 
+SDXL Improving Latent Diffusion Models for High-Resolution Image Synthesis.pdf 
+SyncDreamer Generating Multiview-consistent Images from a Single-view Image.pdf 
+Vision Transformers Need Registers.pdf 
+slides_1.pdf 
+slides_2.pdf 
+2003.14166  Pix2Shape – Towards Unsupervised Learning of 3D Scenes from Images using a View-based Representation.pdf 
+2301.05747  Latent Set Representations for 3D Generative Modeling.pdf 
+2310.06773  Uni3D Exploring Unified 3D Representation at Scale.pdf 
+2312.08550  Harmonics of Learning Universal Fourier Features Emerge in Invariant Networks.pdf 
+Pixels, voxels, and views A study of shape representations for single view 3D object shape prediction.pdf 
+2111.14549  MeshUDF Fast and Differentiable Meshing of Unsigned Distance Field Networks.pdf 
+2311.17050  Surf-D High-Quality Surface Generation for Arbitrary Topologies using Diffusion Models.pdf 
+2312.07504  COLMAP-Free 3D Gaussian Splatting.pdf 
+2312.14132  DUSt3R Geometric 3D Vision Made Easy.pdf 
+2404.06337  Matching 2D Images in 3D Metric Relative Pose from Metric Correspondences.pdf 
+2401.02436  Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis.pdf 
+reduced_3DGS_i3d.pdf 
+2212.09748  DiT Scalable Diffusion Models with Transformers.pdf 
+2305.13311  VDT General-purpose Video Diffusion Transformers via Mask Modeling.pdf 
+2402.17177  Sora  A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models.pdf 
+2402.17485  EMO Emote Portrait Alive - Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions.pdf 
+2403.18103  Tutorial on Diffusion Models for Imaging and Vision.pdf 
+2404.13686  Hyper-SD.pdf 
+2304.02643  Segment Anything.pdf 
+2312.02139  DiffiT Diffusion Vision Transformers for Image Generation.pdf 
+1608.03658  Deep Hashing A Joint Approach for Image Signature Learning.pdf 
+2003.03369  A Survey on Deep Hashing Methods.pdf 
+2106.04426  Hash Layers For Large Sparse Models.pdf 
+2109.12564  Vision Transformer Hashing for Image Retrieval.pdf 
+2200.00000  Learning to hash a comprehensive survey .pdf 
+2201.13322  Learning to Hash Naturally Sorts.pdf 
+2304.12587 MF-NeRF Memory Efficient NeRF with Mixed-Feature Hash Table.pdf 
+Improved Deep Hashing with Scalable Interblock for Tourist Image Retrieva.pdf 
+MixNet Mix Different Networks for Learning 3D Implicit Representations.pdf 
+Multi-scale Hash Encoding based Neural Geometry Representation.pdf 
+Non-Relaxation_Deep_Hashing_Method_for_Fast_Image_Retrieval.pdf 
+2104.00024  RetrievalFuse  Neural 3D Scene Reconstruction with a Database.pdf 
+2309.16653  DreamGaussian.pdf 
+2312.02981  ReconFusion 3D Reconstruction with Diffusion Priors.pdf 
+2401.02400  Learning the 3D Fauna of the Web.pdf 
+2401.14404  Deconstructing Denoising Diffusion Models for Self-Supervised Learning.pdf 
+2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf 
+2309.13101  Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction.pdf 
+2309.16585  Text-to-3D using Gaussian Splatting.pdf 
+2310.08528  4D Gaussian Splatting for Real-Time Dynamic Scene Rendering.pdf 
+2310.08529  GaussianDreamer Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors.pdf 
+2310.10642  Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting.pdf 
+2311.08581  Drivable 3D Gaussian Avatars.pdf 
+2311.10812  SplatArmor Articulated Gaussian splatting for animatable humans from monocular RGB videos.pdf 
+2311.11221  GaussianDiffusion 3D Gaussian Splatting for Denoising Diffusion Probabilistic Models with Structured Noise.pdf 
+2311.11284  LucidDreamer Towards High-Fidelity Text-to-3D Generation via Interval Score Matching.pdf 
+2311.11700  GS-SLAM Dense Visual SLAM with 3D Gaussian Splatting.pdf 
+2311.12198  PhysGaussian Physics-Integrated 3D Gaussians for Generative Dynamics.pdf 
+2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf 
+2311.12897  An Efficient 3D Gaussian Representation for MonocularMulti-view Dynamic Scenes.pdf 
+2311.13384  LucidDreamer Domain-free Generation of 3D Gaussian Splatting Scenes.pdf 
+2311.13398  Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images.pdf 
+2311.13404  Animatable 3D Gaussians for High-fidelity Synthesis of Human Motions.pdf 
+2311.13681  Compact 3D Gaussian Representation for Radiance Field.pdf 
+2311.14521  GaussianEditor Swift and Controllable 3D Editing with Gaussian Splatting.pdf 
+2311.16043  Relightable 3D Gaussian Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing.pdf 
+2311.16096  Animatable Gaussians Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling.pdf 
+2311.16099  GART Gaussian Articulated Template Models.pdf 
+2311.16473  GS-IR 3D Gaussian Splatting for Inverse Rendering.pdf 
+2311.16482  Animatable 3D Gaussian Fast and High-Quality Reconstruction of Multiple Human Avatars.pdf 
+2311.16493  Mip-Splatting Alias-free 3D Gaussian Splatting.pdf 
+2311.16737  Point’n Move Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields.pdf 
+2311.17089  Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering.pdf 
+2311.17113  Human Gaussian Splatting Real-time Rendering of Animatable Avatars.pdf 
+2311.17245  GPS-Gaussian Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis.pdf 
+2311.17857  Gaussian Shell Maps for Efficient 3D Human Generation.pdf 
+2311.17874  FisherRF Active View Selection and Uncertainty Quantification for Radiance Fields using Fisher Information.pdf 
+2311.17907  CG3D Compositional Generation for Text-to-3D via Gaussian Splatting.pdf 
+2311.17910  HUGS Human Gaussian Splats.pdf 
+2311.17977  GaussianShader 3D Gaussian Splatting with Shading Functions for Reflective Surfaces.pdf 
+2311.18159  Compact3D Compressing Gaussian Splat Radiance Field Models with Vector Quantization.pdf 
+2311.18561  Periodic Vibration Gaussian Dynamic Urban Scene Reconstruction and Real-time Rendering.pdf 
+2312.00000  Dynamic 3D Gaussians Tracking by Persistent Dynamic View Synthesis.pdf 
+2312.00000  HumanGaussian Text-Driven 3D Human Generation with Gaussian Splatting.pdf 
+2312.00000  SC-GS Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes.pdf 
+2312.00000  SplaTAM Splat, Track & Map 3D Gaussians.pdf 
+2312.00093  GraphDreamer Compositional 3D Scene Synthesis from Scene Graphs.pdf 
+2312.00109  Scaffold-GS Structured 3D Gaussians for View-Adaptive Rendering.pdf 
+2312.00112  DynMF Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting.pdf 
+2312.00206  SparseGS Real-Time 360° Sparse View Synthesis using Gaussian Splatting.pdf 
+2312.00451  FSGS Real-Time Few-shot View Synthesis using Gaussian Splatting.pdf 
+2312.00583  MD-Splatting Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes.pdf 
+2312.00732  Gaussian Grouping Segment and Edit Anything in 3D Scenes.pdf 
+2312.00846  NeuSG Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidence.pdf 
+2312.02126  SplaTAM Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM.pdf 
+2312.02981  ReconFusion 3D Reconstruction with Diffusion Priors.pdf 
+2312.07504  COLMAP-Free 3D Gaussian Splatting.pdf 
+2312.09147  Triplane Meets Gaussian Splatting Fast and Generalizable Single-View 3D Reconstruction with Transformers.pdf 
+2312.13763  Align Your Gaussians Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models.pdf 
+2312.14937  SC-GS Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes.pdf 
+2401.03890  A Survey on 3D Gaussian Splatting.pdf 
+2401.06003  TRIPS Trilinear Point Splatting for Real-Time Radiance Field Rendering.pdf 
+2404.09458  CompGS.pdf 
+2404.09591  3D Gaussian Splatting as Markov Chain Monte Carlo.pdf 
+2404.10484  AbsGS.pdf 
+2404.12547  Does Gaussian Splatting need SFM Initialization.pdf 
+N-Dimensional Gaussians for Fitting of High Dimensional Functions.pdf 
+2308.04079  3D Gaussian Splatting for Real-Time Radiance Field Rendering.pdf 
+2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf 
+seq_assetStreamer.pdf 
+seq_insideOut.pdf 
+seq_ulr_stream.pdf 
+seq_ulr_v3_landscape.pdf 
+seq_unity_ulr_rendering.pdf 
+seq_unity_ulr_texture_upload.pdf 
+manual.pdf 
+seq_assetStreamer.pdf 
+seq_insideOut.pdf 
+seq_ulr_stream.pdf 
+seq_ulr_v3_landscape.pdf 
+seq_unity_ulr_rendering.pdf 
+seq_unity_ulr_texture_upload.pdf 
+manual.pdf 
+0000.00000  AIGC-3D-SOTA模型效果.pdf 
+2104.10622  Voxel Structure-based Mesh Reconstruction from a 3D Point Cloud.pdf 
+2210.10716  CroCo Self-Supervised Pre-training for 3D Vision Tasks by Cross-View Completion.pdf 
+2211.10408  CroCo v2 Improved Cross-view Completion Pre-training for Stereo Matching and Optical Flow.pdf 
+2305.10579  MultiPlaneNeRF  Neural Radiance Field with Non-Trainable Representation.pdf 
+2308.16512  MVDream Multi-view Diffusion for 3D Generation.pdf 
+2310.15008  Wonder3D Single Image to 3D using Cross-Domain Diffusion.pdf 
+2311.04400  LRM  Large Reconstruction Model for Single Image to 3D.pdf 
+2311.07885  One-2-3-45++   Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion.pdf 
+2311.07885  One-2-3-45++.pdf 
+2312.00752  Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf 
+2312.04551  Free3D Consistent Novel View Synthesis without 3D Representation.pdf 
+2312.09147  Triplane  Meets Gaussian Splatting Fast and Generalizable Single-View 3D Reconstruction with Transformers.pdf 
+2312.09147  Triplane Meets Gaussian Splatting Fast and Generalizable Single-View 3D Reconstruction with Transformers.pdf 
+2312.12337  pixelSplat.pdf 
+2312.13150  Splatter Image Ultra-Fast Single-View 3D Reconstruction.pdf 
+2312.14132  DUSt3R Geometric 3D Vision Made Easy.pdf 
+2312.14132  DUSt3R.pdf 
+2402.00525  StopThePop  Sorted Gaussian Splatting for View-Consistent Real-time Rendering.pdf 
+2403.00000  MvCtl    Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting.pdf 
+2403.02151  TripoSR  Fast 3D Object Reconstruction from a Single Image.pdf 
+2403.02234  3DTopia  Large Text-to-3D Generation Model with Hybrid Diffusion Priors.pdf 
+2403.12008  SV3D Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion.pdf 
+2403.14621  GRM Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation.pdf 
+2403.15704  Gaussian in the Wild.pdf 
+2403.18361  ViTAR Vision Transformer with Any Resolution.pdf 
+2403.18795  Gamba Marry Gaussian Splatting with Mamba for single view 3D reconstruction.pdf 
+2403.20309  InstantSplat.pdf 
+2404.00409  3DGSR Implicit Surface Reconstruction with 3D Gaussian Splatting.pdf 
+2404.01367  Bigger is not Always Better Scaling Properties of Latent Diffusion Models.pdf 
+manual.pdf 
+$$  2210.15663  3D Generative Models A Survey.pdf 
+$$  2308.05371  FlexiCubes.pdf 
+$$  2310.07204  State of the Art on Diffusion Models for Visual Computing.pdf 
+2204.10310  Unicorn  Share With Thy Neighbors Single-View Reconstruction by Cross-Instance Consistency.pdf 
+2208.02676  Single-view 3D Mesh Reconstruction for Seen and Unseen Categories.pdf 
+2211.09869  RenderDiffusion  Image Diffusion for 3D Reconstruction, Inpainting and Generation.pdf 
+2303.05371  3DGen Triplane Latent Diffusion for Textured Mesh Generation.pdf 
+2303.08133  MeshDiffusion Score-based Generative 3D Mesh Modeling.pdf 
+2303.16509  $  HoloDiffusion  Training a 3D Diffusion Model using 2D Images.pdf 
+2304.06714  Single-Stage Diffusion NeRF A Unified Approach to 3D Generation and Reconstruction.pdf 
+2308.14244  $  HoloFusion Towards Photo-realistic 3D Generative Modeling.pdf 
+2309.03453  SyncDreamer.pdf 
+2310.16818  DreamCraft3D Hierarchical 3D Generation with Bootstrapped Diffusion Prior.pdf 
+2311.06214  Instant3D Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model.pdf 
+2311.12775  SuGaR Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering.pdf 
+2401.00000  Ghost on the Shell An Expressive Representation of General 3D Shapes.pdf 
+2401.12751  PSDF.pdf 
+2402.00000  GaMeS Mesh-Based Adapting and Modification of Gaussian Splatting.pdf 
+2402.12225  Argus3D  Pushing Auto-regressive Models for 3D Shape Generation at Capacity and Scalability.pdf 
+2404.13445  DMesh.pdf 
+2404.17774  Gaussian Surfel.pdf 
+2308.05371  FlexiCubes #2 supplemental.pdf 
+2308.05371  FlexiCubes #2.pdf 
+2308.05371  FlexiCubes.pdf 
+paper.pdf 
+4dgen.pdf 
+paper.pdf 
+2401.01702  Image Sculpting Precise Object Editing with 3D Geometry Control.pdf 
+2301.11280  Text-To-4D Dynamic Scene Generation.pdf 
+2304.01116  ReMoDiffuse Retrieval-Augmented Motion Diffusion Model.pdf 
+2304.04681  Controllable Motion Synthesis and Reconstruction with Autoregressive Diffusion Models.pdf 
+2305.09381  AMD Autoregressive Motion Diffusion.pdf 
+2310.08528  4D Gaussian Splatting for Real-Time Dynamic Scene Rendering.pdf 
+2310.10642  Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting.pdf 
+2312.07541  SMERF.pdf 
+2312.13763  Align Your Gaussians Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models.pdf 
+2312.16812  Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis.pdf 
+2312.17142  DreamGaussian4D  Generative 4D Gaussian Splatting.pdf 
+2312.17225  4DGen  Grounded 4D Content Generation with Spatial-temporal Consistency.pdf 
+2401.02400  Learning the 3D Fauna of the Web.pdf 
+2403.17920  TC4D  Trajectory-Conditioned Text-to-4D Generation.pdf 
+2302.05905.pdf 
+2303.01418.pdf 
+2303.16611.pdf 
+2304.08577  Avatars Grow Legs Generating Smooth Human Motion from Sparse Tracking Inputs with Diffusion Model.pdf 
+2310.10642  Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting.pdf 
+2312.00112  DynMF.pdf 
+2312.17135  InsActor Instruction-driven Physics-based Characters.pdf 
+2304.05684  InterGen Diffusion-based Multi-human Motion Generation under Complex Interactions.pdf 
+2305.13311  VDT General-purpose Video Diffusion Transformers via Mask Modeling.pdf 
+2309.16237  Object Motion Guided Human Motion Synthesis.pdf 
+2401.16663  VR-GS.pdf 
+2402.00186  Distance and Collision Probability Estimation from Gaussian Surface Models.pdf 
+2402.15391  Genie Generative Interactive Environments.pdf 
+2403.12409  ComboVerse Compositional 3D Assets Creation Using Spatially-Aware Diffusion Guidance.pdf 
+2403.14554  $$  Gaussian Frosting   Editable Complex Radiance Fields with Real-Time Rendering.pdf 
+2403.14554  Gaussian Frosting Editable Complex Radiance Fields with Real-Time Rendering.pdf 
+2406.10788  Physically Embodied Gaussian Splatting A Realtime Correctable World Model for Robotics.pdf 
+2302.12249  MERF  Memory-Efficient Radiance Fields for Real-time View Synthesis in Unbounded Scenes.pdf 
+2312.07541  SMERF.pdf 
+2401.04099  AGG  Amortized Generative 3DGS.pdf 
+2403.16292  LatentSplat.pdf 
+2404.19149  SAGS  Structure-Aware 3DGS.pdf 
+2404.19702  GS-LRM.pdf 
+seq_assetStreamer.pdf 
+seq_insideOut.pdf 
+seq_ulr_stream.pdf 
+seq_ulr_v3_landscape.pdf 
+seq_unity_ulr_rendering.pdf 
+seq_unity_ulr_texture_upload.pdf 
+manual.pdf 
+2401.00834  Deblurring 3D Gaussian Splatting.pdf 
+Personal Single User License agreement.pdf 
+Tutorials.pdf 
+Personal Single User License agreement.pdf 
+Tutorials.pdf 
+2211.12497  MagicPony Learning Articulated 3D Animals in the Wild.pdf 
+2310.01410  LEAP.pdf 
+2312.02981  ReconFusion 3D Reconstruction with Diffusion Priors.pdf 
+2312.14132  DUSt3R Geometric 3D Vision Made Easy.pdf 
+2401.02400  Learning the 3D Fauna of the Web.pdf 
+2401.03890  A Survey on 3D Gaussian Splatting.pdf 
+2403.00504  Learning and Leveraging World Models in Visual Representation Learning.pdf 
+1905.11437  A Survey of Adaptive Resonance Theory Neural Network Models for Engineering Applications.pdf 
+A Cortical-Hippocampal Neural Architecture for Episodic Memory with Information Theoretic Model Analysis.pdf 
+A Stable Biologically Motivated Learning Mechanism for Visual Feature Extraction to Handle Facial Categorization.pdf 
+Adaptive Resonance Theory  How a brain learns to consciously attend, learn, and recognize a changing world.pdf 
+Adaptive Resonance Theory (ART) An Introduction.pdf 
+Adaptive Resonance Theory.pdf 
+Adaptive-Resonance-Theory Training Algorithm for Image Based on Single Training Example.pdf 
+ConvART Improving Adaptive Resonance Theory for Unsupervised Image Clustering.pdf 
+The Easy Part of the Hard Problem A Resonance Theory of Consciousness.pdf 
+1912.08541  s-DRN Stabilized Developmental Resonance Network.pdf 
+Adaptive Developmental Resonance Network.pdf 
+Developmental changes in functional brain networks from birth through adolescence.pdf 
+1512.05463  Continuous online sequence learning with an unsupervised neural network model.pdf 
+A Theory of How Columns in the Neocortex Enable Learning the Structure of the World.pdf 
+Hierarchical Temporal Memory  Concepts, Theory, and Terminology.pdf 
+hierarchical-temporal-memory-cortical-learning-algorithm-0.2.1-cn.pdf 
+HTM Cortical Learning Algorithms.pdf 
+HTM Neuromorphic 1505.02142v1.pdf 
+BaMI-Encoders.pdf 
+BaMI-Glossary.pdf 
+BaMI-HTM-Overview.pdf 
+BaMI-Introduction.pdf 
+BaMI-Other-Content.pdf 
+BaMI-Problem-Sets.pdf 
+BaMI-SDR.pdf 
+BaMI-Spatial-Pooler.pdf 
+BaMI-Temporal-Memory.pdf 
+Closed-form continuous-time neural networks.pdf 
+Liquid Time-Constant Networks.pdf 
+Neural circuit policies enabling auditable autonomy.pdf 
+2112.04035  Relating transformers to models and neural representations of the hippocampal formation.pdf 
+2112.04035  Tolman-Eichenbaum Machine 1.pdf 
+2112.04035  Tolman-Eichenbaum Machine 2.pdf 
+Abstract representations emerge in human hippocampal neurons during inference.pdf 
+Hippocampus-Functions.pdf 
+Mountcastle Organizing Principle.pdf 
+Representation of Three-Dimensional Space in the Hippocampus.pdf 
+The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat.pdf 
+The Tolman-Eichenbaum Machine Unifying Space and Relational Memory through Generalization in the Hippocampal Formation.pdf 
+Time cells in the hippocampus a new dimension for mapping memories.pdf 
+A review on extreme learning machine.pdf 
+Deep Extreme Learning Machines for Classification.pdf 
+wandb_report.pdf 
+2112.09963  The Kolmogorov Superposition Theorem can Break the Curse of Dimension When Approximating High Dimensional Functions.pdf 
+2404.19756  KAN.pdf 
+2407.11075  A Comprehensive Survey on Kolmogorov Arnold Networks (KAN).pdf 
+RBF-KAN.pdf 
+1910.03193  DeepONet.pdf 
+2001.04385  Universal Differential Equations .pdf 
+2010.08895  Fourier Neural Operator for Parametric Partial Differential Equations.pdf 
+2105.14995  Choose a Transformer Fourier or Galerkin.pdf 
+2107.07562  On universal approximation and error bounds for Fourier Neural Operators.pdf 
+2108.08481  Neural Operator Learning Maps Between Function Spaces With Applications to PDEs.pdf 
+2111.13587  Adaptive Fourier Neural Operators Efficient Token Mixers for Transformers.pdf 
+2200.00000  Partial Differential Equations and Neural Operators.pdf 
+2205.13671  Transformer for Partial Differential Equations' Operator Learning.pdf 
+2309.15325  Neural Operators for Accelerating Scientific Simulations and Design.pdf 
+NACA-demo.pdf 
+1606.05336  On the Expressive Power of Deep Neural Networks.pdf 
+1709.02540  The Expressive Power of Neural Networks  A View from the Width.pdf 
+Machine learning in construction From shallow to deep learning.pdf 
+The Shallow and the Deep A biased introduction to neural networks and old school machine learning.pdf 
+When and Why Are Deep Networks Better than Shallow Ones.pdf 
+2002.03519  Self-Attentive Associative Memory.pdf 
+1606.01164v2.pdf 
+1702.01929v2.pdf 
+2008.02217v3.pdf 
+2008.06996v3.pdf 
+2107.06446  Hierarchical Associative Memory.pdf 
+2107.12521  Restricted Boltzmann Machine and Deep Belief Network Tutorial and Survey.pdf 
+The Growing Hierarchical Self-Organizing Map.pdf 
+ISOMAP A Global Geometric Framework for Nonlinear Dimensionality Reduction.pdf 
+Parallel Transport Unfolding  A Connection-based Manifold Learning Approach.pdf 
+covariantder.pdf 
+H0S_ParallelTransport.pdf 
+International Scholarly Research Notices - 2012 - Trzebiński - LHC High‐   Runs  Transport and Unfolding Methods.pdf 
+Lec10.pdf 
+Myhre_A_Generic_Unfolding_Algorithm_for_Manifolds_Estimated_by_Local_Linear_CVPRW_2020_paper.pdf 
+Parallel Transport Unfolding  A Connection-based Manifold Learning Approach.pdf 
+1802.03426  UMAP  Uniform Manifold Approximation and Projection for Dimension Reduction.pdf 
+$$  001998.00000  Biologically plausible error-driven learning using local activation differences The generalized recirculation algorithm.pdf 
+$$  2022.05.17.492325  Inferring Neural Activity Before Plasticity A Foundation for Learning Beyond Backpropagation.pdf 
+$$  2107.01729  v2  Hebbian learning with gradients Hebbian convolutional neural networks with modern deep learning frameworks.pdf 
+$$  2209.11883  Hebbian Deep Learning Without Feedback.pdf 
+$$  2212.04614  Is Bio-Inspired Learning Better than Backprop Benchmarking Bio Learning vs. Backprop.pdf 
+$$  2212.13345  The Forward-Forward Algorithm Some Preliminary Investigations.pdf 
+$$  2312.09257  Brain-Inspired Machine Intelligence A Survey of Neurobiologically-Plausible Credit Assignment.pdf 
+$$  2403.00000  A Review of Neuroscience-Inspired Machine Learning.pdf 
+$$  2403.12116  Unsupervised End-to-End Training with a Self-Defined Target.pdf 
+$$  2406.16062  Towards Biologically Plausible Computing A Comprehensive Comparison.pdf 
+$$  General differential Hebbian learning Capturing temporal relations between events in neural networks and the brain.pdf 
+$$  HebbNet A Simplified Hebbian Learning Framework to do Biologically Plausible Learning.pdf 
+$$  Scalable bio-inspired training of Deep Neural Networks with FastHebb.pdf 
+0087.00000  learning representations by recirculation.pdf 
+1509.05936  STDP as presynaptic activity times rate of change of postsynaptic activity.pdf 
+1602.05179  Equilibrium Propagation Bridging the Gap Between Energy-Based Models and Backpropagation.pdf 
+1605.02026  Training Neural Networks Without Gradients  A Scalable ADMM Approach.pdf 
+1608.05343  Decoupled Neural Interfaces using Synthetic Gradients.pdf 
+1609.01596  Direct Feedback Alignment Provides Learning in Deep Neural Networks.pdf 
+1703.00810  Opening the black box of Deep Neural Networks via Information.pdf 
+1711.08416  Equivalence of Equilibrium Propagation and Recurrent Backpropagation.pdf 
+1802.03426  UMAP Uniform Manifold Approximation and Projection for Dimension Reduction.pdf 
+1806.09077  Beyond Backprop Online Alternating Minimization with Auxiliary Variables.pdf 
+1808.03357  Error Forward-Propagation Reusing Feedforward Connections to Propagate Errors in Deep Learning.pdf 
+1811.03567  Biologically-plausible learning algorithms can scale to large datasets.pdf 
+1908.01580  The HSIC Bottleneck Deep Learning without Back-Propagation.pdf 
+1908.08993  Local Unsupervised Learning for Image Analysis.pdf 
+1909.01440  LCA Loss Change Allocation.pdf 
+2000.00000  GAIT-prop A biologically plausible learning rule derived from backpropagation of error.pdf 
+2003.00000  Burst-dependent synaptic plasticity can coordinate learning in hierarchical circuits.pdf 
+2006.08539  Deep Layer-wise Networks Have Closed-Form Weights.pdf 
+2008.00000  Nature  A deep learning framework for neuroscience.pdf 
+2021.08.30.458264  Coordinated drift of receptive fields during noisy representation learning.pdf 
+2107.01729  v1  Multi-layer Hebbian networks with modern deep learning frameworks.pdf 
+2200.00000  Nature  Physical deep learning with biologically inspired training method gradient-free approach for physical hardware  直接反馈对齐.pdf 
+2202.08587  Gradients without Backpropagation.pdf 
+2209.06302  Optimization without Backpropagation.pdf 
+2210.08340  Catalyzing Next-Generation Artificial Intelligence through NeuroAI.pdf 
+2210.08340  Catalyzing next-generation Arti?cial Intelligence through NeuroAI.pdf 
+2212.04401  A Rubric for Human-like Agents and NeuroAI.pdf 
+2212.10249  Learning efficient backprojections across cortical hierarchies in real time.pdf 
+2301.01452  The Predictive Forward-Forward Algorithm.pdf 
+2306.04810  Correlative Information Maximization A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry.pdf 
+2310.18605  TorchDEQ A Library for Deep Equilibrium Models.pdf 
+2403.16933  Backpropagation through space, time and the brain.pdf 
+2403.18929  A Review of Neuroscience-Inspired Machine Learning.pdf 
+A Hebbian memory that achieves human-like results on sequential processing tasks.pdf 
+Adaptive Resonance Theory  How a brain learns to consciously attend, learn, and recognize a changing world.pdf 
+Backpropagation and the brain - supp.pdf 
+Backpropagation and the brain.pdf 
+Building transformers from neurons and astrocytes.pdf 
+Can the Brain Do Backpropagation — Exact Implementation of Backpropagation in Predictive Coding Networks.pdf 
+Comparison of Hebbian Learning and Backpropagation for Image Classification in Convolutional Neural Networks.pdf 
+Exploring Biologically Plausible Neural Networks for Enhanced Visual Perception.pdf 
+Inferring neural activity before plasticity as a foundation for learning beyond backpropagation.pdf 
+Loss of plasticity in deep continual learning.pdf 
+Low-Dimensional Spatiotemporal Dynamics Underlie Cortex-wide Neural Activity.pdf 
+Memoria Hebbian Memory Architecture for Human-Like Sequential Processing.pdf 
+Neuromorphic Accelerators A Comparison Between Neuroscience and Machine-Learning Approaches.pdf 
+Recent Advancements on Bio-Inspired Hebbian Learning for Deep Neural Networks.pdf 
+Scaling Equilibrium Propagation to Deep ConvNets by Drastically Reducing Its Gradient Estimator Bias.pdf 
+Shared mechanisms underlie the control of working memory and attention 1.pdf 
+Shared mechanisms underlie the control of working memory and attention 2.pdf 
+Short-term Hebbian learning can implement transformer-like attention.pdf 
+Target‐Prop.pdf 
+Unsupervised Learning to Overcome Catastrophic Forgetting in Neural Networks.pdf 
+$$  2212.13345  The Forward-Forward Algorithm Some Preliminary Investigations.pdf 
+1905.11786  Putting an end to end-to-end Gradient-isolated learning of representations.pdf 
+2002.05709  A Simple Framework for Contrastive Learning of Visual Representations.pdf 
+2008.01342  LoCo Local Contrastive Representation Learning.pdf 
+2204.01723  Signal Propagation A Framework for Learning and Inference In a Forward Pass.pdf 
+2300.00000  Preventing dimensional collapse in contrastive local learning with subsampling.pdf 
+2302.01647  Blockwise Self-Supervised Learning at Scale.pdf 
+2010.08262  Local plasticity rules can learn deep representations using self-supervised contrastive predictions.pdf 
+2109.15089  Biologically Plausible Training Mechanisms for Self-Supervised Learning in Deep Networks.pdf 
+2209.11883  Hebbian Deep Learning Without Feedback.pdf 
+0019.9500.00000  Gradient-Based Learning Algorithms for Recurrent Networks and Their Computational Complexity.pdf 
+0400.00000  Backpropagation-Decorrelation online recurrent learning with O(N) complexity.pdf 
+1702.05043  Unbiased Online Recurrent Optimization.pdf 
+1805.10842  Approximating Real-Time Recurrent Learning with Random Kronecker Factors.pdf 
+2302.05282  Graph Neural Networks Go Forward-Forward.pdf 
+2312.12668  Convolutional Channel-wise Competitive Learning for the Forward-Forward.pdf 
+2002.05709  A Simple Framework for Contrastive Learning of Visual Representations.pdf 
+2103.03230  Barlow Twins Self-Supervised Learning via Redundancy Reduction.pdf 
+2105.04906  VICReg Variance-Invariance-Covariance Regularization for Self-Supervised Learning.pdf 
+$$  2107.05747  SoftHebb Bayesian Inference in Unsupervised Hebbian Soft Winner-Take-All Networks.pdf 
+1909.01440  LCA Loss Change Allocation.pdf 
+2201.12810  A Brief Overview of Physics-inspired Metaheuristic Optimization Techniques.pdf 
+Advances of metaheuristic algorithms in training neural networks for industrial applications.pdf 
+Training Neural Networks with Krill Herd Algorithm.pdf 
+1608.05343  Decoupled Neural Interfaces using Synthetic Gradients.pdf 
+1711.06756  Deep supervised learning using local errors.pdf 
+1901.06656  Training Neural Networks with Local Error Signals.pdf 
+2107.06424  Tourbillon a Physically Plausible Neural Architecture.pdf 
+Can the Brain Do Backpropagation — Exact Implementation of Backpropagation in Predictive Coding Networks.pdf 
+1-s2.0-S0893608019300784-main.pdf 
+2106.07688v1.pdf 
+Cucchi_2022_Neuromorph._Comput._Eng._2_032002.pdf 
+s11042-021-11007-7.pdf 
+s41467-021-25801-2.pdf 
+s41467-024-44900-4.pdf 
+s41467-024-45187-1.pdf 
+1610.01145  Error bounds for approximations with deep ReLU networks.pdf 
+1810.08033  Adaptivity of deep ReLU network for learning in Besov and mixed smooth Besov spaces optimal rate and curse of dimensionality.pdf 
+1912.10382  Deep Learning via Dynamical Systems An Approximation Perspective.pdf 
+2305.08194  Construction of the Kolmogorov-Arnold representation using the Newton-Kaczmarz method.pdf 
+2405.07200  Chebyshev Polynomial-Based Kolmogorov-Arnold Networks  An Efficient Architecture for Nonlinear Function Approximation.pdf 
+2406.02917  A comprehensive and FAIR comparison between MLP and KAN representations for differential equations and operator networks.pdf 
+2407.16674  KAN or MLP A Fairer Comparison.pdf 
+A Computable Kolmogorov Superposition Theorem.pdf 
+A discussion of objective function representation methods in global optimization.pdf 
+A note on computing with Kolmogorov Superpositions without iterations.pdf 
+A Tutorial on Helmholtz Machines.pdf 
+An Improvement in The Superposition Theorem of Kolmogorov.pdf 
+Chebyshev Approximation 1.pdf 
+Chebyshev Approximation 2.pdf 
+Computation for the Kolmogorov Superposition Theorem.pdf 
+Efficient Approximation of Deep ReLU Networks for Functions on Low Dimensional Manifolds.pdf 
+On the structure of continuous functions of several variables.pdf 
+On the Training of a Kolmogorov Network.pdf 
+函数逼近-正交多项式.pdf 
+Multimodal neuroimaging of hierarchical cognitive control.pdf 
+A Learning Algorithm for Boltzmann Machines.pdf 
+The Thousand Brains Project.pdf 
+Why Neurons Have Thousands of Synapses, a Theory of Sequence Memory in Neocortex.pdf 
+1512.05463  Continuous online sequence learning with an unsupervised neural network model.pdf 
+A Theory of How Columns in the Neocortex Enable Learning the Structure of the World.pdf 
+Hierarchical Temporal Memory  Concepts, Theory, and Terminology.pdf 
+hierarchical-temporal-memory-cortical-learning-algorithm-0.2.1-cn.pdf 
+HTM Cortical Learning Algorithms.pdf 
+HTM Neuromorphic 1505.02142v1.pdf 
+BaMI-Encoders.pdf 
+BaMI-Glossary.pdf 
+BaMI-HTM-Overview.pdf 
+BaMI-Introduction.pdf 
+BaMI-Other-Content.pdf 
+BaMI-Problem-Sets.pdf 
+BaMI-SDR.pdf 
+BaMI-Spatial-Pooler.pdf 
+BaMI-Temporal-Memory.pdf 
+on-intelligence.pdf 
+On_Intelligence.pdf 
+【智能】【On Intelligence】Jeff Hawkins.pdf 
+人工智能的未来.pdf 
+探索大脑的终极秘密.pdf 
+Ball_PatomTheory.pdf 
+John Hopfield  --  Now What.pdf 
+Neural networks and physical systems with emergent collective computational abilities.pdf 
+1003.0358x  Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition.pdf 
+1404.7828  Deep Learning in Neural Networks An Overview.pdf 
+1511.09249  On Learning to Think Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models.pdf 
+1802.08864  One Big Net For Everything.pdf 
+2212.11279  Annotated History of Modern AI and Deep Learning.pdf 
+0309048v5.pdf 
+agi2011bas.pdf 
+gmAGI.pdf 
+gmconscious.pdf 
+icann2005schmidhuber.pdf 
+oopsmlj.pdf 
+selfreflection.pdf 
+ultimatecognition.pdf 
+1511.09249  On Learning to Think Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models.pdf 
+On the Computational Power of Neural Nets.pdf 
+1301.3124  Deep learning and the renormalization group.pdf 
+2212.01354  Designing Ecosystems of Intelligence from First Principles.pdf 
+2306.04025  Designing explainable artificial intelligence with active inference A framework for transparent introspection and decision-making.pdf 
+2407.20292  From pixels to planning scale-free active inference.pdf 
+Canonical neural networks perform active inference.pdf 
+2405.06147  State-Free Inference of State-Space Models The Transfer Function Approach.pdf 
+Backwards Differentiation in AD and Neural Nets  Past Links and New Opportunities.pdf 
+Computational intelligence from AI to BI to NI.pdf 
+From AI & BI to NN & CI.pdf 
+Mathematics and the Brain.pdf 
+Neural Networks As a Path to Self-Awareness.pdf 
+Regular Cycles of Forward and Backward Signal Propagation in Prefrontal Cortex and in Consciousness.pdf 
+Using Adaptive Dynamic Programming to Understand and Replicate Brain Intelligence the Next Level Design.pdf 
+122344.122377  Dyna, an Integrated Architecture for Learning, Planning, and Reacting.pdf 
+Learning Patterns and Pattern Sequences by Self-Organizing Nets of Threshold Elements.pdf 
+$$  A recurrent network model of planning explains hippocampal replay and human behavior.pdf 
+Cognitive Control Network Contributions to Memory-Guided Visual Attention.pdf 
+2006.04439  Liquid Time-constant Networks.pdf 
+Liquid Time-Constant Networks.pdf 
+Neural circuit policies enabling auditable autonomy.pdf 
+2311.00537  Machine Learning Without a Processor Emergent Learning in a Nonlinear Electronic Metamaterial.pdf 
+2312.15103  Energy-based learning algorithms for analog computing a comparative study.pdf 
+Supervised Learning in Physical Networks From Machine Learning to Learning Machines.pdf 
+Abstract representations emerge in human hippocampal neurons during inference.pdf 
+Hippocampus-Functions.pdf 
+Mountcastle Organizing Principle.pdf 
+The Tolman-Eichenbaum Machine Unifying Space and Relational Memory through Generalization in the Hippocampal Formation.pdf 
+2022.08.23  RTNet A neural network that exhibits the signatures of human perceptual decision making.pdf 
+2024.08.14  Hierarchical Working Memory and a New Magic Number.pdf 
+2406.09366  Towards an Improved Understanding and Utilization of Maximum Manifold Capacity Representations.pdf 
+2408.08811  Artificial Intelligence and Strategic Decision-Making Evidence from Entrepreneurs and Investors.pdf 
+2409.19150  On the Power of Decision Trees in Auto-Regressive Language Modeling.pdf 
+2410.01104  Softmax is not enough (for sharp out-of-distribution).pdf 
+2410.07866  System-2 Reasoning via Generality and Adaptation.pdf 
+A neural basis for learning sequential memory in brain loop structures.pdf 
+A Study of Biologically Plausible Neural Network The Role and Interactions of Brain-Inspired Mechanisms in Continual Learning.pdf 
+Artificial intelligence and strategic decision-making.pdf 
+Organizations as Artificial Intelligences The Use of Artificial Intelligence Analogies in Organization Theory.pdf 
+Theory Is All You Need AI, Human Cognition, and Causal Reasoning.pdf 
+Brain computation by assemblies of neurons.pdf 
+max.pdf 
+valiant2005.pdf 
+2306.03812  Computation with Sequences of Assemblies in a Model of the Brain.pdf 
+Assemblies of Neurons Learn to Classify Well-Separated Distributions.pdf 
+Brain computation by assemblies of neurons.pdf 
+2308.08708  Consciousness in Artificial Intelligence Insights from the Science of Consciousness.pdf 
+2309.00646  Intelligence as a Measure of Consciousness.pdf 
+1910.01442  CLEVRER CoLlision Events for Video REpresentation and Reasoning.pdf 
+2012.08508  Attention over learned object embeddings enables complex visual reasoning.pdf 
+2402.03507  Neural networks for abstraction and reasoning Towards broad generalization in machines.pdf 
+2404.03028  An Incomplete Loop Instruction Inference, Instruction Following, and In-context Learning in Language Models.pdf 
+1803.03067  Compositional Attention Networks for Machine Reasoning.pdf 
+1907.03950  Learning by Abstraction The Neural State Machine.pdf 
+Building Neural Network Models That Can Reason.pdf 
+2002.11319  A neural network model of perception and reasoning.pdf 
 
