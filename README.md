@@ -31,9 +31,7 @@
   With accompanying features: incremental/online learning, dynamic sparse routing, representation structure enhanced(against transformer).
   
   TODO: 
-     a) patent, more tests and paper; 
-     
-     b) continue research: advaced thinking 
+     a) patent, more tests and paper;   b) continue research: advaced thinking 
 
 #
 
