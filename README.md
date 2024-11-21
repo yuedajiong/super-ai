@@ -22,13 +22,20 @@
   
   output: explicit-stereo-representation (only: stereo; todo: dynamic and interactive.)
 
-# 2024-11-21 ((brain-like)ultimate-learning-and-thinking-direction)
+# 2024-11-21 (<brain-like> ultimate-learning-and-thinking-direction)
 
   The first version of the non-BP learning (block-independent-leaning, w/ or w/o target).
+  
   Effitive, very effitive!
+  
   With accompanying features: incremental/online learning, dynamic sparse routing, representation structure enhanced(against transformer).
-  TODO: a) patent, more tests and paper; b)advaced thinking
+  
+  TODO: 
+     a) patent, more tests and paper; 
+     
+     b) continue research: advaced thinking 
 
+#
 
 # to be continued, in diary ...
 
