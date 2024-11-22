@@ -26,7 +26,7 @@
 
   The first version of the non-BP learning (block-independent-leaning, w/ or w/o target).
   
-  Effitive, very effitive!
+  Effitive!
   
   With accompanying features: incremental/online learning, dynamic sparse routing, representation structure enhanced(against transformer).
   
