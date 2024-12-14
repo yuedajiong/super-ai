@@ -22,16 +22,12 @@
   
   output: explicit-stereo-representation (only: stereo; todo: dynamic and interactive.)
 
-# 2024-11-21 (<brain-like> ultimate-learning-and-thinking-direction)
+# 2024-11-21 / 2024-12-14 (<brain-like> ultimate-learning-and-thinking-direction)
 
-  The first version of the non-BP learning (block-independent-leaning, w/ or w/o target).
-  
-  Effitive!
-  
+  2024-11-21: The 1st version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: dimension-reduction, classification
+  2024-12-14: The 2nd version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: regression (difficut-task-type, a little different with classification), generation should be easy.
   With accompanying features: incremental/online learning, dynamic sparse routing, representation structure enhanced(against transformer).
-  
-  TODO: 
-     a) patent, more tests and paper;   b) continue research: advaced thinking 
+    TODO:  a) patent, more tests and paper;   b) continue research: advaced thinking 
 
 #
 
