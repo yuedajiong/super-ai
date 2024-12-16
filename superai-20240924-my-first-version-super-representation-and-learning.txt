@@ -1,4 +1,8 @@
-2024-09-24 my first-vision super-representation&learning algorithm
+2024-12-14 my first non-BP for regression algorithm(more difficult than classification, generation should be easy)  (effitive, very good)
+2024-11-21 my first non-BP for classification algorithm (effitive, very good)
+2024-09-24 my first-vision super-representation&learning algorithm (just so so)
+
+
 
 算法包含两部分：
   1.1 前馈： 
@@ -24,3 +28,30 @@
    学习部分：CwComp, HSIC, IB, LCA, SoftHebb, ...
              Metaheuristic Optimization 元启发
              Hippocampus/TEM/..., ELM, ...
+4. More Reading:
+   People:
+    Earl K. Miller
+    Geoffrey Hinton
+    Jeff Hawkins
+    John Ball
+    John Hopfield
+    Jürgen Schmidhuber
+    Karl Friston
+    Paul Werbos
+    Richard S. Sutton
+    Shun-Ichi Amari
+  Algorihtms:
+    Earl K. Miller
+    Geoffrey Hinton
+    Jeff Hawkins
+    John Ball
+    John Hopfield
+    Jürgen Schmidhuber
+    Karl Friston
+    Paul Werbos
+    Richard S. Sutton
+    Shun-Ichi Amari
+   
+
+
+
