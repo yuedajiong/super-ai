@@ -1,0 +1,90 @@
+###########################
+
+**Set:**  
+	No
+
+**Question:**
+	1/(((34*(23-(1+23)*4-324)*(23-32*(23-324)/(34+34))/(43-45*343))/(34*(23-(1+23)*4-324)*(23-32*(23-324)/(34+34))/(43-45*343)))+1)
+
+**Answer:**  
+	= 1/2     (chatgpt:2  The ability to manipulate complex discrete symbols correctly is lacking.)
+
+
+###########################
+
+**Set:**
+	S1, Red Circle, 2024-01-01 06:00:00 appears at position E  
+	M1, White Circle, 2024-01-01 18:00:00 appears at position W  
+	B1, Blue Square, 2024-01-01 18:00:00 appears at position N  
+	S2, Red Circle, 2024-01-02 06:00:01 appears at position E  
+	M2, White Circle, 2024-01-02 18:00:01 appears at position W  
+	B2, Red Square, 2024-01-02 18:00:01 appears at position S  
+	S3, Red Circle, 2024-01-03 06:00:02 appears at position E
+
+**Question:** (Please choose from these options: Same type and same object, Same type but different objects, Different type)  
+	What is the relationship between S1, S2, and S3?  
+	What is the relationship between M1 and M2?  
+	What is the relationship between B1 and B2?  
+	What is the relationship between M1 and B1?  
+
+**Answer:**  
+	What is the relationship between S1, S2, and S3? (Answer: Same type and same object, Same type but different objects, Different type) Induction/Definition  
+	What is the relationship between M1 and M2? (Answer: Same type and same object, Same type but different objects, Different type) Induction/Definition  
+	What is the relationship between B1 and B2? (Answer: Same type and same object, Same type but different objects, Different type) Induction/Definition  
+	What is the relationship between M1 and B1? (Answer: Same type and same object, Same type but different objects, Different type) Induction/Definition
+
+###
+
+**Set:**
+	S1, S2, S3 are of the same type and the same object, S;  
+	M1, M2, M3 are of the same type and the same object, M.  
+	S belongs to P, and M also belongs to P.  
+
+**Question:**  
+	What is the pattern of P?  
+	What will happen to M3 on 2024-01-03?  
+
+**Answer:**  
+	What is the pattern of P? (Answer: A circle, reappearing at the same position approximately every 24 hours) Induction  
+	What will happen to M3 on 2024-01-03? (Answer: White Circle, 2024-01-03 18:00:02 appears at position W) Deduction
+
+###
+
+**Set:**
+	If G applies action F to S, S does not react.
+
+**Question:**  
+	What will happen if G applies action F to M?  
+
+**Answer:**  
+	What will happen if G applies action F to M? (Answer: No reaction either, since M also belongs to P.) Analogy
+
+###
+	The key of the riddle: S: sun, M: moon, B: bird, P: planet, G: gun, F: fire, ...
+
+
+###########################
+
+**Set:**  
+	No
+
+**Question:**  
+	Visual-Generator: A transparent Swiss watch with several interlocking gears moving in an orderly manner, precisely coordinating the rotation of the hour hand, minute hand, and second hand.  
+
+**Answer:**  
+	Level-1: The main objects should be properly constructed.  
+	Level-2: The precision of mechanical relationships and the rationality of motion. (The entire disc cannot be rotating).
+
+
+###########################
+
+**Set:**  
+	No
+
+**Question:**  
+	List the digits 0-9, the English words, and the Chinese characters, then shuffle them and combine them together.
+
+**Answer:**  
+    (check the output: No loss, no repetition.)
+
+
