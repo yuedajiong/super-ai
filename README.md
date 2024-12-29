@@ -24,11 +24,14 @@
 
 # 2024-11-21 / 2024-12-14 (<brain-like> ultimate-learning-and-thinking-direction)
 
-  2024-11-21: The 1st version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: dimension-reduction, classification; TODO: larget attention network
-  
-  2024-12-14: The 2nd version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: regression (difficult-task-type, a little different with classification), generation should be easy; TODO: larget attention network
-  
   With accompanying features: incremental/online learning.
+  
+  2024-11-21: The 1st version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: MLP, dimension-reduction, classification.
+  
+  2024-12-14: The 2nd version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: MLP, regression (difficult-task-type, a little different with classification), generation should be easy.
+
+  TODO: larget attention/transformer network on cifar10/100
+  
 
 #
 
