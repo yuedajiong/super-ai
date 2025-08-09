@@ -1,18 +1,18 @@
 # Me, Super-AI
   Independent-Researcher
   
-  Never work for any country, any orgnization, any company, any person.
+  Never work for any country, any orgnization, any company, any individual.
   
-  Never be used for Beijing, China.
+  Never be used for 'Beijing China'.
 
-  Just for my dream: close to the demiurge, by super-intelligence. 
+  Just for my dream: approach to the demiurge, through super-intelligence. 
   
 # 2023-07-01
 
-  I have resigned from the company, financial independence and full-time for super-ai researching and implementation.
+  I have resigned from my last company, financial independence, and full-time for super-ai researching and implementation.
   
-  I will record my important understanding in the process of researching and implementation to super intelligence in Chinese.
-  (If you need to read it, please translate it into your mother language.)
+  I will record my key insights in the process of researching and implementation to super intelligence in Chinese.
+  (If you need to read, please translate them into your own language.)
 
 # 2024-03-15 (dynamaic-stereo-vision-direction)
 
