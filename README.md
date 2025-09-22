@@ -33,9 +33,9 @@
 # 2029-09-22 (ASI)
   2025-03-01 to 2025-08-31: In the summer of 2025, collaborated with Justin(https://github.com/yuenuting) to develop the Neural Octree Mesh representation algorithm, addressing highly detailed very large scale 3D representations and enabling neural network learnable.   
   
-  2025-09-01 to 2025-09-21: Completed the first version of the ASI program, capable of confidently handling tasks such as ARC-AGI, Math Solver Tasks (SAT/IP/MIP/...), Sudoku, and more.
+  2025-09-01 to 2025-09-21: Completed the first version of the 'ASI' program, capable of confidently handling tasks such as ARC-AGI, Math Solver Tasks (SAT/IP/MIP/...), Sudoku, and more.  (https://github.com/arcprize/hierarchical-reasoning-model-analysis/issues/2)
   
-  Conclusion: There is NO such thing as so-called AGI/ASI - what truly matters is diligent, systematic task-solving. However, problems can be abstracted into common solution frameworks; yet, both learning and searching remain indispensable. The common components include:
+  Conclusion: "There is NO such thing as so-called AGI/ASI" -- what truly matters is diligent, systematic task-solving. However, problems can be abstracted into common solution frameworks and prepared system; yet, both learning and searching remain indispensable. The common components include but not limited:
   
     Problem representation
     
@@ -49,6 +49,7 @@
     
     Heuristic search guided by prior learning as state-action mappings (generalized reasoning: DG{A|S}, ...)
 
+    ...
 
 # to be continued, in diary ...
 
