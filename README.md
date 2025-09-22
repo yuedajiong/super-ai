@@ -28,12 +28,27 @@
   
   2024-11-21: The 1st version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: MLP, dimension-reduction, classification.
   
-  2024-12-14: The 2nd version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: MLP, regression (difficult-task-type, a little different with classification), generation should be easy.
-
-  TODO: larget attention/transformer network on cifar10/100
+  2024-12-14: The 2nd version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: MLP, regression (difficult-task-type, a little different with classification), generation should be easy. Not implement on larget attention/transformer network and  cifar10/100 or other big dataset task.
   
+# 2029-09-22 (ASI)
+  2025-03-01 to 2025-08-31: In the summer of 2025, collaborated with Justin(https://github.com/yuenuting) to develop the Neural Octree Mesh representation algorithm, addressing highly detailed very large scale 3D representations and enabling neural network learnable.   
+  
+  2025-09-01 to 2025-09-21: Completed the first version of the ASI program, capable of confidently handling tasks such as ARC-AGI, Math Solver Tasks (SAT/IP/MIP/...), Sudoku, and more.
+  
+  Conclusion: There is NO such thing as so-called AGI/ASI - what truly matters is diligent, systematic task-solving. However, problems can be abstracted into common solution frameworks; yet, both learning and searching remain indispensable. The common components include:
+  
+    Problem representation
+    
+    Transformation of problem solution space (compression/abstraction, decomposition)
+    
+    General representation of solutions (one-shot function) and structured representation (directed graph)
+    
+    Automatic construction of atomic solution functions
+    
+    Brute-force search based on atomic solution functions, and
+    
+    Heuristic search guided by prior learning as state-action mappings (generalized reasoning: DG{A|S}, ...)
 
-#
 
 # to be continued, in diary ...
 
