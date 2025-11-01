@@ -74,5 +74,6 @@
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/176fe1cd-5328-49e7-a896-a50747b261df)
 
 
-/symbol/thinker/unified-thinker(mathink)  (https://github.com/yuedajiong/super-ai-symbol)
+/symbol/thinker/unified-thinker(mathink & math-solver & arc-agi)  (https://github.com/yuedajiong/super-ai-symbol)
+<img width="1326" height="906" alt="image" src="https://github.com/user-attachments/assets/e0c9b04b-52b7-4229-8eca-bf58bf415717" />
 
