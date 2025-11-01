@@ -30,7 +30,7 @@
   
   2024-12-14: The 2nd version of the non-BP learning (block-independent-leaning, w/ or w/o target). Effitive! Tested on: MLP, regression (difficult-task-type, a little different with classification), generation should be easy. Not implement on larget attention/transformer network and  cifar10/100 or other big dataset task.
   
-# 2025-09-22 (ASI)
+# 2025-09-22 / 2025-10-31 (ASI)
   2025-03-01 to 2025-08-31: In the summer of 2025, collaborated with Justin(https://github.com/yuenuting) to develop the Neural Octree Mesh representation algorithm, addressing highly detailed very large scale 3D representations and enabling neural network learnable.   
   
   2025-09-01 to 2025-09-21: Completed the first version of the 'ASI' program, capable of confidently handling tasks such as ARC-AGI, Math Solver Tasks (SAT/IP/MIP/...), Sudoku, and more.  (https://github.com/arcprize/hierarchical-reasoning-model-analysis/issues/2)
@@ -50,6 +50,10 @@
     Heuristic search guided by prior learning as state-action mappings (generalized reasoning: DG{A|S}, ...)
 
     ...
+
+  2025-10-31，complete the ARC-AGI task solving, including algorithm and code.  detail pls refer to : https://github.com/arcprize/hierarchical-reasoning-model-analysis/issues/2
+
+  
 
 # to be continued, in diary ...
 
