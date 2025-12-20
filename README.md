@@ -54,7 +54,7 @@
   2025-10-31，complete the ARC-AGI task solving, including algorithm and code.  detail pls refer to : https://github.com/arcprize/hierarchical-reasoning-model-analysis/issues/2
 
 # 2025-12-20 Rethink AI
-  浪费了人生数年，得到的痛苦的教训，关于人工智能的误解。
+  浪费了长长的光阴，得到的痛苦的教训，关于人工智能的误解。
   2010特别是2012深度学习爆发以来，作为一个洞察事物本质缺乏深度的人，很容易受到行业里面辉煌的东西（比如DL@Vision#CNN/Transoformer/xNN@ImageNet, DL@Symbol#LLM/GPT, ...的蓬勃发展)的东西影响。
   在灿烂的烟花下，往往忽略了对事物本质的持续洞察，记录下2025年末，我得到的几个苦涩的教训：
   1. AI任务不是“函数拟合问题”，而是“算子在受约束范畴中的构造问题”。傻逼的不是我一个，我估计99.99%的AI研究人员今天还在这么认为。AI就是函数拟合，拟合个头。拜托上帝，请让我从骨子里清除这个理解。
@@ -63,6 +63,19 @@
   4. 目前为止的几乎所有的AI算法，更多的强调了学习Learn/Train（先验），忽略了搜索/Search（除了MuZero类是有比较强搜索的）。 
   5. 个人的一个理解，ASI面对的是可计算性的墙，而AGI的墙，可能需要一种“Language++的表征与操作体系”才能完成。现在还是空白。自然语言不够，纯数学的表达也不够，程序语言只有具体实例一层缺乏层次化的抽象。
   6. 当前人工智能领域，其实缺乏真正的大师了，像图灵那样的人。 能够一眼洞穿这些问题的本质，能够高瞻远瞩，在50年100年后，见解还足够深刻和正确的。 工程和算法上的繁荣是不够的。
+  总体来说，当前的热闹，还是回避了很多不应该回避的东西，迟早要面对：
+    本体论（ontology）
+    约束的第一性
+    不可学习性
+    假设与否证
+    ...等等
+  还是要面对:
+    Gödel 不完备性定理
+    Church–Turing thesis
+    Rice 定理
+    程序等价性不可判定
+    Proof vs Verification 的非对称性
+    ...等等中的一些基本问题
 
 
 # to be continued, in diary ...
