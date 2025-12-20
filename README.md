@@ -53,7 +53,15 @@
 
   2025-10-31，complete the ARC-AGI task solving, including algorithm and code.  detail pls refer to : https://github.com/arcprize/hierarchical-reasoning-model-analysis/issues/2
 
-  
+# 2025-12-20 Rethink AI
+  浪费了人生数年，得到的痛苦的教训，关于人工智能的误解。
+  2010特别是2012深度学习爆发以来，作为一个洞察事物本质缺乏深度的人，很容易收到行业里面辉煌的东西（比如DL@Vision#CNN/Transoformer/xNN@ImageNet, DL@Symbol#LLM/GPT, ...)的东西影响。
+  在灿烂的烟花下，往往忽略了对事物本质的洞察，记录下2025年末，我得到的几个苦涩的教训：
+  1. AI 任务不是“函数拟合问题”，而是“算子在受约束范畴中的构造问题”。傻逼的不是我一个，我估计99.99%的AI研究人员今天还在这么认为。AI就是函数拟合，拟合个头。拜托上帝，请让我从骨子里清除这个理解。
+  2. 约束很重要，约束很重要，对于本身是强约束的任务，如果只是一味的面向Y/target的优化，得到的东西终究只是奇葩。比如LLM本身对应的任务本身应该是强约束的，所谓幻觉只是约束不够。
+  3. 目前为止的几乎所有的AI算法，更多的强调了学习（先验），忽略了搜索。
+  4. 个人的一个理解，ASI面对的是可计算性的墙，而AGI的墙，可能需要一种“Language++的表征与操作体系”才能完成。现在还是空白。
+
 
 # to be continued, in diary ...
 
