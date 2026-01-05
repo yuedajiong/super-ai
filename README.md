@@ -93,6 +93,8 @@
 
 
 # current: (super-ai)
+![image](https://github.com/yuedajiong/super-ai/blob/main/superai-20251231-xi.png)
+
 /physical/vision/interactive-dynamic-stereo  (https://github.com/yuedajiong/super-ai-vision)
 ![image](https://github.com/yuedajiong/super-ai/assets/52232153/176fe1cd-5328-49e7-a896-a50747b261df)
 
